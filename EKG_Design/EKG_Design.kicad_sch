@@ -1,0 +1,128 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "145a8612-0e2a-4b7d-8919-051e741c5f83")
+	(paper "A4")
+	(lib_symbols)
+	(text "Sheet 02 -->"
+		(exclude_from_sim no)
+		(at 175.006 40.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "114e0dc3-688a-4744-9705-c7058a4175e9")
+	)
+	(text "Sheet 03 -->"
+		(exclude_from_sim no)
+		(at 175.006 52.578 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "430dd191-a29a-44c1-a027-623fdc7ba37c")
+	)
+	(sheet
+		(at 186.69 38.1)
+		(size 60.96 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fe31fbed-a3d6-4e29-8087-8265cc4e44fa")
+		(property "Sheetname" "EKG-Details"
+			(at 186.69 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EKG-Details.kicad_sch"
+			(at 186.69 42.4946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EKG_Design"
+				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 50.8)
+		(size 60.96 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5")
+		(property "Sheetname" "ECG-PulseDetection"
+			(at 186.69 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ECG-PulseDetection.kicad_sch"
+			(at 186.69 55.1946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EKG_Design"
+				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
