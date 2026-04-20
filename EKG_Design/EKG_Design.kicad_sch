@@ -4,6 +4,14 @@
 	(generator_version "10.0")
 	(uuid "145a8612-0e2a-4b7d-8919-051e741c5f83")
 	(paper "A4")
+	(title_block
+		(title "EKG-Verstärker")
+		(date "2026-04-20")
+		(company "HAWK")
+		(comment 1 "PCB Design SS2026")
+		(comment 2 "M.Mousa")
+		(comment 3 "T. Brown")
+	)
 	(lib_symbols)
 	(text "Sheet 02 -->"
 		(exclude_from_sim no)
