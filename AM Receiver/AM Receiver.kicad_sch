@@ -1,0 +1,22 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fe1abb03-87b4-4c2c-a88f-7b58f4fb0195")
+	(paper "A4")
+	(title_block
+		(title "AM-Receiver")
+		(date "2026-04-21")
+		(company "HAWK")
+		(comment 1 "PCB Design SS2026")
+		(comment 2 "M. Mousa")
+		(comment 3 "T. Brown")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
