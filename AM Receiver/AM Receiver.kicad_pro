@@ -414,14 +414,9 @@
         "filename": "AM Receiver.kicad_sch",
         "name": "Root",
         "uuid": "fe1abb03-87b4-4c2c-a88f-7b58f4fb0195"
-      },
-      {
-        "filename": "am-schaltung.kicad_sch",
-        "name": "AM-Schaltung",
-        "uuid": "d33b822e-0346-4e2e-aa2c-aa15bdd54b37"
       }
     ],
-    "used_designators": "#PWR1-4,L1,AE1,R1-6,C1-12,C14,C16-17,Q1-2,RV1",
+    "used_designators": "AE1,L1,D1-2,PCB1,C1-34,FL1,P1,IC1-7,LS1,Q1-5,R1-16,RV1-2,H1-4",
     "variants": []
   },
   "sheets": [
@@ -430,8 +425,8 @@
       "Root"
     ],
     [
-      "d33b822e-0346-4e2e-aa2c-aa15bdd54b37",
-      "AM-Schaltung"
+      "8b8c3568-3cfa-4b68-9c23-bd397ab1abe6",
+      "Am Schaltung"
     ]
   ],
   "text_variables": {},

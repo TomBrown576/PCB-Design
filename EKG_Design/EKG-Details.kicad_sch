@@ -8047,25 +8047,25 @@
 			)
 		)
 		(pin "4"
-			(uuid "75277f46-0ab8-4be3-a216-8a699fa2d62e")
+			(uuid "75277f46-0ab8-4be3-a216-8a699fa2d62f")
 		)
 		(pin "3"
-			(uuid "a9d7162d-3455-411a-b6d8-d70e5fdd5981")
+			(uuid "a9d7162d-3455-411a-b6d8-d70e5fdd5982")
 		)
 		(pin "5"
 			(uuid "da6b3ec8-dd44-4810-8d76-5bce925b04d4")
 		)
 		(pin "8"
-			(uuid "cbfd09de-92ec-4d63-b7c0-d321ac982344")
+			(uuid "cbfd09de-92ec-4d63-b7c0-d321ac982345")
 		)
 		(pin "1"
-			(uuid "c2ccbec7-03f4-4735-b801-3e678ce4e652")
+			(uuid "c2ccbec7-03f4-4735-b801-3e678ce4e653")
 		)
 		(pin "6"
 			(uuid "ec2fb76e-c26f-4019-b4e0-90b4357a5715")
 		)
 		(pin "2"
-			(uuid "3a0d4cf8-852d-4faf-bb2b-04f562c9714e")
+			(uuid "3a0d4cf8-852d-4faf-bb2b-04f562c9714f")
 		)
 		(pin "7"
 			(uuid "7c2bfd50-5b8d-4950-99f9-84c13f2db986")
@@ -10917,28 +10917,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "a67df3d8-ce52-4fce-8785-cb67d31e3df8")
+			(uuid "a67df3d8-ce52-4fce-8785-cb67d31e3df9")
 		)
 		(pin "6"
-			(uuid "c64818da-a3fd-4de9-8c1c-ad6357dfece9")
+			(uuid "c64818da-a3fd-4de9-8c1c-ad6357dfecea")
 		)
 		(pin "4"
-			(uuid "9332a59c-7671-4f71-8c07-aac7547a66f1")
+			(uuid "9332a59c-7671-4f71-8c07-aac7547a66f2")
 		)
 		(pin "3"
-			(uuid "6e1ff3e9-6dde-4a61-8e09-9a992c8ad622")
+			(uuid "6e1ff3e9-6dde-4a61-8e09-9a992c8ad623")
 		)
 		(pin "2"
-			(uuid "9d354f39-d47a-4562-81a1-de2652e5b871")
+			(uuid "9d354f39-d47a-4562-81a1-de2652e5b872")
 		)
 		(pin "1"
-			(uuid "0cc43f2e-e9e6-466d-8580-c8ff43141d56")
+			(uuid "0cc43f2e-e9e6-466d-8580-c8ff43141d57")
 		)
 		(pin "8"
-			(uuid "b0c939c2-9d7b-46a9-9bc0-9ce181541ef0")
+			(uuid "b0c939c2-9d7b-46a9-9bc0-9ce181541ef1")
 		)
 		(pin "7"
-			(uuid "26e44ddd-e4ce-416b-9417-4dfe3914dd8b")
+			(uuid "26e44ddd-e4ce-416b-9417-4dfe3914dd8c")
 		)
 		(instances
 			(project "EKG_Design"
@@ -11016,28 +11016,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "75277f46-0ab8-4be3-a216-8a699fa2d62d")
+			(uuid "75277f46-0ab8-4be3-a216-8a699fa2d630")
 		)
 		(pin "3"
-			(uuid "21425627-3019-4b51-852f-df45a912c395")
+			(uuid "21425627-3019-4b51-852f-df45a912c396")
 		)
 		(pin "5"
-			(uuid "da6b3ec8-dd44-4810-8d76-5bce925b04d3")
+			(uuid "da6b3ec8-dd44-4810-8d76-5bce925b04d5")
 		)
 		(pin "8"
-			(uuid "cbfd09de-92ec-4d63-b7c0-d321ac982343")
+			(uuid "cbfd09de-92ec-4d63-b7c0-d321ac982346")
 		)
 		(pin "1"
-			(uuid "574c7dfb-cc85-4654-b709-7adb1dae582f")
+			(uuid "574c7dfb-cc85-4654-b709-7adb1dae5830")
 		)
 		(pin "6"
-			(uuid "ec2fb76e-c26f-4019-b4e0-90b4357a5714")
+			(uuid "ec2fb76e-c26f-4019-b4e0-90b4357a5716")
 		)
 		(pin "2"
-			(uuid "cd2957ec-ebd7-4eba-b435-7b172ffc923b")
+			(uuid "cd2957ec-ebd7-4eba-b435-7b172ffc923c")
 		)
 		(pin "7"
-			(uuid "7c2bfd50-5b8d-4950-99f9-84c13f2db985")
+			(uuid "7c2bfd50-5b8d-4950-99f9-84c13f2db987")
 		)
 		(instances
 			(project "EKG_Design"
