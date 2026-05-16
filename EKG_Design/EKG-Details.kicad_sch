@@ -1210,24 +1210,6 @@
 			)
 			(symbol "BAR43SFILM_1_1"
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "A"
@@ -1245,11 +1227,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 1.27 1.27 270)
+				(pin passive line
+					(at 0 -2.54 90)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1267,7 +1248,7 @@
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "K"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2473,11 +2454,124 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Vref = 224 mV @VCC 5V"
+		(exclude_from_sim no)
+		(at 160.274 78.232 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "056ca7fc-2b18-48f2-a478-559f96d473a8")
+	)
+	(text "G = 1 +49.4k/RG"
+		(exclude_from_sim no)
+		(at 118.11 35.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13166ffa-d2b1-4b49-851e-3ca7442f4308")
+	)
+	(text "Driven Shield"
+		(exclude_from_sim no)
+		(at 46.99 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "361d7764-4466-4659-9fe3-c8a80987ba2f")
+	)
+	(text "Driven Right Leg\nG = -30; fg ~5.3 kHz"
+		(exclude_from_sim no)
+		(at 47.498 138.938 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57540be3-1271-4f98-967f-be72f08ce91c")
+	)
+	(text "Baseline correction\nTau = 1s"
+		(exclude_from_sim no)
+		(at 105.664 90.932 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "809a5d64-87f0-4c9e-ae40-be4783ee00c6")
+	)
+	(text "Verpolungsschutz"
+		(exclude_from_sim no)
+		(at 262.89 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9c3c5dc-31e3-468b-a98a-04a6a711feb3")
+	)
+	(text "Anhebung DC Punkt auf -Vref* -G = 2,24 V"
+		(exclude_from_sim no)
+		(at 168.91 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c282d321-b09e-4afa-b32b-c78892bc691c")
+	)
+	(text "G - 54"
+		(exclude_from_sim no)
+		(at 113.03 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc111cdc-da5e-42e8-9778-c4f692e78272")
+	)
+	(text "Siehe ECG_AmplifierCircuit.asc"
+		(exclude_from_sim no)
+		(at 130.81 103.632 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de6e2a2c-b436-488f-b523-35a96b093400")
+	)
+	(text "fg ~ 1500 Hz\nG = -10"
+		(exclude_from_sim no)
+		(at 175.006 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f216ea87-1645-4403-b2d0-4c6404331edd")
+	)
 	(junction
 		(at 199.39 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30e0120d-8ab8-474f-ae16-977eebd87608")
+	)
+	(junction
+		(at 64.77 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c50ae4b-6fde-4ca2-af32-cd7f7bc99d32")
 	)
 	(junction
 		(at 210.82 92.71)
@@ -2576,22 +2670,28 @@
 		(uuid "9af3679d-d6fd-411a-b02e-3e025d66c26e")
 	)
 	(junction
+		(at 57.15 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6af0fb7-e308-4038-a962-a9f9de576a1d")
+	)
+	(junction
 		(at 199.39 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa8efc3d-661a-43f9-b8da-5e6aa9d2e055")
 	)
 	(junction
-		(at 57.15 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "acad4c2a-7822-4ad4-a5f2-bc486600ec05")
-	)
-	(junction
 		(at 186.69 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8e3b341-9a6c-49d0-ae18-5183e1e5fd6a")
+	)
+	(junction
+		(at 86.36 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0eb126f-1f97-46c8-ba99-0f426c663704")
 	)
 	(junction
 		(at 222.25 118.11)
@@ -2653,12 +2753,6 @@
 		(color 0 0 0 0)
 		(uuid "f8e99081-9b97-4a6d-a670-e81665eff5b6")
 	)
-	(junction
-		(at 86.36 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffa077d7-e8e4-422e-901c-7f2f054e8a9c")
-	)
 	(wire
 		(pts
 			(xy 93.98 43.18) (xy 87.63 43.18)
@@ -2701,6 +2795,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 132.08) (xy 40.64 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d54d29-81f4-481b-a616-929af7d65a25")
+	)
+	(wire
+		(pts
 			(xy 175.26 29.21) (xy 186.69 29.21)
 		)
 		(stroke
@@ -2711,7 +2815,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 45.72) (xy 64.77 50.8)
+			(xy 64.77 45.72) (xy 64.77 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2741,7 +2845,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 83.82) (xy 133.35 83.82)
+			(xy 137.16 82.55) (xy 132.08 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2931,6 +3035,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 48.26) (xy 64.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273eb992-fe0b-494d-b386-fe3798061c4b")
+	)
+	(wire
+		(pts
 			(xy 177.8 125.73) (xy 177.8 129.54)
 		)
 		(stroke
@@ -2938,16 +3052,6 @@
 			(type default)
 		)
 		(uuid "2d52e90d-88ab-496e-984b-a7fb26df84a7")
-	)
-	(wire
-		(pts
-			(xy 86.36 134.62) (xy 86.36 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f1630f7-bf05-4960-882d-820ba9efe553")
 	)
 	(wire
 		(pts
@@ -3061,6 +3165,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 127) (xy 138.43 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4485f8bd-ca41-42d1-a117-3b0faf134c6e")
+	)
+	(wire
+		(pts
 			(xy 186.69 29.21) (xy 186.69 35.56)
 		)
 		(stroke
@@ -3071,13 +3185,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 144.78) (xy 222.25 144.78)
+			(xy 86.36 134.62) (xy 86.36 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b12aa04-0fd2-48f6-be08-0387be9b7f39")
+		(uuid "475f1d59-da7f-45d4-b4b8-7155f05ed370")
 	)
 	(wire
 		(pts
@@ -3087,7 +3201,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4d77f796-2ce4-4639-b2bc-5ae224fb2236")
+		(uuid "475f5c11-aaa8-469e-a44f-2112fd777bc1")
+	)
+	(wire
+		(pts
+			(xy 199.39 144.78) (xy 222.25 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b12aa04-0fd2-48f6-be08-0387be9b7f39")
 	)
 	(wire
 		(pts
@@ -3221,6 +3345,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 87.63) (xy 137.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0b64c2-28d9-41ff-ad1d-add32188a123")
+	)
+	(wire
+		(pts
 			(xy 222.25 144.78) (xy 243.84 144.78)
 		)
 		(stroke
@@ -3231,7 +3365,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 67.31) (xy 106.68 86.36)
+			(xy 106.68 67.31) (xy 106.68 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3371,7 +3505,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 134.62) (xy 38.1 134.62)
+			(xy 30.48 134.62) (xy 38.1 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3398,6 +3532,16 @@
 			(type default)
 		)
 		(uuid "7d29fcd6-6f3d-4ba2-8c67-9b4e07346b75")
+	)
+	(wire
+		(pts
+			(xy 64.77 48.26) (xy 64.77 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fadc26-db83-45fa-9458-85ddd287e070")
 	)
 	(wire
 		(pts
@@ -3511,7 +3655,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 67.31) (xy 137.16 83.82)
+			(xy 137.16 67.31) (xy 137.16 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3601,17 +3745,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 132.08) (xy 39.37 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5cc934b-690d-4fe3-ba17-9e25a1f49cfc")
-	)
-	(wire
-		(pts
-			(xy 106.68 86.36) (xy 118.11 86.36)
+			(xy 106.68 85.09) (xy 116.84 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3651,7 +3785,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 88.9) (xy 137.16 88.9)
+			(xy 132.08 87.63) (xy 137.16 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3661,17 +3795,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 137.16 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3ce99fc-16dd-4e2f-9cbe-848424c2f936")
-	)
-	(wire
-		(pts
-			(xy 46.99 132.08) (xy 57.15 132.08)
+			(xy 48.26 132.08) (xy 57.15 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3738,16 +3862,6 @@
 			(type default)
 		)
 		(uuid "c9e7e691-de1a-4439-92e9-58ca2c4acf50")
-	)
-	(wire
-		(pts
-			(xy 130.81 127) (xy 140.97 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb288144-736e-42fa-a1d1-a23c517eef51")
 	)
 	(wire
 		(pts
@@ -3841,6 +3955,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 132.08) (xy 134.62 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc69a3db-336d-4a09-883f-bed0fe812e97")
+	)
+	(wire
+		(pts
 			(xy 45.72 184.15) (xy 45.72 185.42)
 		)
 		(stroke
@@ -3928,16 +4052,6 @@
 			(type default)
 		)
 		(uuid "efc4a1ef-254d-40ff-9c73-bbc8ef0b2861")
-	)
-	(wire
-		(pts
-			(xy 134.62 132.08) (xy 130.81 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0c8e51c-34a9-4c67-ae3d-0aa336442cb3")
 	)
 	(wire
 		(pts
@@ -4039,6 +4153,86 @@
 		)
 		(uuid "ff86a8ff-7647-4082-a049-14012b0376be")
 	)
+	(label "Shield+"
+		(at 49.53 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "065f2892-52cf-4a7f-9d45-a753b7de973b")
+	)
+	(label "Vref"
+		(at 160.02 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "472daf47-c454-4229-a38e-5e79d38013e5")
+	)
+	(label "VCM"
+		(at 138.43 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48c5a909-51a1-4d57-b78a-1d9bef4ccf92")
+	)
+	(label "EKG-"
+		(at 59.69 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "506a8d27-38bc-4c5c-b83e-062fd7ff75fd")
+	)
+	(label "Shield-"
+		(at 49.53 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7058c2bc-10d0-4c95-abd1-ffe049f4e9b9")
+	)
+	(label "DRL"
+		(at 30.48 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75f627b0-f5ff-46ac-abb3-c9b6b076e71a")
+	)
+	(label "VCM"
+		(at 59.69 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd40d8d6-3ff1-4622-89ac-d2c6c05356be")
+	)
+	(label "EKG+"
+		(at 59.69 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1ce1e72-02df-47af-9a67-9fb3aa28f91a")
+	)
 	(global_label "ECG_Out"
 		(shape input)
 		(at 213.36 35.56 0)
@@ -4074,8 +4268,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0377bb31-d48c-4810-8150-b6f69616d74f")
-		(property "Reference" "D105"
-			(at 274.828 40.386 90)
+		(property "Reference" "D100"
+			(at 273.812 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4136,13 +4330,10 @@
 		(pin "3"
 			(uuid "6cb1927f-92c4-4052-b08c-9272b617874f")
 		)
-		(pin "1"
-			(uuid "20708c8c-b240-4153-a8a0-7e56b21f6b83")
-		)
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "D105")
+					(reference "D100")
 					(unit 1)
 				)
 			)
@@ -4160,7 +4351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08ef18ae-3442-42da-b3f0-43f3ee1e7a8f")
-		(property "Reference" "R111"
+		(property "Reference" "R102"
 			(at 144.272 47.244 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -4182,7 +4373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 147.32 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -4224,7 +4415,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "R111")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -4398,7 +4589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0eeabd8f-5489-4178-963a-5c887f572e68")
-		(property "Reference" "C110"
+		(property "Reference" "C108"
 			(at 226.06 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4420,7 +4611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 223.2152 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -4462,7 +4653,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "C110")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -4714,7 +4905,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13c05dd6-07fc-41d5-8f94-33dce1f11838")
-		(property "Reference" "R101"
+		(property "Reference" "R113"
 			(at 43.18 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4736,7 +4927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 47.498 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -4778,107 +4969,8 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "R101")
+					(reference "R113")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2156xDGK")
-		(at 71.12 132.08 0)
-		(mirror y)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "148098c7-66ea-410f-83dd-7e1e6551ceda")
-		(property "Reference" "U101"
-			(at 68.326 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2156xDGK"
-			(at 64.77 125.984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 71.12 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2156.pdf"
-			(at 71.12 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8"
-			(at 71.12 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "75277f46-0ab8-4be3-a216-8a699fa2d62d")
-		)
-		(pin "3"
-			(uuid "21425627-3019-4b51-852f-df45a912c395")
-		)
-		(pin "5"
-			(uuid "da6b3ec8-dd44-4810-8d76-5bce925b04d3")
-		)
-		(pin "8"
-			(uuid "cbfd09de-92ec-4d63-b7c0-d321ac982343")
-		)
-		(pin "1"
-			(uuid "574c7dfb-cc85-4654-b709-7adb1dae582f")
-		)
-		(pin "6"
-			(uuid "ec2fb76e-c26f-4019-b4e0-90b4357a5714")
-		)
-		(pin "2"
-			(uuid "cd2957ec-ebd7-4eba-b435-7b172ffc923b")
-		)
-		(pin "7"
-			(uuid "7c2bfd50-5b8d-4950-99f9-84c13f2db985")
-		)
-		(instances
-			(project "EKG_Design"
-				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "U101")
-					(unit 3)
 				)
 			)
 		)
@@ -5275,7 +5367,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA2156xDGK")
-		(at 73.66 30.48 180)
+		(at 73.66 30.48 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5284,8 +5377,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cd2ea83-7048-449d-9301-a55595e5be73")
-		(property "Reference" "U102"
-			(at 64.262 22.606 0)
+		(property "Reference" "IC103"
+			(at 64.008 21.082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5294,8 +5387,8 @@
 				)
 			)
 		)
-		(property "Value" "OPA2156xDGK"
-			(at 67.818 24.892 0)
+		(property "Value" "OPA2156IDGKR"
+			(at 67.056 23.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5364,8 +5457,205 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "U102")
+					(reference "IC103")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2156xDGK")
+		(at 76.2 68.58 0)
+		(mirror y)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1cd2ea83-7048-449d-9301-a55595e5be73")
+		(property "Reference" "IC103"
+			(at 63.246 60.452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2156IDGKR"
+			(at 66.548 61.722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(at 76.2 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2156.pdf"
+			(at 76.2 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8"
+			(at 76.2 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "a67df3d8-ce52-4fce-8785-cb67d31e3df5")
+		)
+		(pin "6"
+			(uuid "c64818da-a3fd-4de9-8c1c-ad6357dfece6")
+		)
+		(pin "4"
+			(uuid "9332a59c-7671-4f71-8c07-aac7547a66ee")
+		)
+		(pin "3"
+			(uuid "58566a32-aa2c-4089-8ce2-7780989c42d4")
+		)
+		(pin "2"
+			(uuid "260aa661-cda5-4d9d-99f0-3395f7c4e9e5")
+		)
+		(pin "1"
+			(uuid "41af8ae4-d75d-4d16-bf28-105a687f793f")
+		)
+		(pin "8"
+			(uuid "b0c939c2-9d7b-46a9-9bc0-9ce181541eed")
+		)
+		(pin "7"
+			(uuid "26e44ddd-e4ce-416b-9417-4dfe3914dd88")
+		)
+		(instances
+			(project "EKG_Design"
+				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
+					(reference "IC103")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2156xDGK")
+		(at 76.2 68.58 0)
+		(mirror y)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1cd2ea83-7048-449d-9301-a55595e5be73")
+		(property "Reference" "IC103"
+			(at 63.5 59.436 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2156IDGKR"
+			(at 70.358 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(at 76.2 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2156.pdf"
+			(at 76.2 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8"
+			(at 76.2 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "a67df3d8-ce52-4fce-8785-cb67d31e3df5")
+		)
+		(pin "6"
+			(uuid "c64818da-a3fd-4de9-8c1c-ad6357dfece6")
+		)
+		(pin "4"
+			(uuid "9332a59c-7671-4f71-8c07-aac7547a66ee")
+		)
+		(pin "3"
+			(uuid "58566a32-aa2c-4089-8ce2-7780989c42d4")
+		)
+		(pin "2"
+			(uuid "260aa661-cda5-4d9d-99f0-3395f7c4e9e5")
+		)
+		(pin "1"
+			(uuid "41af8ae4-d75d-4d16-bf28-105a687f793f")
+		)
+		(pin "8"
+			(uuid "b0c939c2-9d7b-46a9-9bc0-9ce181541eed")
+		)
+		(pin "7"
+			(uuid "26e44ddd-e4ce-416b-9417-4dfe3914dd88")
+		)
+		(instances
+			(project "EKG_Design"
+				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
+					(reference "IC103")
+					(unit 2)
 				)
 			)
 		)
@@ -5382,7 +5672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ece976a-d085-412d-ab3a-fe266a4342c1")
-		(property "Reference" "C106"
+		(property "Reference" "C104"
 			(at 203.2 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5404,7 +5694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 200.3552 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5446,7 +5736,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "C106")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -5532,7 +5822,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 27.94 132.08 0)
+		(at 25.4 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5540,10 +5830,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1f904f6c-45a1-44bb-beb9-dca8437604cb")
-		(property "Reference" "J103"
-			(at 28.575 127 0)
+		(property "Reference" "J102"
+			(at 19.304 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5553,7 +5842,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 28.575 129.54 0)
+			(at 24.638 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5562,8 +5851,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 27.94 132.08 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 25.4 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5574,7 +5863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 132.08 0)
+			(at 25.4 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5585,7 +5874,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 27.94 132.08 0)
+			(at 25.4 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5604,107 +5893,8 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "J103")
+					(reference "J102")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2156xDGK")
-		(at 125.73 86.36 180)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "20a73fb0-2015-4597-b6cd-ed72182ac4b9")
-		(property "Reference" "U105"
-			(at 125.73 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2156xDGK"
-			(at 119.634 79.756 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 125.73 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2156.pdf"
-			(at 125.73 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8"
-			(at 125.73 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "a67df3d8-ce52-4fce-8785-cb67d31e3df8")
-		)
-		(pin "6"
-			(uuid "c64818da-a3fd-4de9-8c1c-ad6357dfece9")
-		)
-		(pin "4"
-			(uuid "9332a59c-7671-4f71-8c07-aac7547a66f1")
-		)
-		(pin "3"
-			(uuid "6e1ff3e9-6dde-4a61-8e09-9a992c8ad622")
-		)
-		(pin "2"
-			(uuid "9d354f39-d47a-4562-81a1-de2652e5b871")
-		)
-		(pin "1"
-			(uuid "0cc43f2e-e9e6-466d-8580-c8ff43141d56")
-		)
-		(pin "8"
-			(uuid "b0c939c2-9d7b-46a9-9bc0-9ce181541ef0")
-		)
-		(pin "7"
-			(uuid "26e44ddd-e4ce-416b-9417-4dfe3914dd8b")
-		)
-		(instances
-			(project "EKG_Design"
-				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "U105")
-					(unit 3)
 				)
 			)
 		)
@@ -5955,7 +6145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2deec1fe-799f-43d2-95b8-e92062e36a27")
-		(property "Reference" "R114"
+		(property "Reference" "R104"
 			(at 168.402 34.544 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5977,7 +6167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 171.45 33.782 90)
 			(hide yes)
 			(show_name no)
@@ -6019,7 +6209,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "R114")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -6059,7 +6249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 200.3552 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6109,7 +6299,7 @@
 	)
 	(symbol
 		(lib_id "Custom_Device:R")
-		(at 43.18 132.08 270)
+		(at 44.45 132.08 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6119,8 +6309,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37a034e2-1c29-45b6-a763-204c9431d005")
-		(property "Reference" "R102"
-			(at 40.132 131.064 90)
+		(property "Reference" "R109"
+			(at 41.402 131.064 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6131,7 +6321,7 @@
 			)
 		)
 		(property "Value" "300k 1%"
-			(at 46.228 131.064 90)
+			(at 47.498 131.064 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6141,8 +6331,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 43.18 130.302 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 44.45 130.302 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6153,7 +6343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 132.08 0)
+			(at 44.45 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6164,7 +6354,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 43.18 132.08 0)
+			(at 44.45 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6183,7 +6373,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "R102")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -6378,7 +6568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 244.8052 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6516,7 +6706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49b66dda-2e5b-4851-a845-b8242c5d965c")
-		(property "Reference" "C105"
+		(property "Reference" "C106"
 			(at 181.61 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6538,7 +6728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 178.7652 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6580,7 +6770,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "C105")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -6620,7 +6810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 244.8052 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6758,7 +6948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fc84892-3d27-47b6-9f9b-6c3f2c75600b")
-		(property "Reference" "C102"
+		(property "Reference" "C100"
 			(at 113.792 66.04 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -6780,7 +6970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 113.03 68.2752 0)
 			(hide yes)
 			(show_name no)
@@ -6822,7 +7012,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "C102")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -6862,7 +7052,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 45.72 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -6933,7 +7123,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5502f186-0a16-441e-918a-8b24721a29b6")
-		(property "Reference" "R112"
+		(property "Reference" "R105"
 			(at 151.13 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6955,7 +7145,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.892 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -6997,7 +7187,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "R112")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -7093,7 +7283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57f15f09-17a4-4d6d-8759-fae738631204")
-		(property "Reference" "C104"
+		(property "Reference" "C103"
 			(at 181.61 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7115,7 +7305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 178.7652 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7157,7 +7347,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "C104")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -7175,7 +7365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f373548-1c73-4362-b138-66fa9242a3ca")
-		(property "Reference" "R103"
+		(property "Reference" "R111"
 			(at 42.672 52.324 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -7197,7 +7387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 45.72 51.562 90)
 			(hide yes)
 			(show_name no)
@@ -7239,107 +7429,8 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "R103")
+					(reference "R111")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2156xDGK")
-		(at 76.2 68.58 0)
-		(mirror y)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5f5bd925-b084-4bc2-be49-2ebe91803e52")
-		(property "Reference" "U105"
-			(at 61.722 58.674 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2156xDGK"
-			(at 65.278 61.214 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 76.2 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2156.pdf"
-			(at 76.2 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8"
-			(at 76.2 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "75277f46-0ab8-4be3-a216-8a699fa2d62e")
-		)
-		(pin "3"
-			(uuid "a9d7162d-3455-411a-b6d8-d70e5fdd5981")
-		)
-		(pin "5"
-			(uuid "0bab45a3-93d4-4ce7-bde5-fb3430917400")
-		)
-		(pin "8"
-			(uuid "cbfd09de-92ec-4d63-b7c0-d321ac982344")
-		)
-		(pin "1"
-			(uuid "c2ccbec7-03f4-4735-b801-3e678ce4e652")
-		)
-		(pin "6"
-			(uuid "903f7375-4ab6-4b6f-babe-f11197f6dcb0")
-		)
-		(pin "2"
-			(uuid "3a0d4cf8-852d-4faf-bb2b-04f562c9714e")
-		)
-		(pin "7"
-			(uuid "60d369ab-61ad-4bc1-9dbf-0a7f2f0dc0f1")
-		)
-		(instances
-			(project "EKG_Design"
-				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "U105")
-					(unit 2)
 				)
 			)
 		)
@@ -7355,7 +7446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64557f78-6553-4533-b31e-c13d2bc06721")
-		(property "Reference" "R106"
+		(property "Reference" "R100"
 			(at 73.152 44.704 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -7366,7 +7457,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "470R 1%"
 			(at 79.248 44.704 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -7377,7 +7468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 76.2 43.942 90)
 			(hide yes)
 			(show_name no)
@@ -7419,7 +7510,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "R106")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -7437,7 +7528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6475b80b-48b7-46d4-b9d3-22d5450b243f")
-		(property "Reference" "C101"
+		(property "Reference" "C102"
 			(at 62.992 113.03 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -7459,7 +7550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 62.23 115.2652 0)
 			(hide yes)
 			(show_name no)
@@ -7501,7 +7592,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "C101")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -7751,10 +7842,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "713c9e2c-ff38-4b4e-a76b-baa6bc38ec16")
-		(property "Reference" "J102"
-			(at 28.575 48.26 0)
+		(property "Reference" "J101"
+			(at 24.13 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7764,7 +7854,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 28.575 50.8 0)
+			(at 29.464 60.198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7773,7 +7863,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 27.94 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7815,7 +7905,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "J102")
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -7833,7 +7923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cadfe74-da42-420d-8b7f-ed73e2b24bfe")
-		(property "Reference" "R109"
+		(property "Reference" "R114"
 			(at 106.68 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7855,7 +7945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 110.998 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -7897,7 +7987,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "R109")
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -7982,104 +8072,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2156xDGK")
-		(at 123.19 129.54 0)
-		(mirror y)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "86cf3dee-f725-4748-b4dc-bee45ccef7ec")
-		(property "Reference" "U104"
-			(at 117.602 119.634 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2156xDGK"
-			(at 121.158 121.666 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 123.19 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2156.pdf"
-			(at 123.19 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8"
-			(at 123.19 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "75277f46-0ab8-4be3-a216-8a699fa2d62f")
-		)
-		(pin "3"
-			(uuid "a9d7162d-3455-411a-b6d8-d70e5fdd5982")
-		)
-		(pin "5"
-			(uuid "da6b3ec8-dd44-4810-8d76-5bce925b04d4")
-		)
-		(pin "8"
-			(uuid "cbfd09de-92ec-4d63-b7c0-d321ac982345")
-		)
-		(pin "1"
-			(uuid "c2ccbec7-03f4-4735-b801-3e678ce4e653")
-		)
-		(pin "6"
-			(uuid "ec2fb76e-c26f-4019-b4e0-90b4357a5715")
-		)
-		(pin "2"
-			(uuid "3a0d4cf8-852d-4faf-bb2b-04f562c9714f")
-		)
-		(pin "7"
-			(uuid "7c2bfd50-5b8d-4950-99f9-84c13f2db986")
-		)
-		(instances
-			(project "EKG_Design"
-				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "U104")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 186.69 87.63 90)
 		(unit 1)
@@ -8090,7 +8082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c419029-365a-4cf2-8658-c9fc41c9e8fb")
-		(property "Reference" "F102"
+		(property "Reference" "F201"
 			(at 181.102 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8110,7 +8102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 186.69 89.408 90)
 			(hide yes)
 			(show_name no)
@@ -8152,7 +8144,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "F102")
+					(reference "F201")
 					(unit 1)
 				)
 			)
@@ -8170,7 +8162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c751701-2605-452a-affb-8d798b7b21e6")
-		(property "Reference" "C103"
+		(property "Reference" "C101"
 			(at 168.402 27.94 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -8192,7 +8184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 167.64 30.1752 0)
 			(hide yes)
 			(show_name no)
@@ -8234,7 +8226,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "C103")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -8486,7 +8478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9206c35e-d219-42a5-a921-30027f333bb6")
-		(property "Reference" "C109"
+		(property "Reference" "C105"
 			(at 226.06 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8508,7 +8500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 223.2152 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8550,7 +8542,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "C109")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -8566,10 +8558,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "94e3c90b-44fa-4a33-97ad-07fff555f57d")
-		(property "Reference" "J101"
-			(at 28.575 35.56 0)
+		(property "Reference" "J100"
+			(at 24.892 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8579,7 +8570,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 28.575 38.1 0)
+			(at 29.972 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8588,7 +8579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 27.94 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8630,7 +8621,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "J101")
+					(reference "J100")
 					(unit 1)
 				)
 			)
@@ -8748,7 +8739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 266.3952 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8798,7 +8789,7 @@
 	)
 	(symbol
 		(lib_id "power:VCOM")
-		(at 128.27 93.98 180)
+		(at 127 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8809,7 +8800,7 @@
 		(fields_autoplaced yes)
 		(uuid "a51d3c32-1103-44a0-8a59-13d3332877d3")
 		(property "Reference" "#PWR0129"
-			(at 128.27 90.17 0)
+			(at 127 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8820,7 +8811,7 @@
 			)
 		)
 		(property "Value" "5V0_Analog"
-			(at 128.27 99.06 0)
+			(at 127 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8830,7 +8821,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 93.98 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8841,7 +8832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 93.98 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8852,7 +8843,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCOM\""
-			(at 128.27 93.98 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8870,107 +8861,6 @@
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
 					(reference "#PWR0129")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2156xDGK")
-		(at 76.2 68.58 0)
-		(mirror y)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a61a0549-17c8-4b8b-a2c5-4a66e62f03df")
-		(property "Reference" "U102"
-			(at 65.024 61.976 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA2156xDGK"
-			(at 72.136 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 76.2 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2156.pdf"
-			(at 76.2 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8"
-			(at 76.2 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "48b7bf0a-e391-47fa-a21f-9898e5c077f3")
-		)
-		(pin "7"
-			(uuid "9d82c270-cd4b-4b0f-b334-37f6174c2236")
-		)
-		(pin "8"
-			(uuid "50fe300b-c5b5-45e7-aa8c-fdc3c5951386")
-		)
-		(pin "2"
-			(uuid "d7d523f5-fb37-4697-a1e9-6e2d05496dcd")
-		)
-		(pin "4"
-			(uuid "2f65f370-fd3b-4c19-99ab-0f6f18c72981")
-		)
-		(pin "3"
-			(uuid "288747bd-bf24-4ebd-831e-82f49b35232c")
-		)
-		(pin "1"
-			(uuid "938006db-2b33-4892-b119-f9efd2ddebbf")
-		)
-		(pin "5"
-			(uuid "ef4b23c7-c5ef-4005-861d-aacec7854850")
-		)
-		(instances
-			(project "EKG_Design"
-				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "U102")
-					(unit 3)
 				)
 			)
 		)
@@ -9049,104 +8939,6 @@
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
 					(reference "#PWR0109")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2156xDGK")
-		(at 173.99 50.8 0)
-		(mirror x)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ac18bce2-93d1-46ef-8b70-3565bcad7032")
-		(property "Reference" "U106"
-			(at 170.434 41.148 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2156xDGK"
-			(at 173.99 43.434 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 173.99 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2156.pdf"
-			(at 173.99 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8"
-			(at 173.99 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "a67df3d8-ce52-4fce-8785-cb67d31e3df7")
-		)
-		(pin "6"
-			(uuid "c64818da-a3fd-4de9-8c1c-ad6357dfece8")
-		)
-		(pin "4"
-			(uuid "9332a59c-7671-4f71-8c07-aac7547a66f0")
-		)
-		(pin "3"
-			(uuid "ee56fc03-afcd-48e7-b83d-5e1176986241")
-		)
-		(pin "2"
-			(uuid "1aa3c1f8-65ce-43c7-88d6-04bac29fe671")
-		)
-		(pin "1"
-			(uuid "579722cb-54ea-43c4-8f42-31e1fb0955e1")
-		)
-		(pin "8"
-			(uuid "b0c939c2-9d7b-46a9-9bc0-9ce181541eef")
-		)
-		(pin "7"
-			(uuid "26e44ddd-e4ce-416b-9417-4dfe3914dd8a")
-		)
-		(instances
-			(project "EKG_Design"
-				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "U106")
-					(unit 2)
 				)
 			)
 		)
@@ -9309,7 +9101,7 @@
 	)
 	(symbol
 		(lib_id "power:VCOM")
-		(at 128.27 78.74 0)
+		(at 127 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9320,7 +9112,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbdb5577-d81c-4162-85ae-2233160a8137")
 		(property "Reference" "#PWR0130"
-			(at 128.27 82.55 0)
+			(at 127 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9331,7 +9123,7 @@
 			)
 		)
 		(property "Value" "5N0_Analog"
-			(at 128.27 73.66 0)
+			(at 127 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9341,7 +9133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 78.74 0)
+			(at 127 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9352,7 +9144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 78.74 0)
+			(at 127 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9363,7 +9155,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCOM\""
-			(at 128.27 78.74 0)
+			(at 127 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9464,7 +9256,7 @@
 	)
 	(symbol
 		(lib_id "power:VCOM")
-		(at 78.74 76.2 180)
+		(at 78.74 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9475,7 +9267,7 @@
 		(fields_autoplaced yes)
 		(uuid "c182d177-07dd-43fa-9626-83bdc4ea6934")
 		(property "Reference" "#PWR0132"
-			(at 78.74 72.39 0)
+			(at 78.74 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9486,7 +9278,7 @@
 			)
 		)
 		(property "Value" "5V0_Analog"
-			(at 78.74 81.28 0)
+			(at 78.74 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9496,7 +9288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 76.2 0)
+			(at 78.74 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9507,7 +9299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 76.2 0)
+			(at 78.74 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9518,7 +9310,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCOM\""
-			(at 78.74 76.2 0)
+			(at 78.74 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9707,7 +9499,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5ae571c-1621-4b90-b58a-dcab8131b52c")
-		(property "Reference" "U103"
+		(property "Reference" "IC104"
 			(at 108.458 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9787,7 +9579,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "U103")
+					(reference "IC104")
 					(unit 1)
 				)
 			)
@@ -9805,7 +9597,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c64ddb84-71a5-4ff1-8ca0-4dd7db3c90a9")
-		(property "Reference" "R113"
+		(property "Reference" "R106"
 			(at 151.13 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9827,7 +9619,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.892 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -9869,7 +9661,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "R113")
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -9877,7 +9669,7 @@
 	)
 	(symbol
 		(lib_id "power:VCOM")
-		(at 78.74 60.96 0)
+		(at 78.74 76.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9888,7 +9680,7 @@
 		(fields_autoplaced yes)
 		(uuid "c78bd4fc-9138-4a3c-9635-0aac51aff5ab")
 		(property "Reference" "#PWR0131"
-			(at 78.74 64.77 0)
+			(at 78.74 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9899,7 +9691,7 @@
 			)
 		)
 		(property "Value" "5N0_Analog"
-			(at 78.74 55.88 0)
+			(at 78.74 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9909,7 +9701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 60.96 0)
+			(at 78.74 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9920,7 +9712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 60.96 0)
+			(at 78.74 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9931,7 +9723,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCOM\""
-			(at 78.74 60.96 0)
+			(at 78.74 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10065,7 +9857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 109.22 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10136,7 +9928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cee61718-3dc9-4193-970f-d37c999e3eb2")
-		(property "Reference" "R104"
+		(property "Reference" "R112"
 			(at 42.672 42.164 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -10158,7 +9950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 45.72 41.402 90)
 			(hide yes)
 			(show_name no)
@@ -10200,7 +9992,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "R104")
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -10238,7 +10030,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 170.18 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10401,7 +10193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 266.3952 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -10539,7 +10331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6e04cb4-c64d-472c-a006-147988a9fbf5")
-		(property "Reference" "R105"
+		(property "Reference" "R108"
 			(at 62.992 106.934 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -10561,7 +10353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 66.04 106.172 90)
 			(hide yes)
 			(show_name no)
@@ -10603,7 +10395,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "R105")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -10622,7 +10414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb25afbb-1eaa-43e3-a7b3-4cc32e61eece")
-		(property "Reference" "J105"
+		(property "Reference" "J103"
 			(at 222.25 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10644,7 +10436,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 220.98 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10686,7 +10478,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "J105")
+					(reference "J103")
 					(unit 1)
 				)
 			)
@@ -10704,7 +10496,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec30485b-c6f2-43a8-9ddc-52335dcb96c6")
-		(property "Reference" "R110"
+		(property "Reference" "R103"
 			(at 134.62 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10726,7 +10518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 135.382 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -10768,7 +10560,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "R110")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -10854,8 +10646,9 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA2156xDGK")
-		(at 125.73 86.36 180)
-		(unit 1)
+		(at 173.99 50.8 0)
+		(mirror x)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10863,8 +10656,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2c5d53e-cd82-4cb7-bbcc-802c3b3f8257")
-		(property "Reference" "U105"
-			(at 115.824 76.962 0)
+		(property "Reference" "IC102"
+			(at 173.228 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10873,8 +10666,8 @@
 				)
 			)
 		)
-		(property "Value" "OPA2156xDGK"
-			(at 119.634 79.248 0)
+		(property "Value" "OPA2156IDGKR"
+			(at 176.53 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10884,7 +10677,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 125.73 86.36 0)
+			(at 173.99 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10895,7 +10688,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2156.pdf"
-			(at 125.73 86.36 0)
+			(at 173.99 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10906,7 +10699,7 @@
 			)
 		)
 		(property "Description" "Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8"
-			(at 125.73 86.36 0)
+			(at 173.99 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10943,7 +10736,202 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "U105")
+					(reference "IC102")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2156xDGK")
+		(at 124.46 85.09 180)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2c5d53e-cd82-4cb7-bbcc-802c3b3f8257")
+		(property "Reference" "IC102"
+			(at 114.554 75.692 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2156IDGKR"
+			(at 118.364 77.978 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2156.pdf"
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8"
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "a67df3d8-ce52-4fce-8785-cb67d31e3df9")
+		)
+		(pin "6"
+			(uuid "c64818da-a3fd-4de9-8c1c-ad6357dfecea")
+		)
+		(pin "4"
+			(uuid "9332a59c-7671-4f71-8c07-aac7547a66f2")
+		)
+		(pin "3"
+			(uuid "6e1ff3e9-6dde-4a61-8e09-9a992c8ad623")
+		)
+		(pin "2"
+			(uuid "9d354f39-d47a-4562-81a1-de2652e5b872")
+		)
+		(pin "1"
+			(uuid "0cc43f2e-e9e6-466d-8580-c8ff43141d57")
+		)
+		(pin "8"
+			(uuid "b0c939c2-9d7b-46a9-9bc0-9ce181541ef1")
+		)
+		(pin "7"
+			(uuid "26e44ddd-e4ce-416b-9417-4dfe3914dd8c")
+		)
+		(instances
+			(project "EKG_Design"
+				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
+					(reference "IC102")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2156xDGK")
+		(at 124.46 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2c5d53e-cd82-4cb7-bbcc-802c3b3f8257")
+		(property "Reference" "IC102"
+			(at 115.062 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2156IDGKR"
+			(at 118.364 77.978 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2156.pdf"
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8"
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "a67df3d8-ce52-4fce-8785-cb67d31e3df9")
+		)
+		(pin "6"
+			(uuid "c64818da-a3fd-4de9-8c1c-ad6357dfecea")
+		)
+		(pin "4"
+			(uuid "9332a59c-7671-4f71-8c07-aac7547a66f2")
+		)
+		(pin "3"
+			(uuid "6e1ff3e9-6dde-4a61-8e09-9a992c8ad623")
+		)
+		(pin "2"
+			(uuid "9d354f39-d47a-4562-81a1-de2652e5b872")
+		)
+		(pin "1"
+			(uuid "0cc43f2e-e9e6-466d-8580-c8ff43141d57")
+		)
+		(pin "8"
+			(uuid "b0c939c2-9d7b-46a9-9bc0-9ce181541ef1")
+		)
+		(pin "7"
+			(uuid "26e44ddd-e4ce-416b-9417-4dfe3914dd8c")
+		)
+		(instances
+			(project "EKG_Design"
+				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
+					(reference "IC102")
 					(unit 1)
 				)
 			)
@@ -10953,7 +10941,7 @@
 		(lib_id "Amplifier_Operational:OPA2156xDGK")
 		(at 71.12 132.08 0)
 		(mirror y)
-		(unit 1)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10961,8 +10949,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f321786c-f489-4776-b4ca-7857ef8d33fa")
-		(property "Reference" "U101"
-			(at 60.96 123.952 0)
+		(property "Reference" "IC101"
+			(at 60.96 125.222 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10971,7 +10960,7 @@
 				)
 			)
 		)
-		(property "Value" "OPA2156xDGK"
+		(property "Value" "OPA2156IDGKR"
 			(at 71.12 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11042,7 +11031,203 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "U101")
+					(reference "IC101")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2156xDGK")
+		(at 123.19 129.54 0)
+		(mirror y)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f321786c-f489-4776-b4ca-7857ef8d33fa")
+		(property "Reference" "IC101"
+			(at 117.348 119.888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2156IDGKR"
+			(at 121.158 122.428 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(at 123.19 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2156.pdf"
+			(at 123.19 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8"
+			(at 123.19 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "75277f46-0ab8-4be3-a216-8a699fa2d630")
+		)
+		(pin "3"
+			(uuid "21425627-3019-4b51-852f-df45a912c396")
+		)
+		(pin "5"
+			(uuid "da6b3ec8-dd44-4810-8d76-5bce925b04d5")
+		)
+		(pin "8"
+			(uuid "cbfd09de-92ec-4d63-b7c0-d321ac982346")
+		)
+		(pin "1"
+			(uuid "574c7dfb-cc85-4654-b709-7adb1dae5830")
+		)
+		(pin "6"
+			(uuid "ec2fb76e-c26f-4019-b4e0-90b4357a5716")
+		)
+		(pin "2"
+			(uuid "cd2957ec-ebd7-4eba-b435-7b172ffc923c")
+		)
+		(pin "7"
+			(uuid "7c2bfd50-5b8d-4950-99f9-84c13f2db987")
+		)
+		(instances
+			(project "EKG_Design"
+				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
+					(reference "IC101")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2156xDGK")
+		(at 71.12 132.08 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f321786c-f489-4776-b4ca-7857ef8d33fa")
+		(property "Reference" "IC101"
+			(at 60.96 123.952 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2156IDGKR"
+			(at 64.516 126.492 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(at 71.12 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2156.pdf"
+			(at 71.12 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8"
+			(at 71.12 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "75277f46-0ab8-4be3-a216-8a699fa2d630")
+		)
+		(pin "3"
+			(uuid "21425627-3019-4b51-852f-df45a912c396")
+		)
+		(pin "5"
+			(uuid "da6b3ec8-dd44-4810-8d76-5bce925b04d5")
+		)
+		(pin "8"
+			(uuid "cbfd09de-92ec-4d63-b7c0-d321ac982346")
+		)
+		(pin "1"
+			(uuid "574c7dfb-cc85-4654-b709-7adb1dae5830")
+		)
+		(pin "6"
+			(uuid "ec2fb76e-c26f-4019-b4e0-90b4357a5716")
+		)
+		(pin "2"
+			(uuid "cd2957ec-ebd7-4eba-b435-7b172ffc923c")
+		)
+		(pin "7"
+			(uuid "7c2bfd50-5b8d-4950-99f9-84c13f2db987")
+		)
+		(instances
+			(project "EKG_Design"
+				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
+					(reference "IC101")
 					(unit 1)
 				)
 			)
@@ -11060,7 +11245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4253ead-311d-4b24-8303-7764735c0596")
-		(property "Reference" "R107"
+		(property "Reference" "R101"
 			(at 73.152 49.784 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -11071,7 +11256,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "470R 1%"
 			(at 79.248 49.784 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -11082,7 +11267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 76.2 49.022 90)
 			(hide yes)
 			(show_name no)
@@ -11124,7 +11309,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "R107")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -11142,7 +11327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7eee62b-343b-4bb1-984a-e128133f28fd")
-		(property "Reference" "C113"
+		(property "Reference" "C109"
 			(at 267.97 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11164,7 +11349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 265.1252 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11206,7 +11391,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "C113")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -11223,7 +11408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa9e81d6-faa5-402c-ba63-e4f4161c90e5")
-		(property "Reference" "F101"
+		(property "Reference" "F202"
 			(at 181.356 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11243,7 +11428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 186.69 94.488 90)
 			(hide yes)
 			(show_name no)
@@ -11285,7 +11470,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "F101")
+					(reference "F202")
 					(unit 1)
 				)
 			)
@@ -11303,7 +11488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcfbeec0-34e7-4be5-b282-5416d056a8d3")
-		(property "Reference" "C108"
+		(property "Reference" "C110"
 			(at 240.03 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11325,7 +11510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 237.1852 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11367,7 +11552,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "C108")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -11385,7 +11570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff99824c-67e2-4a99-a8a8-b79d434ab3f6")
-		(property "Reference" "R108"
+		(property "Reference" "R110"
 			(at 96.012 128.524 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -11407,7 +11592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 99.06 127.762 90)
 			(hide yes)
 			(show_name no)
@@ -11449,7 +11634,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe31fbed-a3d6-4e29-8087-8265cc4e44fa"
-					(reference "R108")
+					(reference "R110")
 					(unit 1)
 				)
 			)

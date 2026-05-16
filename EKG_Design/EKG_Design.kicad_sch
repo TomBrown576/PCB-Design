@@ -460,11 +460,11 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "05af3bbc-f1ba-4aed-bd5f-ed4f22e534ac")
-		(property "Reference" "H101"
+		(property "Reference" "H100"
 			(at 228.6 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -484,7 +484,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 228.6 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -523,7 +523,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83"
-					(reference "H101")
+					(reference "H100")
 					(unit 1)
 				)
 			)
@@ -617,7 +617,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "1aed8acc-a9e1-4879-918d-d4c3114e4a65")
-		(property "Reference" "PCB101"
+		(property "Reference" "PCB1"
 			(at 193.548 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -628,7 +628,7 @@
 			)
 		)
 		(property "Value" "Printed Circuit Board (PCB)"
-			(at 203.2 145.034 0)
+			(at 204.47 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -673,7 +673,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83"
-					(reference "PCB101")
+					(reference "PCB1")
 					(unit 1)
 				)
 			)
@@ -763,11 +763,11 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "52e8c559-55e5-48cb-9b7c-057cb7f5b8ba")
-		(property "Reference" "H102"
+		(property "Reference" "H101"
 			(at 254 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -787,7 +787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 254 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -826,7 +826,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83"
-					(reference "H102")
+					(reference "H101")
 					(unit 1)
 				)
 			)
@@ -839,11 +839,11 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "5ab247af-eb5b-462f-8b50-f1c9b6c8f7e8")
-		(property "Reference" "H103"
+		(property "Reference" "H102"
 			(at 228.6 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -863,7 +863,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 228.6 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -902,7 +902,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83"
-					(reference "H103")
+					(reference "H102")
 					(unit 1)
 				)
 			)
@@ -1069,11 +1069,11 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "fa3718b2-b069-4893-a5a7-bed1930ad17c")
-		(property "Reference" "H104"
+		(property "Reference" "H103"
 			(at 254 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1093,7 +1093,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 254 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -1132,7 +1132,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83"
-					(reference "H104")
+					(reference "H103")
 					(unit 1)
 				)
 			)

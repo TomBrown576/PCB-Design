@@ -292,24 +292,6 @@
 			)
 			(symbol "BAR43SFILM_1_1"
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "A"
@@ -327,11 +309,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 1.27 1.27 270)
+				(pin passive line
+					(at 0 -2.54 90)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -349,7 +330,7 @@
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "K"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1590,6 +1571,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Zeitkonstante Entladung LED \"high\""
+		(exclude_from_sim no)
+		(at 152.654 111.506 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bc53f26-2467-4374-b56c-4019f860efe7")
+	)
+	(text "Siehe ECG_PulseDetection.asc\n"
+		(exclude_from_sim no)
+		(at 101.6 126.238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb6a8545-7e0a-4347-a520-4f1ce41cbaea")
+	)
 	(junction
 		(at 137.16 97.79)
 		(diameter 0)
@@ -1808,6 +1811,16 @@
 		)
 		(uuid "dcdf6d1e-02b0-44b3-97e1-3cf113275667")
 	)
+	(label "X"
+		(at 116.84 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4e0ce86-0d1f-43f0-8c00-a03023695945")
+	)
 	(global_label "ECG_Out"
 		(shape input)
 		(at 85.09 81.28 180)
@@ -1922,7 +1935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1419e991-cfbf-48d5-abd6-f1745135f0d2")
-		(property "Reference" "R302"
+		(property "Reference" "R202"
 			(at 191.77 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1944,7 +1957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 187.452 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -1986,7 +1999,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5"
-					(reference "R302")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -2026,7 +2039,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 			(at 151.13 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2122,7 +2135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49324e66-c4c9-443d-a2aa-9b5728005ed0")
-		(property "Reference" "C301"
+		(property "Reference" "C200"
 			(at 134.62 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2144,7 +2157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2186,7 +2199,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5"
-					(reference "C301")
+					(reference "C200")
 					(unit 1)
 				)
 			)
@@ -2204,7 +2217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71f3d6fa-8ce6-4512-acc1-ee85bfacce8a")
-		(property "Reference" "R301"
+		(property "Reference" "R201"
 			(at 162.052 96.774 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -2226,7 +2239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 165.1 96.012 90)
 			(hide yes)
 			(show_name no)
@@ -2268,7 +2281,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5"
-					(reference "R301")
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -2464,7 +2477,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 			(at 100.33 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2560,7 +2573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a75a939b-8a9a-4e75-b8b3-ad36018e487e")
-		(property "Reference" "D303"
+		(property "Reference" "D201"
 			(at 193.04 86.6774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2582,7 +2595,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 189.23 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2635,7 +2648,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5"
-					(reference "D303")
+					(reference "D201")
 					(unit 1)
 				)
 			)
@@ -2652,8 +2665,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2d478ab-3957-4230-9ed3-748f686b507f")
-		(property "Reference" "D103"
-			(at 127.508 91.186 0)
+		(property "Reference" "D200"
+			(at 129.286 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2663,7 +2676,7 @@
 			)
 		)
 		(property "Value" "BAR43SFILM"
-			(at 130.81 93.726 0)
+			(at 132.588 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2714,13 +2727,10 @@
 		(pin "3"
 			(uuid "b9884923-d676-4143-bedc-12bb3f6d4b91")
 		)
-		(pin "1"
-			(uuid "52a4aed5-ed47-47f7-a743-98aa42a36585")
-		)
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5"
-					(reference "D103")
+					(reference "D200")
 					(unit 1)
 				)
 			)
@@ -2894,7 +2904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebe2b32a-0c34-4d9a-8ae5-9f23666862c9")
-		(property "Reference" "Q301"
+		(property "Reference" "Q200"
 			(at 191.77 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2986,7 +2996,7 @@
 		(instances
 			(project "EKG_Design"
 				(path "/145a8612-0e2a-4b7d-8919-051e741c5f83/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5"
-					(reference "Q301")
+					(reference "Q200")
 					(unit 1)
 				)
 			)

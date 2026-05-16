@@ -18,7 +18,7 @@
 				)
 			)
 		)
-		(property "Value" "NE612"
+		(property "Value" "NE612AD"
 			(at 0 -1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39,7 +39,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/SA612A.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61,20 +61,18 @@
 				)
 			)
 		)
-		(symbol "NE612_0_1"
+		(symbol "NE612_1_1"
 			(rectangle
 				(start -5.08 6.35)
 				(end 5.08 -6.35)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "NE612_1_1"
 			(pin input line
 				(at -7.62 3.81 0)
 				(length 2.54)

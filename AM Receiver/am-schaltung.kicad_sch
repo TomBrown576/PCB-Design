@@ -406,7 +406,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "AM_Receiver:74HCT4046"
+		(symbol "AM_Receiver:74HTC4046"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -422,7 +422,7 @@
 					)
 				)
 			)
-			(property "Value" "74HCT4046"
+			(property "Value" "74HTC4046"
 				(at 10.414 13.716 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -432,7 +432,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -443,7 +443,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "Package_DIP:DIP-16_W7.62mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -465,7 +465,18 @@
 					)
 				)
 			)
-			(symbol "74HCT4046_1_1"
+			(property "MPN" "CD74HCT4046AM96"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74HTC4046_1_1"
 				(rectangle
 					(start 0 30.48)
 					(end 20.32 0)
@@ -475,24 +486,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -2.54 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin output line
@@ -621,6 +614,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 5.08 -2.54 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 22.86 22.86 180)
 					(length 2.54)
@@ -693,7 +704,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin tri_state line
 					(at 22.86 16.51 180)
 					(length 2.54)
 					(name "PC2_OUT"
@@ -883,7 +894,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 1.27 -3.81 90)
 					(length 2.54)
 					(name ""
@@ -904,13 +915,437 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "AM_Receiver:MMBFJ310LT1G"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBFJ310LT1G"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBFJ309LT1-D.PDF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "N-JFET transistor, source/drain/gate"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor NJFET N-JFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MMBFJ310LT1G_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.016 0.381) (xy -1.016 -0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.397) (xy 0.254 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.27) (xy 0.254 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBFJ310LT1G_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.334)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AM_Receiver:NE612AD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at 2.794 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NE612AD"
+				(at 0 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/SA612A.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SA612AD/01,118"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NE612AD_1_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "INA"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "INB"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "OUTA"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUTB"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "OSC2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "OSC1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "AM_Receiver:SFD455"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FL"
+			(property "Reference" "FL1"
 				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1090,6 +1525,42 @@
 						)
 					)
 				)
+				(pin input line
+					(at -1.27 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 1.27 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -1108,10 +1579,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 -8.89 90)
 					(length 2.54)
-					(name "COM"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1145,7 +1616,7 @@
 					)
 				)
 			)
-			(property "Value" "TDA1072"
+			(property "Value" "TDA1072AT"
 				(at 0 -2.286 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1155,7 +1626,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1166,7 +1637,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.box73.de/file_dl/bauelemente/TDA1072A.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1178,6 +1649,17 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TDA1072AT/V4,112"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2435,201 +2917,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Custom_Device:Q_NJFET_DGS"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NJFET_DGS"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-JFET transistor, drain/gate/source"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NJFET N-JFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_NJFET_DGS_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.016 0.381) (xy -1.016 -0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.397) (xy 0.254 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 -1.27) (xy 0.254 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NJFET_DGS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.334)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Custom_Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2978,224 +3265,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Custom_RF_Mixer:NE612"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 2.794 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NE612"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "NE612_1_1"
-				(rectangle
-					(start -5.08 6.35)
-					(end 5.08 -6.35)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 3.81 0)
-					(length 2.54)
-					(name "INA"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "INB"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -8.89 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 3.81 180)
-					(length 2.54)
-					(name "OUTA"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUTB"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -3.81 180)
-					(length 2.54)
-					(name "OSC2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -3.81 0)
-					(length 2.54)
-					(name "OSC1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 8.89 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0.635 0.635)
 							)
 						)
 					)
@@ -4116,22 +4185,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:0"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Regulator_Linear:L78L08_SO8"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#GND"
-				(at 0 -5.08 0)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L78L08_SO8"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 2.54 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4141,17 +4238,7 @@
 					)
 				)
 			)
-			(property "Value" "0"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
+			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 8V, SO-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4162,29 +4249,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "0V reference potential for simulation"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "simulation"
+			(property "ki_keywords" "Voltage Regulator 100mA Positive"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4195,35 +4260,176 @@
 					)
 				)
 			)
-			(symbol "0_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+				)
+			)
+			(symbol "L78L08_SO8_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
-			(symbol "0_1_1"
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(name ""
+			(symbol "L78L08_SO8_1_1"
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -5134,6 +5340,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 114.3 147.32)
@@ -5226,12 +5547,6 @@
 		(uuid "2131e2ca-9c03-4f01-9f56-b67cc5265adf")
 	)
 	(junction
-		(at 189.23 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26c59629-318f-4d10-a48e-7121c343769f")
-	)
-	(junction
 		(at 41.91 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5298,30 +5613,6 @@
 		(uuid "4b32919a-8408-45b3-9c2a-a354c4e2601f")
 	)
 	(junction
-		(at 189.23 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d1abd14-0344-4364-9c56-148c8cb3e9c7")
-	)
-	(junction
-		(at 173.99 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5025a560-8d76-43eb-85e9-66ebed3338be")
-	)
-	(junction
-		(at 204.47 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a7c0e11-305d-4d63-9ba3-11212e864052")
-	)
-	(junction
-		(at 181.61 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b6e757b-3680-4f20-8892-99f32b70435a")
-	)
-	(junction
 		(at 205.74 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5362,12 +5653,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "715fd847-1f71-43dc-8045-617084710066")
-	)
-	(junction
-		(at 172.72 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71ae7ac5-4647-4867-843e-3176a1c7f97d")
 	)
 	(junction
 		(at 203.2 147.32)
@@ -5436,6 +5721,12 @@
 		(uuid "90df3c66-c6bf-425f-9685-bc0fb84959fe")
 	)
 	(junction
+		(at 181.61 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97800da1-031b-4f59-b0b4-f1c5cfec9c32")
+	)
+	(junction
 		(at 33.02 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5490,12 +5781,6 @@
 		(uuid "af6a3909-b305-4b39-b3b0-476a096d2166")
 	)
 	(junction
-		(at 41.91 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2b7f5ee-8402-4144-9689-f39a64e034ed")
-	)
-	(junction
 		(at 140.97 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5518,6 +5803,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2b4fc88-ae3f-42e7-999d-c3b304e138d7")
+	)
+	(junction
+		(at 274.32 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8021fb9-96f4-4510-8d18-1b643f98731e")
 	)
 	(junction
 		(at 148.59 83.82)
@@ -5562,10 +5853,10 @@
 		(uuid "d1684525-4e1a-4b3f-ae77-1e3f47e3d19a")
 	)
 	(junction
-		(at 157.48 73.66)
+		(at 189.23 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d766a631-6832-451e-af66-184682c47663")
+		(uuid "d1adeb91-9b65-451e-8dbd-0d540f4c6bd2")
 	)
 	(junction
 		(at 204.47 36.83)
@@ -5602,12 +5893,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e22d9227-9950-412f-a92f-60834e17d144")
-	)
-	(junction
-		(at 186.69 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4855736-bf0b-4d53-885b-5dd4ce461562")
 	)
 	(junction
 		(at 242.57 73.66)
@@ -5757,6 +6042,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 73.66) (xy 205.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b187889-ffd1-4c1e-bb82-b780b71b2b46")
+	)
+	(wire
+		(pts
 			(xy 261.62 113.03) (xy 261.62 129.54)
 		)
 		(stroke
@@ -5784,16 +6079,6 @@
 			(type default)
 		)
 		(uuid "0cf98d4f-bf83-4f5c-8105-a38af84591e3")
-	)
-	(wire
-		(pts
-			(xy 205.74 73.66) (xy 205.74 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d6f1b9c-8a0d-4291-be92-5905c77fad40")
 	)
 	(wire
 		(pts
@@ -5877,16 +6162,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 73.66) (xy 172.72 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16372f83-c80a-4166-a040-14bb8fa4d000")
-	)
-	(wire
-		(pts
 			(xy 157.48 93.98) (xy 165.1 93.98)
 		)
 		(stroke
@@ -5924,16 +6199,6 @@
 			(type default)
 		)
 		(uuid "1aa00e46-652e-4ba5-8676-dd35e53cbf4c")
-	)
-	(wire
-		(pts
-			(xy 173.99 78.74) (xy 177.8 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d0be010-534f-4f1c-8f60-242b137f4487")
 	)
 	(wire
 		(pts
@@ -6157,16 +6422,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 40.64) (xy 189.23 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f256215-5d53-4360-af22-a657e39878e8")
-	)
-	(wire
-		(pts
 			(xy 151.13 123.19) (xy 151.13 129.54)
 		)
 		(stroke
@@ -6187,13 +6442,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 120.65) (xy 187.96 120.65)
+			(xy 172.72 73.66) (xy 173.99 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30d285b7-ecd5-4ca9-8854-972862a77191")
+		(uuid "3192da8d-d63e-4bac-aeb7-bf31355a4842")
 	)
 	(wire
 		(pts
@@ -6204,6 +6459,16 @@
 			(type default)
 		)
 		(uuid "324767b9-fe0d-47b4-902f-71b8d104974c")
+	)
+	(wire
+		(pts
+			(xy 274.32 36.83) (xy 275.59 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324e3dbb-d197-4db5-aee5-0ecb806f5c93")
 	)
 	(wire
 		(pts
@@ -6357,16 +6622,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 120.65) (xy 186.69 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4319d493-15c8-4058-b5b2-56d8e245ac08")
-	)
-	(wire
-		(pts
 			(xy 88.9 40.64) (xy 88.9 66.04)
 		)
 		(stroke
@@ -6487,16 +6742,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 105.41) (xy 273.05 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d20d6a9-6882-429b-89a3-04d6f559ad45")
-	)
-	(wire
-		(pts
 			(xy 194.31 147.32) (xy 203.2 147.32)
 		)
 		(stroke
@@ -6514,6 +6759,16 @@
 			(type default)
 		)
 		(uuid "4eef0a2d-a9d9-4060-a8a4-266d0cf2b00b")
+	)
+	(wire
+		(pts
+			(xy 189.23 40.64) (xy 189.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4875a1-bff6-4ec3-921c-f9ac39b05972")
 	)
 	(wire
 		(pts
@@ -6747,16 +7002,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 93.98) (xy 41.91 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ec99205-cc05-4256-bdcf-eb525e0acc8b")
-	)
-	(wire
-		(pts
 			(xy 215.9 44.45) (xy 215.9 54.61)
 		)
 		(stroke
@@ -6857,7 +7102,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 68.58) (xy 189.23 67.31)
+			(xy 25.4 92.71) (xy 25.4 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79242b2f-c2da-46f4-94b1-baf8d96da960")
+	)
+	(wire
+		(pts
+			(xy 189.23 36.83) (xy 189.23 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6874,26 +7129,6 @@
 			(type default)
 		)
 		(uuid "7b333083-9183-4f09-8bdc-7c380b62842c")
-	)
-	(wire
-		(pts
-			(xy 200.66 73.66) (xy 204.47 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b554200-76c8-4c84-b911-0908d6665515")
-	)
-	(wire
-		(pts
-			(xy 172.72 73.66) (xy 173.99 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b67a11c-52ff-414b-90c6-a361951a3dbf")
 	)
 	(wire
 		(pts
@@ -7017,16 +7252,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 73.66) (xy 162.56 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a06b0af-f406-46aa-8dd3-577fb844a2d3")
-	)
-	(wire
-		(pts
 			(xy 58.42 71.12) (xy 64.77 71.12)
 		)
 		(stroke
@@ -7057,6 +7282,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 120.65) (xy 186.69 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7edb04-f697-4f68-9bbf-6470b7e33359")
+	)
+	(wire
+		(pts
 			(xy 203.2 143.51) (xy 203.2 147.32)
 		)
 		(stroke
@@ -7064,16 +7299,6 @@
 			(type default)
 		)
 		(uuid "8dc5cf85-9d27-4e4d-b103-cef48aa79c24")
-	)
-	(wire
-		(pts
-			(xy 25.4 92.71) (xy 25.4 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ebf3261-f3ae-4c87-8d68-f827aacdda24")
 	)
 	(wire
 		(pts
@@ -7087,7 +7312,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 36.83) (xy 275.59 36.83)
+			(xy 270.51 36.83) (xy 274.32 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7184,6 +7409,16 @@
 			(type default)
 		)
 		(uuid "9ec71564-9d31-48b6-a22d-427a3e65cc56")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 163.83 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4a89d6-dab6-4684-8bb3-cf8fd9dd7211")
 	)
 	(wire
 		(pts
@@ -7494,6 +7729,16 @@
 			(type default)
 		)
 		(uuid "bd809525-9707-4a2e-a1ba-de8f070ea556")
+	)
+	(wire
+		(pts
+			(xy 41.91 93.98) (xy 41.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be5307ea-6121-43b9-afed-ef81f186697d")
 	)
 	(wire
 		(pts
@@ -7837,6 +8082,26 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 73.66) (xy 167.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbaf480d-9d02-4f6f-9754-7cd1374d9f44")
+	)
+	(wire
+		(pts
+			(xy 270.51 105.41) (xy 273.05 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcbe2cf8-d314-4e16-a907-f90ba8d56e9f")
+	)
+	(wire
+		(pts
 			(xy 33.02 82.55) (xy 33.02 85.09)
 		)
 		(stroke
@@ -8117,16 +8382,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 67.31) (xy 189.23 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f71f3191-2078-4093-a82b-8b6b5fa79a18")
-	)
-	(wire
-		(pts
 			(xy 217.17 93.98) (xy 242.57 93.98)
 		)
 		(stroke
@@ -8188,7 +8443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 271.4752 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8275,7 +8530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 205.4352 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8362,7 +8617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 101.2952 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8449,7 +8704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 107.6452 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8515,7 +8770,7 @@
 		(dnp no)
 		(uuid "08c04a49-6759-488d-8557-c69490f42867")
 		(property "Reference" "LS1"
-			(at 261.112 84.582 0)
+			(at 261.366 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8621,7 +8876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 245.11 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -8704,7 +8959,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_RF_Mixer:NE612")
+		(lib_id "AM_Receiver:NE612AD")
 		(at 88.9 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -8724,7 +8979,7 @@
 				)
 			)
 		)
-		(property "Value" "NE612"
+		(property "Value" "NE612AD"
 			(at 88.9 76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8734,7 +8989,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 88.9 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8745,7 +9000,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/SA612A.pdf"
 			(at 88.9 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8839,7 +9094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 77.1652 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9009,7 +9264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 223.52 80.9752 0)
 			(hide yes)
 			(show_name no)
@@ -9096,7 +9351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 77.1652 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9183,7 +9438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 172.4152 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9270,7 +9525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 206.7052 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9336,7 +9591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a4448b9-0cbb-4576-9990-d8dfa085e119")
-		(property "Reference" "RV2"
+		(property "Reference" "P3"
 			(at 232.41 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9358,7 +9613,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3224W_Vertical"
 			(at 229.87 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9442,7 +9697,7 @@
 			)
 			(project "AM Receiver"
 				(path "/fe1abb03-87b4-4c2c-a88f-7b58f4fb0195/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6"
-					(reference "RV2")
+					(reference "P3")
 					(unit 1)
 				)
 			)
@@ -9479,7 +9734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 106.172 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -9783,7 +10038,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_Device:Q_NJFET_DGS")
+		(lib_id "AM_Receiver:MMBFJ310LT1G")
 		(at 39.37 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -9804,7 +10059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NJFET_DGS"
+		(property "Value" "MMBFJ310LT1G"
 			(at 44.45 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9815,7 +10070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 44.45 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9826,7 +10081,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBFJ309LT1-D.PDF"
 			(at 39.37 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9837,7 +10092,7 @@
 				)
 			)
 		)
-		(property "Description" "N-JFET transistor, drain/gate/source"
+		(property "Description" "N-JFET transistor, source/drain/gate"
 			(at 39.37 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9906,7 +10161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 228.092 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -9993,7 +10248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.73 127.762 90)
 			(hide yes)
 			(show_name no)
@@ -10164,7 +10419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 40.132 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -10251,7 +10506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 127 79.7052 0)
 			(hide yes)
 			(show_name no)
@@ -10339,7 +10594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 240.792 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -10605,7 +10860,7 @@
 				)
 			)
 		)
-		(property "Value" "+VDC"
+		(property "Value" "+12V ...+15V"
 			(at 279.4 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10739,6 +10994,12 @@
 		(pin "1"
 			(uuid "2a533910-b063-4954-891d-5e7c8be31baa")
 		)
+		(pin "2"
+			(uuid "d65e942c-39f5-4d66-b670-202aa4b7f5b8")
+		)
+		(pin "1"
+			(uuid "71d5ce27-3970-4569-b71c-bd4ccf580d84")
+		)
 		(instances
 			(project "am-schaltung"
 				(path "/e63601e6-c40a-4460-9ec8-d38e489cf406"
@@ -10787,7 +11048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.06 130.5052 0)
 			(hide yes)
 			(show_name no)
@@ -10874,7 +11135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 158.4452 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10961,7 +11222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 69.85 122.8852 0)
 			(hide yes)
 			(show_name no)
@@ -11049,7 +11310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 254 71.755 0)
 			(hide yes)
 			(show_name no)
@@ -11165,7 +11426,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 228.092 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -11252,7 +11513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 183.8452 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -11307,7 +11568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:L78L05_SO8")
+		(lib_id "Regulator_Linear:L78L08_SO8")
 		(at 215.9 36.83 0)
 		(mirror y)
 		(unit 1)
@@ -11318,7 +11579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b10bc13-6da2-454d-924e-1a79e7118bcb")
-		(property "Reference" "IC6"
+		(property "Reference" "U6"
 			(at 219.71 33.655 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11328,8 +11589,8 @@
 				)
 			)
 		)
-		(property "Value" "L78L05_SO8"
-			(at 216.662 33.528 0)
+		(property "Value" "L78L08_SO8"
+			(at 215.9 33.655 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11362,7 +11623,7 @@
 				)
 			)
 		)
-		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8"
+		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 8V, SO-8"
 			(at 215.9 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11406,7 +11667,7 @@
 			)
 			(project "AM Receiver"
 				(path "/fe1abb03-87b4-4c2c-a88f-7b58f4fb0195/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6"
-					(reference "IC6")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -11445,7 +11706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 204.47 74.6252 0)
 			(hide yes)
 			(show_name no)
@@ -11532,7 +11793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 173.6852 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -11702,7 +11963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 26.3652 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11872,7 +12133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 51.7652 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11948,7 +12209,7 @@
 				)
 			)
 		)
-		(property "Value" "+VDC"
+		(property "Value" "+12V ...+15V"
 			(at 251.46 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12042,7 +12303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 67.31 72.0852 0)
 			(hide yes)
 			(show_name no)
@@ -12108,7 +12369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b4164c1-bd7a-443f-8fbb-d52a58c16a92")
-		(property "Reference" "P1"
+		(property "Reference" "P2"
 			(at 214.63 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12130,7 +12391,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3224W_Vertical"
 			(at 217.17 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -12214,7 +12475,7 @@
 			)
 			(project "AM Receiver"
 				(path "/fe1abb03-87b4-4c2c-a88f-7b58f4fb0195/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6"
-					(reference "P1")
+					(reference "P2")
 					(unit 1)
 				)
 			)
@@ -12253,7 +12514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 223.2152 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12308,7 +12569,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_RF_Mixer:NE612")
+		(lib_id "AM_Receiver:NE612AD")
 		(at 88.9 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -12328,7 +12589,7 @@
 				)
 			)
 		)
-		(property "Value" "NE612"
+		(property "Value" "NE612AD"
 			(at 88.9 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12338,7 +12599,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12349,7 +12610,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/SA612A.pdf"
 			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12411,7 +12672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AM_Receiver:74HCT4046")
+		(lib_id "AM_Receiver:74HTC4046")
 		(at 189.23 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -12431,7 +12692,7 @@
 				)
 			)
 		)
-		(property "Value" "74HCT4046"
+		(property "Value" "74HTC4046"
 			(at 199.644 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12441,7 +12702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 189.23 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -12452,7 +12713,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Package_DIP:DIP-16_W7.62mm"
 			(at 189.23 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -12498,7 +12759,7 @@
 		(pin "5"
 			(uuid "ea503833-df44-4b37-b11c-4bc8ef1db3b3")
 		)
-		(pin ""
+		(pin "8"
 			(uuid "bf88e06a-8c1b-446d-8125-ccde7c8b9ed8")
 		)
 		(pin "9"
@@ -12570,7 +12831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 83.5152 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12657,7 +12918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 211.582 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -12745,7 +13006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 146.812 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -12830,7 +13091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 181.61 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -13083,7 +13344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 259.08 63.8048 0)
 			(hide yes)
 			(show_name no)
@@ -13170,7 +13431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 254 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -13285,7 +13546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.73 121.412 90)
 			(hide yes)
 			(show_name no)
@@ -13373,7 +13634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 146.812 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -13428,6 +13689,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 274.32 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aec38247-a93f-4687-a3f9-9ed1189aa44a")
+		(property "Reference" "#FLG01"
+			(at 274.32 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 274.32 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 274.32 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "542a8085-d3f1-4759-9d5c-7ba6afcb628c")
+		)
+		(instances
+			(project "AM Receiver"
+				(path "/fe1abb03-87b4-4c2c-a88f-7b58f4fb0195/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Trim")
 		(at 119.38 88.9 0)
 		(unit 1)
@@ -13460,7 +13799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 119.38 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13547,7 +13886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 190.1952 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13634,7 +13973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 59.3852 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13721,7 +14060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 234.95 62.992 90)
 			(hide yes)
 			(show_name no)
@@ -13809,7 +14148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 240.792 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -13897,7 +14236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 31.242 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -13982,7 +14321,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 112.522 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -14067,7 +14406,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 140.97 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -14191,7 +14530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 137.922 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -14246,6 +14585,83 @@
 		)
 	)
 	(symbol
+		(lib_id "CustomPower:GND")
+		(at 275.59 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c36a519f-9ca9-4f7c-9bd5-53c1e69a2511")
+		(property "Reference" "#PWR019"
+			(at 281.94 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb333c5d-a222-489b-9775-1b13d58e96b9")
+		)
+		(instances
+			(project "AM Receiver"
+				(path "/fe1abb03-87b4-4c2c-a88f-7b58f4fb0195/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 130.81 88.9 0)
 		(unit 1)
@@ -14278,7 +14694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 131.7752 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14448,7 +14864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 252.4252 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -14503,7 +14919,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_Device:Q_NJFET_DGS")
+		(lib_id "AM_Receiver:MMBFJ310LT1G")
 		(at 146.05 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -14514,7 +14930,7 @@
 		(dnp no)
 		(uuid "d6363c08-7f26-468c-8121-16ede724b3ad")
 		(property "Reference" "Q2"
-			(at 149.86 76.2 0)
+			(at 151.13 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14524,8 +14940,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NJFET_DGS"
-			(at 149.606 81.534 0)
+		(property "Value" "MMBFJ310LT1G"
+			(at 151.13 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14535,7 +14951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 151.13 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -14546,7 +14962,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBFJ309LT1-D.PDF"
 			(at 146.05 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14557,7 +14973,7 @@
 				)
 			)
 		)
-		(property "Description" "N-JFET transistor, drain/gate/source"
+		(property "Description" "N-JFET transistor, source/drain/gate"
 			(at 146.05 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14625,7 +15041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 196.5452 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14712,7 +15128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 165.1 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14799,7 +15215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 271.4752 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -14848,89 +15264,6 @@
 			(project "AM Receiver"
 				(path "/fe1abb03-87b4-4c2c-a88f-7b58f4fb0195/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6"
 					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 275.59 93.98 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dccfc21b-d12e-4efc-b775-28358564f65e")
-		(property "Reference" "#GND01"
-			(at 280.67 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 278.13 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 285.75 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0V reference potential for simulation"
-			(at 283.21 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5d20a187-fbfd-4050-bf31-ebc61312d2f9")
-		)
-		(instances
-			(project "am-schaltung"
-				(path "/e63601e6-c40a-4460-9ec8-d38e489cf406"
-					(reference "#GND01")
-					(unit 1)
-				)
-			)
-			(project "AM Receiver"
-				(path "/fe1abb03-87b4-4c2c-a88f-7b58f4fb0195/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6"
-					(reference "#GND01")
 					(unit 1)
 				)
 			)
@@ -15055,7 +15388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfcde2a0-1a90-45e5-b145-b892b3e5f830")
-		(property "Reference" "RV1"
+		(property "Reference" "P1"
 			(at 116.84 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15077,7 +15410,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3224W_Vertical"
 			(at 119.38 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15161,7 +15494,7 @@
 			)
 			(project "AM Receiver"
 				(path "/fe1abb03-87b4-4c2c-a88f-7b58f4fb0195/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6"
-					(reference "RV1")
+					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -15200,7 +15533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 83.5152 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -15368,7 +15701,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 25.4 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15456,7 +15789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 40.132 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -15543,7 +15876,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 17.78 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -15606,7 +15939,7 @@
 		(dnp no)
 		(uuid "f3d794cd-91cd-48f1-afc0-9ee3c8dbdb67")
 		(property "Reference" "IC4"
-			(at 189.484 74.93 0)
+			(at 189.23 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15615,8 +15948,8 @@
 				)
 			)
 		)
-		(property "Value" "TDA1072"
-			(at 189.23 77.216 0)
+		(property "Value" "TDA1072AT"
+			(at 189.23 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15625,7 +15958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 189.23 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -15636,7 +15969,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.box73.de/file_dl/bauelemente/TDA1072A.pdf"
 			(at 189.23 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -15733,7 +16066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 201.6252 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -15818,7 +16151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 242.57 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -15939,7 +16272,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 161.29 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -16062,7 +16395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 33.9852 53.34 0)
 			(hide yes)
 			(show_name no)
