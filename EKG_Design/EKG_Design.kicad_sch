@@ -517,6 +517,17 @@
 				)
 			)
 		)
+		(property "manf#" ""
+			(at 228.6 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9f28ce83-e4ba-4641-910c-c53a100ebf3a")
 		)
@@ -648,7 +659,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "n/a"
 			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -659,7 +670,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "For BOM use only"
+			(at 186.69 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" ""
 			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -820,6 +842,17 @@
 				)
 			)
 		)
+		(property "manf#" ""
+			(at 254 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3b567ac9-bc2a-4114-aa9d-2195417a3778")
 		)
@@ -886,6 +919,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 228.6 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" ""
 			(at 228.6 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -1116,6 +1160,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 254 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" ""
 			(at 254 153.67 0)
 			(hide yes)
 			(show_name no)

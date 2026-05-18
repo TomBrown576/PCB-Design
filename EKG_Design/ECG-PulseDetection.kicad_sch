@@ -1990,6 +1990,17 @@
 				)
 			)
 		)
+		(property "manf#" "RK73H1JTTDD1001F"
+			(at 189.23 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8e91b697-3afe-494e-82f8-fd09c6d275ce")
 		)
@@ -2028,7 +2039,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k /25%"
+		(property "Value" "1k / 25%"
 			(at 153.67 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2095,6 +2106,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 151.13 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "TC33X-2-102G"
 			(at 151.13 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2190,6 +2212,17 @@
 				)
 			)
 		)
+		(property "manf#" "CL10A106KQ8NNNC"
+			(at 137.16 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aade14cd-2d19-442e-9c9a-db829c915c2f")
 		)
@@ -2263,6 +2296,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 165.1 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "RK73H1JTTDD1001F"
+			(at 165.1 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2543,6 +2587,17 @@
 				)
 			)
 		)
+		(property "manf#" "TC33X-2-102G"
+			(at 100.33 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "7ff1ec58-79bf-4be5-9bc4-9b51a4823872")
 		)
@@ -2639,6 +2694,17 @@
 				)
 			)
 		)
+		(property "manf#" "LB Q39E-L2OO-35-1"
+			(at 189.23 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "039b8a26-4f89-452a-9e5d-9988475c3bfd")
 		)
@@ -2709,6 +2775,17 @@
 		)
 		(property "Description" "30V 0.1A Small signal Schottky diode, SOT-23"
 			(at 124.206 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "BAR43SFILM"
+			(at 124.46 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2974,6 +3051,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 186.69 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "BC848C"
 			(at 186.69 97.79 0)
 			(hide yes)
 			(show_name no)
