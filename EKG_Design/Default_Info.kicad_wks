@@ -145,7 +145,7 @@
 		(start 110 18.5)
 		(end 2 18.5)
 	)
-	(tbtext "Sheet: ${SHEETPATH}"
+	(tbtext "Sheet ${#}: ${SHEETPATH}"
 		(name "")
 		(pos 109 17)
 	)

@@ -4246,7 +4246,6 @@
 		(uuid "0f9aac2a-0c01-48b4-87a6-8cf48551eda2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 224.207 35.56 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

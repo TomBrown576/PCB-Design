@@ -1834,7 +1834,6 @@
 		(uuid "86435de8-c718-45d8-a1b3-946cb31292d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 74.243 81.28 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
