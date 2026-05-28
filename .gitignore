@@ -1,0 +1,45 @@
+# KiCad temporary / backup files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*-bak*
+*-backups/
+_autosave-*
+#auto_saved_files#
+*~
+~*
+~*.lck
+*.tmp
+
+# KiCad cache / local project state
+fp-info-cache
+*.kicad_prl
+
+# Old KiCad save files
+*-save.pro
+*-save.kicad_pcb
+
+# Generated netlists / autorouter files
+*.net
+*.dsn
+*.ses
+
+# Optional: generated manufacturing/output files
+gerbers/
+gerber/
+fab/
+fabrication/
+outputs/
+production/
+*.gbr
+*.gbrjob
+*.drl
+*.pos
+*.rpt
+
+# Optional: generated BOM exports
+bom/
+*.xml
