@@ -18,6 +18,7 @@ _autosave-*
 fp-info-cache
 *.kicad_prl
 
+
 # Old KiCad save files
 *-save.pro
 *-save.kicad_pcb
@@ -29,6 +30,7 @@ fp-info-cache
 
 # Optional: generated manufacturing/output files
 gerbers/
+Export/
 gerber/
 fab/
 fabrication/
