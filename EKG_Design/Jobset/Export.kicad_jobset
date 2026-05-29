@@ -386,6 +386,18 @@
         "use_drill_origin": false
       },
       "type": "pcb_export_pdf"
+    },
+    {
+      "description": "",
+      "id": "ff153481-9acf-452f-b338-5bccd2b96634",
+      "settings": {
+        "command": "set \"IBOM_PY=%KICAD10_3RD_PARTY%\\plugins\\org_openscopeproject_InteractiveHtmlBom\\generate_interactive_bom.py\"",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "iBOM.log",
+        "record_output": true
+      },
+      "type": "special_execute"
     }
   ],
   "meta": {
@@ -447,7 +459,8 @@
       "description": "BOM",
       "id": "bc65cc43-7562-433a-8e24-57d15b59036e",
       "only": [
-        "9cd292e2-f9a0-4c05-a634-3ed7acba40f2"
+        "9cd292e2-f9a0-4c05-a634-3ed7acba40f2",
+        "ff153481-9acf-452f-b338-5bccd2b96634"
       ],
       "settings": {
         "output_path": "Export"
