@@ -389,12 +389,12 @@
     },
     {
       "description": "",
-      "id": "ff153481-9acf-452f-b338-5bccd2b96634",
+      "id": "1558dfed-1d63-4d0d-a516-4ee6686fcfa7",
       "settings": {
-        "command": "set \"IBOM_PY=%KICAD10_3RD_PARTY%\\plugins\\org_openscopeproject_InteractiveHtmlBom\\generate_interactive_bom.py\"",
+        "command": "cmd.exe /d /c ibom.bat",
         "description": "",
         "ignore_exit_code": false,
-        "output_filename": "iBOM.log",
+        "output_filename": "ibom.log",
         "record_output": true
       },
       "type": "special_execute"
@@ -409,7 +409,8 @@
       "id": "cddb16c2-ec20-4945-9257-ad2482a96c1c",
       "only": [
         "83323908-e9d8-411f-8500-0c35bd1e1e17",
-        "486430e5-2487-4b8f-b9f1-5e163d3b78fe"
+        "486430e5-2487-4b8f-b9f1-5e163d3b78fe",
+        "1558dfed-1d63-4d0d-a516-4ee6686fcfa7"
       ],
       "settings": {
         "output_path": "Export"
@@ -460,7 +461,7 @@
       "id": "bc65cc43-7562-433a-8e24-57d15b59036e",
       "only": [
         "9cd292e2-f9a0-4c05-a634-3ed7acba40f2",
-        "ff153481-9acf-452f-b338-5bccd2b96634"
+        "a71a0fe7-64a9-4b9d-a6a2-251fdab959fa"
       ],
       "settings": {
         "output_path": "Export"
