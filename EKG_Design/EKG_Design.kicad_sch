@@ -462,7 +462,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "05af3bbc-f1ba-4aed-bd5f-ed4f22e534ac")
 		(property "Reference" "H100"
 			(at 228.6 129.54 0)
@@ -626,7 +626,7 @@
 		(in_bom yes)
 		(on_board no)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1aed8acc-a9e1-4879-918d-d4c3114e4a65")
 		(property "Reference" "PCB1"
 			(at 193.548 142.24 0)
@@ -787,7 +787,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "52e8c559-55e5-48cb-9b7c-057cb7f5b8ba")
 		(property "Reference" "H101"
 			(at 254 129.54 0)
@@ -874,7 +874,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5ab247af-eb5b-462f-8b50-f1c9b6c8f7e8")
 		(property "Reference" "H102"
 			(at 228.6 147.32 0)
@@ -1115,7 +1115,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "fa3718b2-b069-4893-a5a7-bed1930ad17c")
 		(property "Reference" "H103"
 			(at 254 147.32 0)

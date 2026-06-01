@@ -10,7 +10,8 @@
         "exclude_dnp": false,
         "field_delimiter": ",",
         "fields_group_by": [
-          "Value"
+          "Value",
+          "${DNP}"
         ],
         "fields_labels": [
           "#",
@@ -21,31 +22,9 @@
           "manf#",
           "Footprint",
           "Datenblatt",
-          "Availability",
-          "Check_prices",
-          "Description_1",
-          "MANUFACTURER",
-          "MAXIMUM_PACKAGE_HEIGHT",
-          "MF",
-          "MP",
-          "PARTREV",
-          "Package",
-          "Price",
-          "SNAPEDA_PACKAGE_ID",
-          "SNAPEDA_PN",
-          "STANDARD",
           "Sim.Pins",
-          "SnapEDA_Link",
           "DNP",
-          "ASSEMBLY",
-          "MPN",
-          "Mouser Part Number",
-          "Mouser Price/Stock",
           "Sim.Device",
-          "Height",
-          "Manufacturer_Part_Number",
-          "Purchase-URL",
-          "Manufacturer_Name",
           "Sim.Type"
         ],
         "fields_ordered": [
@@ -57,31 +36,9 @@
           "manf#",
           "Footprint",
           "Datasheet",
-          "__Availability",
-          "__Check_prices",
-          "__Description_1",
-          "__MANUFACTURER",
-          "__MAXIMUM_PACKAGE_HEIGHT",
-          "__MF",
-          "__MP",
-          "__PARTREV",
-          "__Package",
-          "__Price",
-          "__SNAPEDA_PACKAGE_ID",
-          "__SNAPEDA_PN",
-          "__STANDARD",
           "__Sim.Pins",
-          "__SnapEDA_Link",
-          "__${DNP}",
-          "__ASSEMBLY",
-          "__MPN",
-          "__Mouser Part Number",
-          "__Mouser Price/Stock",
+          "${DNP}",
           "__Sim.Device",
-          "__Height",
-          "__Manufacturer_Part_Number",
-          "__Purchase-URL",
-          "__Manufacturer_Name",
           "__Sim.Type"
         ],
         "filter_string": "",
@@ -143,7 +100,7 @@
         "format": "report",
         "output_filename": "DRC.txt",
         "parity": true,
-        "refill_zones": true,
+        "refill_zones": false,
         "report_all_track_errors": false,
         "save_board": false,
         "severity": 48,
@@ -208,6 +165,7 @@
           "F.SilkS",
           "F.CrtYd",
           "F.Fab",
+          "Cmts.User",
           "Margin",
           "Edge.Cuts"
         ],
@@ -289,7 +247,6 @@
         "front_fp_property_popups": true,
         "hide_dnp_footprints_on_fab_layers": false,
         "layers": [
-          "B.Fab",
           "In30.Cu",
           "In29.Cu",
           "In28.Cu",
@@ -321,6 +278,7 @@
           "F.Fab"
         ],
         "layers_to_include_on_all_layers": [
+          "Cmts.User",
           "Edge.Cuts"
         ],
         "mirror": false,
@@ -328,7 +286,74 @@
         "output_filename": "",
         "pdf_gen_mode": "all-layers-separate-files",
         "pdf_metadata": true,
-        "plot_drawing_sheet": false,
+        "plot_drawing_sheet": true,
+        "plot_footprint_values": true,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "scale": 1.0,
+        "single_document": false,
+        "sketch_dnp_footprints_on_fab_layers": true,
+        "sketch_pads_on_fab_layers": false,
+        "subtract_solder_mask_from_silk": false,
+        "use_drill_origin": false
+      },
+      "type": "pcb_export_pdf"
+    },
+    {
+      "description": "",
+      "id": "f6844a72-4cb5-48d1-ad1c-009d5a3e9740",
+      "settings": {
+        "back_fp_property_popups": true,
+        "background_color": "rgba(0, 0, 0, 0.000)",
+        "black_and_white": false,
+        "check_zones": false,
+        "color_theme": "",
+        "crossout_dnp_footprints_on_fab_layers": true,
+        "description": "",
+        "drawing_sheet": "",
+        "drill_shape": "full",
+        "front_fp_property_popups": true,
+        "hide_dnp_footprints_on_fab_layers": false,
+        "layers": [
+          "B.Fab",
+          "In30.Cu",
+          "In29.Cu",
+          "In28.Cu",
+          "In27.Cu",
+          "In26.Cu",
+          "In25.Cu",
+          "In24.Cu",
+          "In23.Cu",
+          "In22.Cu",
+          "In21.Cu",
+          "In20.Cu",
+          "In19.Cu",
+          "In18.Cu",
+          "In17.Cu",
+          "In16.Cu",
+          "In15.Cu",
+          "In14.Cu",
+          "In13.Cu",
+          "In12.Cu",
+          "In11.Cu",
+          "In10.Cu",
+          "In9.Cu",
+          "In8.Cu",
+          "In7.Cu",
+          "In6.Cu",
+          "In5.Cu",
+          "In4.Cu",
+          "In3.Cu"
+        ],
+        "layers_to_include_on_all_layers": [
+          "Edge.Cuts"
+        ],
+        "mirror": true,
+        "negative": false,
+        "output_filename": "",
+        "pdf_gen_mode": "all-layers-separate-files",
+        "pdf_metadata": true,
+        "plot_drawing_sheet": true,
         "plot_footprint_values": true,
         "plot_pad_numbers": false,
         "plot_ref_des": true,
@@ -345,7 +370,7 @@
       "description": "Export iBOM",
       "id": "29508589-67df-4bd2-b28d-c2f90cfa230b",
       "settings": {
-        "command": "set INTERACTIVE_HTML_BOM_NO_DISPLAY=1&& set PROJECTNAME=EKG_Design&& ibom.bat",
+        "command": "set INTERACTIVE_HTML_BOM_NO_DISPLAY=1&& set PROJECTNAME=${PROJECTNAME}&& ibom.bat",
         "description": "",
         "ignore_exit_code": false,
         "output_filename": "iBOM.log",
@@ -372,7 +397,7 @@
         "fill_all_vias": false,
         "format": "step",
         "fuse_shapes": false,
-        "include_dnp": true,
+        "include_dnp": false,
         "include_unspecified": true,
         "occt_format": 0,
         "optimize_step": true,
@@ -383,8 +408,8 @@
         "use_drill_origin": false,
         "use_grid_origin": false,
         "use_pcb_center_origin": true,
-        "user_origin.x": 143.0,
-        "user_origin.y": 90.0,
+        "user_origin.x": 209.288211,
+        "user_origin.y": 79.43,
         "vrml_model_dir": "",
         "vrml_relative_paths": false
       },
@@ -502,35 +527,6 @@
   },
   "outputs": [
     {
-      "description": "Standard",
-      "id": "aeaf3774-33a0-4b03-a768-43268ecb6062",
-      "only": [
-        "bae6cc6f-898a-4010-bd83-cff1cb4ff51f",
-        "49b91716-e5d4-44ca-a903-16c73d746ab9",
-        "a2df7e12-4f3e-40e4-9d49-cb6e09ea7016",
-        "001e4d6f-1bed-40b6-a1e0-8afcf00ab660",
-        "5500d4c6-66e2-4f5c-8d56-c452fd8934a9",
-        "45bf1ab3-2ae6-49a3-b991-ea9a77200007",
-        "29508589-67df-4bd2-b28d-c2f90cfa230b"
-      ],
-      "settings": {
-        "output_path": "Export\\"
-      },
-      "type": "folder"
-    },
-    {
-      "description": "JPEG",
-      "id": "9fffea09-9f6e-4d7b-bf4a-e453581f5bf4",
-      "only": [
-        "da6ffc82-165e-44c1-a27e-1f65e306770f",
-        "0af67257-75d5-460c-ab68-ec737bcb6943"
-      ],
-      "settings": {
-        "output_path": "Export\\"
-      },
-      "type": "folder"
-    },
-    {
       "description": "ERC",
       "id": "acfc0d09-a917-404f-bb48-389a6610df20",
       "only": [
@@ -549,6 +545,46 @@
       ],
       "settings": {
         "output_path": "Export"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "Standard (BOM, PDF, Gerber, Drill, Pick&Place)",
+      "id": "aeaf3774-33a0-4b03-a768-43268ecb6062",
+      "only": [
+        "bae6cc6f-898a-4010-bd83-cff1cb4ff51f",
+        "49b91716-e5d4-44ca-a903-16c73d746ab9",
+        "a2df7e12-4f3e-40e4-9d49-cb6e09ea7016",
+        "001e4d6f-1bed-40b6-a1e0-8afcf00ab660",
+        "5500d4c6-66e2-4f5c-8d56-c452fd8934a9",
+        "45bf1ab3-2ae6-49a3-b991-ea9a77200007",
+        "f6844a72-4cb5-48d1-ad1c-009d5a3e9740"
+      ],
+      "settings": {
+        "output_path": "Export\\"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "iBOM",
+      "id": "07abb09a-0b52-40c5-aa3c-a53f000a39d5",
+      "only": [
+        "29508589-67df-4bd2-b28d-c2f90cfa230b"
+      ],
+      "settings": {
+        "output_path": "Export"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "JPEG",
+      "id": "9fffea09-9f6e-4d7b-bf4a-e453581f5bf4",
+      "only": [
+        "da6ffc82-165e-44c1-a27e-1f65e306770f",
+        "0af67257-75d5-460c-ab68-ec737bcb6943"
+      ],
+      "settings": {
+        "output_path": "Export\\"
       },
       "type": "folder"
     },
