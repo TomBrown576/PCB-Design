@@ -370,7 +370,7 @@
       "description": "Export iBOM",
       "id": "29508589-67df-4bd2-b28d-c2f90cfa230b",
       "settings": {
-        "command": "set INTERACTIVE_HTML_BOM_NO_DISPLAY=1&& set PROJECTNAME=${PROJECTNAME}&& ibom.bat",
+        "command": "set INTERACTIVE_HTML_BOM_NO_DISPLAY=1&& set PROJECTNAME=${PROJECTNAME}&& call ${KIPRJMOD}\\ibom.bat",
         "description": "",
         "ignore_exit_code": false,
         "output_filename": "iBOM.log",
