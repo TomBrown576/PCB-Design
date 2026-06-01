@@ -1611,6 +1611,10 @@
 		(color 0 0 0 0)
 		(uuid "7dc667a4-ed95-4928-a829-f6532236c892")
 	)
+	(no_connect
+		(at 116.84 97.79)
+		(uuid "a388d789-66e8-4dd5-befc-20af3e472710")
+	)
 	(wire
 		(pts
 			(xy 168.91 97.79) (xy 181.61 97.79)
@@ -1810,16 +1814,6 @@
 			(type default)
 		)
 		(uuid "dcdf6d1e-02b0-44b3-97e1-3cf113275667")
-	)
-	(label "X"
-		(at 116.84 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4e0ce86-0d1f-43f0-8c00-a03023695945")
 	)
 	(global_label "ECG_Out"
 		(shape input)

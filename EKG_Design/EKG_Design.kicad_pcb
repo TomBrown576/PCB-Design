@@ -190,16 +190,23 @@
 				)
 			)
 		)
+		(property "manf#" "FCC16201ABTP"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49aa6e69-cdbf-45df-b11c-94f804dbc2a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*Fuse*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/fa9e81d6-faa5-402c-ba63-e4f4161c90e5")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -350,16 +357,23 @@
 				)
 			)
 		)
+		(property "manf#" "MT18B104K500CT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4958d48-5b79-4a48-983b-7505649dc983")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/1ece976a-d085-412d-ab3a-fe266a4342c1")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -510,16 +524,23 @@
 				)
 			)
 		)
+		(property "manf#" "MT18B104K500CT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a941374e-0947-4b9c-bcea-2131f7f3fdab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/4b33dbe2-6aa8-4bdc-96c2-6da7e0448781")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -694,6 +715,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e8d3792b-f8a4-475c-8cdb-a9a529aed3ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "TC33X-2-102G"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b11a3864-3839-42cc-8b0c-6ba84dc5c5f3")
 			(effects
 				(font
 					(size 1 1)
@@ -939,7 +973,7 @@
 			(uuid "1af75b9e-b59f-4a42-8623-5efc492fed6e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Models/TC33X-2-102G.STEP"
+		(model "${KICAD10_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_TC33X_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -947,7 +981,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -1028,16 +1062,23 @@
 				)
 			)
 		)
+		(property "manf#" "LB Q39E-L2OO-35-1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff16f080-e97a-49dc-9ef3-ce76ff8315c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5/a75a939b-8a9a-4e75-b8b3-ad36018e487e")
 		(sheetname "/ECG-PulseDetection/")
 		(sheetfile "ECG-PulseDetection.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1239,16 +1280,23 @@
 				)
 			)
 		)
+		(property "manf#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cede160-33a7-483a-83cc-d6a592668b45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/52e8c559-55e5-48cb-9b7c-057cb7f5b8ba")
 		(sheetname "/")
 		(sheetfile "EKG_Design.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -1362,16 +1410,23 @@
 				)
 			)
 		)
+		(property "manf#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90dcca10-b504-4d25-aa29-d9dff9906325")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/5ab247af-eb5b-462f-8b50-f1c9b6c8f7e8")
 		(sheetname "/")
 		(sheetfile "EKG_Design.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -1485,16 +1540,23 @@
 				)
 			)
 		)
+		(property "manf#" "ERJ-3EKF4700V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cfc5f4f-b23f-41d4-8a26-4101754d6abd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/f4253ead-311d-4b24-8303-7764735c0596")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1645,16 +1707,23 @@
 				)
 			)
 		)
+		(property "manf#" "RK73H1JTTDD1001F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6baf4d9d-4305-4638-b379-38ed4cb3d6da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/7cadfe74-da42-420d-8b7f-ed73e2b24bfe")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1805,16 +1874,23 @@
 				)
 			)
 		)
+		(property "manf#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ced105c4-3ffc-46f1-9347-02aa2f8a0c52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/fa3718b2-b069-4893-a5a7-bed1930ad17c")
 		(sheetname "/")
 		(sheetfile "EKG_Design.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -1928,16 +2004,23 @@
 				)
 			)
 		)
+		(property "manf#" "MT18B104K500CT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9ed44d0-6462-4e01-a71f-dd6e8d9dea26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/dc21d903-3f61-445c-bed6-3d0bc4851fe6")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2088,16 +2171,23 @@
 				)
 			)
 		)
+		(property "manf#" "861400021YO10LF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "416863a3-fd93-4613-838a-d2dbdfd65e29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/94e3c90b-44fa-4a33-97ad-07fff555f57d")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2331,16 +2421,23 @@
 				)
 			)
 		)
+		(property "manf#" "EMK212BJ106KG-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "feb301c7-e823-4870-9a6e-59592a92763e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/fcfbeec0-34e7-4be5-b282-5416d056a8d3")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2491,16 +2588,23 @@
 				)
 			)
 		)
+		(property "manf#" "RK73H1JTTDD1001F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc61e589-3199-41db-94ec-1725114219b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5/1419e991-cfbf-48d5-abd6-f1745135f0d2")
 		(sheetname "/ECG-PulseDetection/")
 		(sheetfile "ECG-PulseDetection.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2651,16 +2755,23 @@
 				)
 			)
 		)
+		(property "manf#" "BAR43SFILM"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52f94006-d035-4243-b343-da3b4d73e6fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/0377bb31-d48c-4810-8150-b6f69616d74f")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3035,16 +3146,23 @@
 				)
 			)
 		)
+		(property "manf#" "ERJ-3EKF1002V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6b9972d-84cc-4fe9-8cdc-fe3bcd4ca41d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/5502f186-0a16-441e-918a-8b24721a29b6")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3195,16 +3313,23 @@
 				)
 			)
 		)
+		(property "manf#" "ERJ-3EKF4700V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fd177be-e8a1-4b41-9069-b027e30e578a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/c64ddb84-71a5-4ff1-8ca0-4dd7db3c90a9")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3355,16 +3480,23 @@
 				)
 			)
 		)
+		(property "manf#" "CRCW0603300KFKEAC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "889f4b52-3a6d-40a5-879d-d8df1cde3da5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/cee61718-3dc9-4193-970f-d37c999e3eb2")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3515,16 +3647,23 @@
 				)
 			)
 		)
+		(property "manf#" "861400021YO10LF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fbf1abf-6e5c-46d2-89b9-6450eaca332b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/eb25afbb-1eaa-43e3-a7b3-4cc32e61eece")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3758,16 +3897,23 @@
 				)
 			)
 		)
+		(property "manf#" "CRCW0603300KFKEAC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c319aebc-75da-48db-99e0-c2b6582f0b0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/e6e04cb4-c64d-472c-a006-147988a9fbf5")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3918,16 +4064,23 @@
 				)
 			)
 		)
+		(property "manf#" "MT18B104K500CT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43ce3ada-dea0-4644-993f-b207f3701ca7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/9206c35e-d219-42a5-a921-30027f333bb6")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4078,16 +4231,23 @@
 				)
 			)
 		)
+		(property "manf#" "861400021YO10LF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bc80db9-9a64-421e-9366-df27c8294320")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/713c9e2c-ff38-4b4e-a76b-baa6bc38ec16")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4321,16 +4481,23 @@
 				)
 			)
 		)
+		(property "manf#" "FCC16201ABTP"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "168fcd7f-7ecf-4790-9569-0d8de774f0b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*Fuse*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/8c419029-365a-4cf2-8658-c9fc41c9e8fb")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4481,16 +4648,23 @@
 				)
 			)
 		)
+		(property "manf#" "RR0816P-104-D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95bbe1fa-32cb-4e77-b8af-539aa08f8874")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/2deec1fe-799f-43d2-95b8-e92062e36a27")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4640,24 +4814,23 @@
 				)
 			)
 		)
-		(property ki_fp_filters "VSSOP*3x3mm*P0.65mm*")
-		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/f2c5d53e-cd82-4cb7-bbcc-802c3b3f8257")
-		(sheetname "/EKG-Details/")
-		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "1")
-			)
-			(unit
-				(name "B")
-				(pins "5" "6" "7")
-			)
-			(unit
-				(name "C")
-				(pins "8" "4")
+		(property "manf#" "OPA2156IDGKR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "187e695e-43b8-48bc-a32b-7fbb6f6f8b4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
 		)
+		(property ki_fp_filters "VSSOP*3x3mm*P0.65mm*")
+		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/f2c5d53e-cd82-4cb7-bbcc-802c3b3f8258")
+		(sheetname "/EKG-Details/")
+		(sheetfile "EKG-Details.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5030,16 +5203,23 @@
 				)
 			)
 		)
+		(property "manf#" "GRM1885C1H472JA01D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b80c743-bbf5-4a75-87d7-098c404ee5c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/8c751701-2605-452a-affb-8d798b7b21e6")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5190,16 +5370,23 @@
 				)
 			)
 		)
+		(property "manf#" "RR0816P-104-D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44ef0225-dc38-4e4b-9d47-3a30d25b144e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/ec30485b-c6f2-43a8-9ddc-52335dcb96c6")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5350,16 +5537,23 @@
 				)
 			)
 		)
+		(property "manf#" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "897ca65f-3b23-42b4-b6ab-9c996816cc59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/05af3bbc-f1ba-4aed-bd5f-ed4f22e534ac")
 		(sheetname "/")
 		(sheetfile "EKG_Design.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -5473,16 +5667,23 @@
 				)
 			)
 		)
+		(property "manf#" "MT18B104K500CT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db76f5af-54e4-4068-9dd8-5848aa3f50ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/0eeabd8f-5489-4178-963a-5c887f572e68")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5633,16 +5834,23 @@
 				)
 			)
 		)
+		(property "manf#" "G800W305018EU "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e119a8dd-c809-4124-ad1b-dd9cdbfc581a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/d32384a3-e5f1-44b9-ae62-ca9d5936c1fe")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5873,7 +6081,7 @@
 				)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -6357,16 +6565,23 @@
 				)
 			)
 		)
+		(property "manf#" "ERJ-3EKF4700V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65f2baad-8ec7-4655-a3c0-32ba14aa5f15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/64557f78-6553-4533-b31e-c13d2bc06721")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6510,6 +6725,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6189ba1a-02e0-40dc-a365-90a857dd715e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "manf#" "CL10A106KQ8NNNC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fe4ccdd-fa92-4db8-bf3a-ffdb5e98e1f0")
 			(effects
 				(font
 					(size 1 1)
@@ -6671,16 +6899,23 @@
 				)
 			)
 		)
+		(property "manf#" "ERJ-3EKF1002V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18630dbd-eca3-4ec4-ad78-de5c6311e57a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/08ef18ae-3442-42da-b3f0-43f3ee1e7a8f")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6831,16 +7066,23 @@
 				)
 			)
 		)
+		(property "manf#" "RK73H1JTTDD1001F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c69016fc-d5c0-4e7d-96b5-f26028e9d7e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/13c05dd6-07fc-41d5-8f94-33dce1f11838")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6991,16 +7233,23 @@
 				)
 			)
 		)
+		(property "manf#" "MT18B104K500CT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46f0cd7d-a490-45da-9ad5-957e3da38042")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/a299c85c-1836-40bd-a17a-8feca20e8293")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7105,7 +7354,7 @@
 				)
 			)
 		)
-		(property "Value" "1k /25%"
+		(property "Value" "1k / 25%"
 			(at 0 2.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7182,16 +7431,23 @@
 				)
 			)
 		)
+		(property "manf#" "TC33X-2-102G"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36dcc82e-4669-4871-93d8-17ff481baf10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5/41074aa8-a76d-487f-af5b-415109704911")
 		(sheetname "/ECG-PulseDetection/")
 		(sheetfile "ECG-PulseDetection.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7426,7 +7682,7 @@
 			(uuid "5dbd1c34-5df0-4f3c-bfed-0b00504b62cb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Models/TC33X-2-102G.STEP"
+		(model "${KICAD10_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_TC33X_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7434,7 +7690,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -7515,16 +7771,23 @@
 				)
 			)
 		)
+		(property "manf#" "KT EELP41.12-S2U1-25-2X4X-5-R18"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d04898c7-0a2a-42ad-8fab-3366c6e7fbcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/529ae8cb-fe5b-4d8a-9e4c-f239e9143446")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7725,24 +7988,23 @@
 				)
 			)
 		)
-		(property ki_fp_filters "VSSOP*3x3mm*P0.65mm*")
-		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/1cd2ea83-7048-449d-9301-a55595e5be73")
-		(sheetname "/EKG-Details/")
-		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "1")
-			)
-			(unit
-				(name "B")
-				(pins "5" "6" "7")
-			)
-			(unit
-				(name "C")
-				(pins "8" "4")
+		(property "manf#" "OPA2156IDGKR"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6674f504-14d1-4f05-b4c3-44d94457e5db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
 		)
+		(property ki_fp_filters "VSSOP*3x3mm*P0.65mm*")
+		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/1cd2ea83-7048-449d-9301-a55595e5be75")
+		(sheetname "/EKG-Details/")
+		(sheetfile "EKG-Details.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8115,16 +8377,23 @@
 				)
 			)
 		)
+		(property "manf#" "MT18B104K500CT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8dfc176b-d10b-47f8-b56e-eb687dcb523d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/3782ba10-f562-4fc7-a512-1aaaeac7e556")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8275,16 +8544,23 @@
 				)
 			)
 		)
+		(property "manf#" "CL10A106KQ8NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "213eb158-18ee-4a96-b690-b666a69b7dc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/57f15f09-17a4-4d6d-8759-fae738631204")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8434,16 +8710,23 @@
 				)
 			)
 		)
+		(property "manf#" "INA826AIDR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6462d63-606d-41d8-9114-38fbba6b5af5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/c5ae571c-1621-4b90-b58a-dcab8131b52c")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "8" "5" "6" "7")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8816,24 +9099,23 @@
 				)
 			)
 		)
-		(property ki_fp_filters "VSSOP*3x3mm*P0.65mm*")
-		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/f321786c-f489-4776-b4ca-7857ef8d33fa")
-		(sheetname "/EKG-Details/")
-		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "1")
-			)
-			(unit
-				(name "B")
-				(pins "5" "6" "7")
-			)
-			(unit
-				(name "C")
-				(pins "8" "4")
+		(property "manf#" "OPA2156IDGKR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82ab6a91-e8dd-4127-88f9-679ccc6e258a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
 		)
+		(property ki_fp_filters "VSSOP*3x3mm*P0.65mm*")
+		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/f321786c-f489-4776-b4ca-7857ef8d33fb")
+		(sheetname "/EKG-Details/")
+		(sheetfile "EKG-Details.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9206,16 +9488,23 @@
 				)
 			)
 		)
+		(property "manf#" "RK73H1JTTDD1001F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "063caf96-ee9b-4ede-aa7c-a12d0c860ed9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5/71f3d6fa-8ce6-4512-acc1-ee85bfacce8a")
 		(sheetname "/ECG-PulseDetection/")
 		(sheetfile "ECG-PulseDetection.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9366,16 +9655,23 @@
 				)
 			)
 		)
+		(property "manf#" "861400021YO10LF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8db4c67-9d34-41bb-b776-4645bb740685")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/1f904f6c-45a1-44bb-beb9-dca8437604cb")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9609,16 +9905,23 @@
 				)
 			)
 		)
+		(property "manf#" "CL10A106KQ8NNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e3c82fc-548c-4275-95a9-a70ce9c918b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/4fc84892-3d27-47b6-9f9b-6c3f2c75600b")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9769,16 +10072,23 @@
 				)
 			)
 		)
+		(property "manf#" "MT18B104K500CT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4c11147-aa48-4a10-8421-d5817573777a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/f7eee62b-343b-4bb1-984a-e128133f28fd")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9942,16 +10252,23 @@
 				)
 			)
 		)
+		(property "manf#" "KT EELP41.12-S2U1-25-2X4X-5-R18"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71f220af-972a-4c2b-a582-4c0f538ab7df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/cdfc5532-b564-42fd-ba2b-640a23db2125")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10153,16 +10470,23 @@
 				)
 			)
 		)
+		(property "manf#" "CRCW0603300KFKEAC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75a730f7-c74a-4b4b-9c3c-415f0ab039ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/37a034e2-1c29-45b6-a763-204c9431d005")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10313,16 +10637,23 @@
 				)
 			)
 		)
+		(property "manf#" "GCM1885C2A101JA16D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35105668-4229-4798-a12e-7c56e6a25498")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/6475b80b-48b7-46d4-b9d3-22d5450b243f")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10473,16 +10804,23 @@
 				)
 			)
 		)
+		(property "manf#" "CL10A106KQ8NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33676951-8cd8-47a4-895b-3cbb054f74d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/49b66dda-2e5b-4851-a845-b8242c5d965c")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10633,16 +10971,23 @@
 				)
 			)
 		)
+		(property "manf#" "CRCW0603300KFKEAC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b54d536-da1a-4855-9f4c-fc5d7c246ba3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/5f373548-1c73-4362-b138-66fa9242a3ca")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10819,16 +11164,23 @@
 				)
 			)
 		)
+		(property "manf#" "BC848C"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cea8b223-a8e1-40a7-9313-69903d92d995")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5/ebe2b32a-0c34-4d9a-8ae5-9f23666862c9")
 		(sheetname "/ECG-PulseDetection/")
 		(sheetfile "ECG-PulseDetection.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11203,16 +11555,23 @@
 				)
 			)
 		)
+		(property "manf#" "MT18B104K500CT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fba1dd7b-5ba9-48ad-abd0-fc57d4f56fa6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/46bd8a99-46fa-49ce-8297-8d386e2f278d")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11363,16 +11722,23 @@
 				)
 			)
 		)
+		(property "manf#" "ERJ-3EKF1002V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed41f0a5-3c42-497a-9dbe-f4ad9af1977c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/ff99824c-67e2-4a99-a8a8-b79d434ab3f6")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11523,16 +11889,23 @@
 				)
 			)
 		)
+		(property "manf#" "BAR43SFILM"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8009c99-6c23-4b0c-8e28-7775f38d7b33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5/c2d478ab-3957-4230-9ed3-748f686b507f")
 		(sheetname "/ECG-PulseDetection/")
 		(sheetfile "ECG-PulseDetection.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11805,9 +12178,9 @@
 			(size 1.475 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/ECG-PulseDetection/X")
+			(net "unconnected-(D200-A-Pad1)")
 			(pinfunction "A_1")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "3b62d258-c216-428f-a683-eaede0775eb0")
 		)
 		(pad "2" smd roundrect
