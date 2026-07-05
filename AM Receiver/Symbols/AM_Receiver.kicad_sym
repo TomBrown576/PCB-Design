@@ -103,7 +103,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 5.08 0)
+				(at -2.54 3.81 0)
 				(length 2.54)
 				(name "PC1_OUT"
 					(effects
@@ -193,7 +193,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 7.62 0)
+				(at -2.54 6.35 0)
 				(length 2.54)
 				(name "C1B"
 					(effects
