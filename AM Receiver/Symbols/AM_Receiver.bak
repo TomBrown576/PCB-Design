@@ -103,7 +103,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 5.08 0)
+				(at -2.54 3.81 0)
 				(length 2.54)
 				(name "PC1_OUT"
 					(effects
@@ -193,7 +193,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 7.62 0)
+				(at -2.54 6.35 0)
 				(length 2.54)
 				(name "C1B"
 					(effects
@@ -1295,7 +1295,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "IC"
-			(at 0 0 0)
+			(at -0.254 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1305,7 +1305,7 @@
 			)
 		)
 		(property "Value" "TDA1072AT"
-			(at 0 -2.286 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1376,7 +1376,7 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1394,7 +1394,7 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1412,7 +1412,7 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1430,7 +1430,7 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1448,7 +1448,7 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1466,7 +1466,7 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1484,7 +1484,7 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1502,7 +1502,7 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1520,7 +1520,7 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1538,7 +1538,7 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1556,7 +1556,7 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1574,7 +1574,7 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1589,10 +1589,10 @@
 			(pin power_in line
 				(at 0 8.89 270)
 				(length 2.54)
-				(name "VCC"
+				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1610,7 +1610,7 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1628,7 +1628,7 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)
@@ -1646,7 +1646,7 @@
 				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.635 0.635)
 						)
 					)
 				)

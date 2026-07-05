@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "7–100p"
+	(property "Value" "7-100p/200V Film Trimmer"
 		(at 0 8.4 0)
 		(layer "F.Fab")
 		(uuid "9ae7f141-be92-423a-baa0-b8c882d14f01")

@@ -1626,7 +1626,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "IC"
-				(at 0 0 0)
+				(at -0.254 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1636,7 +1636,7 @@
 				)
 			)
 			(property "Value" "TDA1072AT"
-				(at 0 -2.286 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1707,7 +1707,7 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -1725,7 +1725,7 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -1743,7 +1743,7 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -1761,7 +1761,7 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -1779,7 +1779,7 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -1797,7 +1797,7 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -1815,7 +1815,7 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -1833,7 +1833,7 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -1851,7 +1851,7 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -1869,7 +1869,7 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -1887,7 +1887,7 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -1905,7 +1905,7 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -1920,10 +1920,10 @@
 				(pin power_in line
 					(at 0 8.89 270)
 					(length 2.54)
-					(name "VCC"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -1941,7 +1941,7 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -1959,7 +1959,7 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -1977,7 +1977,7 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -5592,16 +5592,16 @@
 		(uuid "1ad65d25-b29e-42ab-a089-d385c85c2929")
 	)
 	(junction
-		(at 106.68 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bb1d925-8e97-4800-a73c-48a36065c23d")
-	)
-	(junction
 		(at 33.02 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1be735fc-0496-4fe6-9cfa-771e06bcb803")
+	)
+	(junction
+		(at 139.7 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dc6c7be-0c11-44b4-bf0f-817a4d8e2bf5")
 	)
 	(junction
 		(at 90.17 93.98)
@@ -5616,10 +5616,10 @@
 		(uuid "2795f8e0-fe2c-4f77-8d73-049056f993e7")
 	)
 	(junction
-		(at 106.68 71.12)
+		(at 105.41 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2d991fdb-f62f-4d22-8db3-7d48eec4ea75")
+		(uuid "2c0ffa22-6da1-41d8-aab6-678c01c68872")
 	)
 	(junction
 		(at 140.97 132.08)
@@ -5638,12 +5638,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36f596be-84b5-49f5-9cb3-776452f66a12")
-	)
-	(junction
-		(at 139.7 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3918ad83-0265-4e7d-93c4-be089b4df7e0")
 	)
 	(junction
 		(at 213.36 147.32)
@@ -5706,10 +5700,10 @@
 		(uuid "5c868959-0bdd-4389-8b8e-ec1d022c600d")
 	)
 	(junction
-		(at 100.33 125.73)
+		(at 105.41 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5fba86a5-c836-4704-b62a-eafd4bfd04e5")
+		(uuid "5dd1bda4-42f3-4bab-a30d-1bb9851ae717")
 	)
 	(junction
 		(at 203.2 36.83)
@@ -5728,12 +5722,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "656fb0f0-9ab8-4095-85ee-6145a24fe014")
-	)
-	(junction
-		(at 130.81 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65a6b675-124b-449d-8a7d-9d8bfc68bf81")
 	)
 	(junction
 		(at 100.33 71.12)
@@ -5764,6 +5752,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e1a228d-7bcf-4541-887a-a041b8c2bac3")
+	)
+	(junction
+		(at 100.33 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e2d1d3e-f51a-41ed-ab71-089da21026b3")
 	)
 	(junction
 		(at 189.23 93.98)
@@ -5844,6 +5838,12 @@
 		(uuid "8703e66d-8fcc-4cab-9183-883e6d8417d7")
 	)
 	(junction
+		(at 132.08 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "873b7b91-1823-48e8-9550-cd79b3867d7e")
+	)
+	(junction
 		(at 229.87 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5910,12 +5910,6 @@
 		(uuid "9af103f9-48cd-4332-bd04-8a0ea24d9b58")
 	)
 	(junction
-		(at 139.7 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e8b8e3f-70ff-4373-ac2f-be85a94f8d84")
-	)
-	(junction
 		(at 195.58 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5946,6 +5940,12 @@
 		(uuid "ad9acc5c-6dcb-4e34-a381-3f44abf43e8b")
 	)
 	(junction
+		(at 139.7 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae99e46f-233d-42bf-abd2-6db24197038b")
+	)
+	(junction
 		(at 261.62 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5962,12 +5962,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b136f59e-e6ea-4562-9812-6679f69d9e55")
-	)
-	(junction
-		(at 139.7 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1aa5d58-dc06-40f7-b989-9ac36d89f3d4")
 	)
 	(junction
 		(at 151.13 123.19)
@@ -6082,6 +6076,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7b706c4-30f3-4946-8694-1153f8a1b894")
+	)
+	(junction
+		(at 139.7 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7dee149-54bd-4875-92c9-194f08c2b755")
 	)
 	(junction
 		(at 219.71 73.66)
@@ -6441,7 +6441,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 71.12) (xy 106.68 71.12)
+			(xy 100.33 71.12) (xy 105.41 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6561,7 +6561,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 85.09) (xy 130.81 83.82)
+			(xy 132.08 85.09) (xy 132.08 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6578,6 +6578,16 @@
 			(type default)
 		)
 		(uuid "21ef9085-957b-420b-ab54-89e314065ee6")
+	)
+	(wire
+		(pts
+			(xy 105.41 71.12) (xy 118.11 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22736367-2bf8-4c5c-a410-ea40fd4324e0")
 	)
 	(wire
 		(pts
@@ -6601,7 +6611,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 92.71) (xy 130.81 93.98)
+			(xy 132.08 92.71) (xy 132.08 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6901,7 +6911,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 71.12) (xy 119.38 74.93)
+			(xy 118.11 71.12) (xy 118.11 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7048,6 +7058,16 @@
 			(type default)
 		)
 		(uuid "4973b80f-7bfb-46d6-8ae1-3acb91ffe21c")
+	)
+	(wire
+		(pts
+			(xy 132.08 93.98) (xy 139.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498fc943-52b8-47cf-8039-b3a6c667cb2e")
 	)
 	(wire
 		(pts
@@ -7238,16 +7258,6 @@
 			(type default)
 		)
 		(uuid "5c62ce0a-a5f0-4998-9f9f-58a75d39f2de")
-	)
-	(wire
-		(pts
-			(xy 106.68 71.12) (xy 119.38 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d23471d-020a-49e4-8dc6-a0f375a58647")
 	)
 	(wire
 		(pts
@@ -7451,7 +7461,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 78.74) (xy 127 78.74)
+			(xy 121.92 78.74) (xy 127 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7491,7 +7501,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 82.55) (xy 119.38 85.09)
+			(xy 118.11 82.55) (xy 118.11 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8001,16 +8011,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 93.98) (xy 139.7 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b10b526d-401e-47bc-9f03-f7ad5ab9e842")
-	)
-	(wire
-		(pts
 			(xy 38.1 135.89) (xy 38.1 138.43)
 		)
 		(stroke
@@ -8061,16 +8061,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 93.98) (xy 130.81 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b68d4abe-31cf-42e0-896e-e20412619da4")
-	)
-	(wire
-		(pts
 			(xy 76.2 92.71) (xy 76.2 93.98)
 		)
 		(stroke
@@ -8091,7 +8081,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 125.73) (xy 119.38 125.73)
+			(xy 100.33 125.73) (xy 118.11 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8101,7 +8091,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 82.55) (xy 106.68 93.98)
+			(xy 105.41 82.55) (xy 105.41 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8121,7 +8111,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 83.82) (xy 139.7 83.82)
+			(xy 132.08 83.82) (xy 139.7 83.82)
 		)
 		(stroke
 			(width 0)
@@ -8341,6 +8331,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 93.98) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf36ea59-a8da-49bc-8111-c18bdb29a6ad")
+	)
+	(wire
+		(pts
 			(xy 205.74 92.71) (xy 205.74 93.98)
 		)
 		(stroke
@@ -8431,7 +8431,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 125.73) (xy 119.38 92.71)
+			(xy 118.11 125.73) (xy 118.11 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8471,7 +8471,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 93.98) (xy 106.68 93.98)
+			(xy 90.17 93.98) (xy 105.41 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8611,7 +8611,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 71.12) (xy 106.68 74.93)
+			(xy 105.41 71.12) (xy 105.41 74.93)
 		)
 		(stroke
 			(width 0)
@@ -9115,7 +9115,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 106.68 78.74 0)
+		(at 105.41 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9125,7 +9125,7 @@
 		(dnp no)
 		(uuid "060e6df8-db03-491b-9475-60448df2c3b4")
 		(property "Reference" "C112"
-			(at 107.188 76.708 0)
+			(at 105.918 76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9136,7 +9136,7 @@
 			)
 		)
 		(property "Value" "270p/50V C0G 5%"
-			(at 106.68 80.772 0)
+			(at 105.41 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9147,7 +9147,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 107.6452 82.55 0)
+			(at 106.3752 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9158,7 +9158,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
-			(at 106.68 78.74 0)
+			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9169,7 +9169,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 106.68 78.74 0)
+			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9180,7 +9180,7 @@
 			)
 		)
 		(property "manf#" "C0603C271J5GACTU"
-			(at 106.68 78.74 0)
+			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9979,7 +9979,7 @@
 		(dnp no)
 		(uuid "126eda5a-f0c3-4dcc-b42a-9e40b120872e")
 		(property "Reference" "C129"
-			(at 226.06 82.042 90)
+			(at 226.568 83.312 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9990,7 +9990,7 @@
 			)
 		)
 		(property "Value" "100n/50V X7R 10%"
-			(at 228.854 82.042 90)
+			(at 228.092 83.312 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10284,7 +10284,7 @@
 			)
 		)
 		(property "Value" "10n/50V X7R 10%"
-			(at 204.978 90.932 0)
+			(at 206.248 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14408,7 +14408,7 @@
 			)
 		)
 		(property "Value" "50k 10% Trimmer"
-			(at 231.648 90.424 0)
+			(at 231.14 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14817,7 +14817,7 @@
 				)
 			)
 		)
-		(property "manf#" "74HCT4046A"
+		(property "manf#" "74HCT4046AD"
 			(at 189.23 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -15870,7 +15870,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Trim")
-		(at 119.38 88.9 0)
+		(at 118.11 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15880,7 +15880,7 @@
 		(dnp no)
 		(uuid "b36f0a1b-df63-43ad-afa8-6a54fa3453af")
 		(property "Reference" "C113"
-			(at 121.666 85.852 0)
+			(at 120.65 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15890,8 +15890,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7-100p/200V Film Trimmer"
-			(at 121.666 91.44 0)
+		(property "Value" "7-100p/200V"
+			(at 118.11 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15902,7 +15902,7 @@
 			)
 		)
 		(property "Footprint" "AM_Radio:Vishay_BFC280907015_Trimmer_7-100pF"
-			(at 119.38 88.9 0)
+			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15913,7 +15913,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28530/bfc2809070.pdf"
-			(at 119.38 88.9 0)
+			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15924,7 +15924,7 @@
 			)
 		)
 		(property "Description" "Trimmable capacitor"
-			(at 119.38 88.9 0)
+			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15935,7 +15935,7 @@
 			)
 		)
 		(property "manf#" "BFC280907015"
-			(at 119.38 88.9 0)
+			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16067,7 +16067,7 @@
 			)
 		)
 		(property "Value" "2u2/25V Ta 10%"
-			(at 183.642 96.012 0)
+			(at 184.15 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17015,7 +17015,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 130.81 88.9 0)
+		(at 132.08 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17025,7 +17025,7 @@
 		(dnp no)
 		(uuid "c832f03a-1ffd-4fc3-b0ba-827332fade8e")
 		(property "Reference" "C115"
-			(at 131.445 86.36 0)
+			(at 132.334 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17036,7 +17036,7 @@
 			)
 		)
 		(property "Value" "100p/50V C0G 5%"
-			(at 131.445 91.44 0)
+			(at 132.334 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17047,7 +17047,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 131.7752 92.71 0)
+			(at 133.0452 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17058,7 +17058,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 130.81 88.9 0)
+			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17069,7 +17069,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 130.81 88.9 0)
+			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17080,7 +17080,7 @@
 			)
 		)
 		(property "manf#" "C0603C101J5GACTU"
-			(at 130.81 88.9 0)
+			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17493,7 +17493,7 @@
 			)
 		)
 		(property "Value" "22u/25V Polymer Ta 20%"
-			(at 195.58 96.012 0)
+			(at 188.214 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17960,7 +17960,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 119.38 78.74 0)
+		(at 118.11 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17970,7 +17970,7 @@
 		(dnp no)
 		(uuid "dfcde2a0-1a90-45e5-b145-b892b3e5f830")
 		(property "Reference" "P100"
-			(at 123.952 75.692 0)
+			(at 122.682 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17981,7 +17981,7 @@
 			)
 		)
 		(property "Value" "10k 25% Trimmer"
-			(at 130.302 82.042 0)
+			(at 129.032 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17992,7 +17992,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
-			(at 119.38 78.74 0)
+			(at 118.11 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18003,7 +18003,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
-			(at 119.38 78.74 0)
+			(at 118.11 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18014,7 +18014,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 119.38 78.74 0)
+			(at 118.11 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18025,7 +18025,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 119.38 78.74 0)
+			(at 118.11 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18036,7 +18036,7 @@
 			)
 		)
 		(property "Sim.Type" "POT"
-			(at 119.38 78.74 0)
+			(at 118.11 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18047,7 +18047,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 119.38 78.74 0)
+			(at 118.11 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18058,7 +18058,7 @@
 			)
 		)
 		(property "manf#" "TC33X-2-103E"
-			(at 119.38 78.74 0)
+			(at 118.11 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18637,22 +18637,22 @@
 		(dnp no)
 		(uuid "f3d794cd-91cd-48f1-afc0-9ee3c8dbdb67")
 		(property "Reference" "IC103"
+			(at 188.976 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TDA1072AT"
 			(at 189.23 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "TDA1072AT"
-			(at 189.23 78.486 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18873,7 +18873,7 @@
 			)
 		)
 		(property "Value" "220n/50V X7R 10%"
-			(at 199.644 90.932 0)
+			(at 196.088 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
