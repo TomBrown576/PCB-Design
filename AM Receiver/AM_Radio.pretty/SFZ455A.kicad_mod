@@ -1,0 +1,282 @@
+(footprint "SFZ455A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Murata SFZLA455KN2A-B0 / SFZ455A / SFD455 style 455 kHz ceramic AM IF filter, 6-pin THT, 2.5 mm pitch, 3.5 mm row spacing, nominal 7.0 x 7.0 mm body")
+	(tags "Murata SFZLA455KN2A-B0 SFZ455A SFD455 ceramic filter 455kHz AM IF 6-pin THT")
+	(property "Reference" "FL"
+		(at 0 -4.8 0)
+		(layer "F.SilkS")
+		(uuid "9bcc4940-4eca-43ad-b8c3-f3b5ed4307ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SFZ455A"
+		(at 0 4.8 0)
+		(layer "F.Fab")
+		(uuid "58768bbb-de15-4899-bd86-6b670c84ee5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a29528d4-7ccd-42fa-a8c7-2df215475884")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d92341b-5bb2-4612-b0be-1c5939f06606")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.8 -3.8)
+		(end 3.8 -3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "024065f5-e624-4aba-82b7-627dd1fd020e")
+	)
+	(fp_line
+		(start -3.8 3.8)
+		(end -3.8 -3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa05e9d9-fbfc-4814-98df-7ab4ab3af74a")
+	)
+	(fp_line
+		(start 3.8 -3.8)
+		(end 3.8 3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f3c4191-d787-497b-9f76-8d3fe81118fb")
+	)
+	(fp_line
+		(start 3.8 3.8)
+		(end -3.8 3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f695818b-099d-47ba-8dce-de2559d211a6")
+	)
+	(fp_circle
+		(center -3.05 -3.05)
+		(end -2.8 -3.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4035549a-264e-46ee-9233-cd5bd8b88623")
+	)
+	(fp_line
+		(start -4.1 -4.1)
+		(end 4.1 -4.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4e3064c-5348-4edf-a3bf-14c233736ae6")
+	)
+	(fp_line
+		(start -4.1 4.1)
+		(end -4.1 -4.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1457fbd1-227f-4759-855d-e85841e95e51")
+	)
+	(fp_line
+		(start 4.1 -4.1)
+		(end 4.1 4.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e66514e9-9d7c-4c3e-8e29-ee529e68c7d1")
+	)
+	(fp_line
+		(start 4.1 4.1)
+		(end -4.1 4.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33a7307b-541b-4319-ae08-57e2b40bdb4e")
+	)
+	(fp_rect
+		(start -3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8739fd71-ee39-4abe-b415-a33cc36c35f0")
+	)
+	(fp_text user "1"
+		(at -2.5 -3 0)
+		(layer "F.Fab")
+		(uuid "8d96a7ff-01e2-4aa9-9e03-67f28d595c2c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "6"
+		(at -2.5 3 0)
+		(layer "F.Fab")
+		(uuid "cb452a85-ee9c-4d76-829e-2e3c6330a916")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "2"
+		(at 0 -3 0)
+		(layer "F.Fab")
+		(uuid "6ee979b1-f44b-415a-be31-90385ba6c1b9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "5"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "5cb5d36e-b2df-4224-bf15-cbf97082c9ad")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "3"
+		(at 2.5 -3 0)
+		(layer "F.Fab")
+		(uuid "22017542-5f92-4642-8060-81b9153c39b5")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "4"
+		(at 2.5 3 0)
+		(layer "F.Fab")
+		(uuid "6d7b6dae-fd52-439d-b114-ad75b05276e2")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.5 -1.75)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "910414ad-d084-42f8-996f-65222bb7aebf")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -1.75)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f55982ef-8938-43cf-ae6e-96818e441dcd")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 -1.75)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7ad2136a-467d-45af-a970-47fb42d25514")
+	)
+	(pad "4" thru_hole circle
+		(at 2.5 1.75)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef3ac40f-17e5-4b7d-aedc-dd5577976033")
+	)
+	(pad "5" thru_hole circle
+		(at 0 1.75)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f317445f-1990-403a-af61-fe0e8e03c409")
+	)
+	(pad "6" thru_hole circle
+		(at -2.5 1.75)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "495105ec-fea3-4a0b-a826-4ff6cf021139")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/SFZ455A.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512"
+     xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AM radio signal emblem</title>
+  <desc id="desc">Transparent vector logo showing a central antenna with radio wave arcs and a circular emblem frame.</desc>
+
+  <defs>
+    <style>
+      .stroke {
+        fill: none;
+        stroke: #111111;
+        stroke-linecap: butt;
+        stroke-linejoin: round;
+      }
+      .round {
+        fill: none;
+        stroke: #111111;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .fill {
+        fill: #111111;
+      }
+    </style>
+  </defs>
+
+  <!-- Transparent background intentionally left empty -->
+
+  <!-- Outer broken circular frame -->
+  <path class="stroke" stroke-width="26"
+        d="M226 55
+           A205 205 0 0 0 151 435" />
+  <path class="stroke" stroke-width="26"
+        d="M286 55
+           A205 205 0 0 1 361 435" />
+
+  <!-- Broadcast wave arcs -->
+  <path class="stroke" stroke-width="18"
+        d="M177 306
+           A95 95 0 0 1 177 206" />
+  <path class="stroke" stroke-width="18"
+        d="M140 333
+           A140 140 0 0 1 140 179" />
+  <path class="stroke" stroke-width="18"
+        d="M335 206
+           A95 95 0 0 1 335 306" />
+  <path class="stroke" stroke-width="18"
+        d="M372 179
+           A140 140 0 0 1 372 333" />
+
+  <!-- Smaller inner signal arcs -->
+  <path class="stroke" stroke-width="14"
+        d="M215 286
+           A47 47 0 0 1 215 226" />
+  <path class="stroke" stroke-width="14"
+        d="M297 226
+           A47 47 0 0 1 297 286" />
+
+  <!-- Central antenna / tuner mast -->
+  <path class="fill"
+        d="M247 421
+           L247 260
+           L252 88
+           C252 82 260 82 260 88
+           L265 260
+           L265 421
+           Z" />
+  <circle class="fill" cx="256" cy="256" r="24" />
+
+  <!-- Lower mixer / IF-inspired base mark -->
+  <path class="stroke" stroke-width="24"
+        d="M198 399
+           A58 58 0 0 1 314 399" />
+  <path class="stroke" stroke-width="24"
+        d="M198 399
+           A58 58 0 0 0 314 399" />
+  <path class="round" stroke-width="18"
+        d="M166 399 H346" />
+  <path class="round" stroke-width="18"
+        d="M256 343 V455" />
+</svg>

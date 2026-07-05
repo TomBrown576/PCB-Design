@@ -207,6 +207,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/fa9e81d6-faa5-402c-ba63-e4f4161c90e5")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -374,6 +380,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/1ece976a-d085-412d-ab3a-fe266a4342c1")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -541,6 +553,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/4b33dbe2-6aa8-4bdc-96c2-6da7e0448781")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -973,7 +991,7 @@
 			(uuid "1af75b9e-b59f-4a42-8623-5efc492fed6e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_TC33X_Vertical.step"
+		(model "${KIPRJMOD}/Models/TC33X-2-102G.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -981,7 +999,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -1079,6 +1097,12 @@
 		(path "/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5/a75a939b-8a9a-4e75-b8b3-ad36018e487e")
 		(sheetname "/ECG-PulseDetection/")
 		(sheetfile "ECG-PulseDetection.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1297,7 +1321,13 @@
 		(path "/52e8c559-55e5-48cb-9b7c-057cb7f5b8ba")
 		(sheetname "/")
 		(sheetfile "EKG_Design.kicad_sch")
-		(attr exclude_from_bom dnp)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1427,7 +1457,13 @@
 		(path "/5ab247af-eb5b-462f-8b50-f1c9b6c8f7e8")
 		(sheetname "/")
 		(sheetfile "EKG_Design.kicad_sch")
-		(attr exclude_from_bom dnp)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1557,6 +1593,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/f4253ead-311d-4b24-8303-7764735c0596")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1724,6 +1766,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/7cadfe74-da42-420d-8b7f-ed73e2b24bfe")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1891,7 +1939,13 @@
 		(path "/fa3718b2-b069-4893-a5a7-bed1930ad17c")
 		(sheetname "/")
 		(sheetfile "EKG_Design.kicad_sch")
-		(attr exclude_from_bom dnp)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -2021,6 +2075,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/dc21d903-3f61-445c-bed6-3d0bc4851fe6")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2188,6 +2248,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/94e3c90b-44fa-4a33-97ad-07fff555f57d")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2438,6 +2504,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/fcfbeec0-34e7-4be5-b282-5416d056a8d3")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2605,6 +2677,12 @@
 		(path "/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5/1419e991-cfbf-48d5-abd6-f1745135f0d2")
 		(sheetname "/ECG-PulseDetection/")
 		(sheetfile "ECG-PulseDetection.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2772,6 +2850,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/0377bb31-d48c-4810-8150-b6f69616d74f")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3163,6 +3247,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/5502f186-0a16-441e-918a-8b24721a29b6")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3330,6 +3420,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/c64ddb84-71a5-4ff1-8ca0-4dd7db3c90a9")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3497,6 +3593,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/cee61718-3dc9-4193-970f-d37c999e3eb2")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3664,6 +3766,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/eb25afbb-1eaa-43e3-a7b3-4cc32e61eece")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3914,6 +4022,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/e6e04cb4-c64d-472c-a006-147988a9fbf5")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4081,6 +4195,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/9206c35e-d219-42a5-a921-30027f333bb6")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4248,6 +4368,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/713c9e2c-ff38-4b4e-a76b-baa6bc38ec16")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4498,6 +4624,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/8c419029-365a-4cf2-8658-c9fc41c9e8fb")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4665,6 +4797,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/2deec1fe-799f-43d2-95b8-e92062e36a27")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4831,6 +4969,20 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/f2c5d53e-cd82-4cb7-bbcc-802c3b3f8258")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "7")
+			)
+			(unit
+				(name "C")
+				(pins "8" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5220,6 +5372,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/8c751701-2605-452a-affb-8d798b7b21e6")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5387,6 +5545,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/ec30485b-c6f2-43a8-9ddc-52335dcb96c6")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5554,7 +5718,13 @@
 		(path "/05af3bbc-f1ba-4aed-bd5f-ed4f22e534ac")
 		(sheetname "/")
 		(sheetfile "EKG_Design.kicad_sch")
-		(attr exclude_from_bom dnp)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -5684,6 +5854,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/0eeabd8f-5489-4178-963a-5c887f572e68")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5851,6 +6027,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/d32384a3-e5f1-44b9-ae62-ca9d5936c1fe")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6582,6 +6764,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/64557f78-6553-4533-b31e-c13d2bc06721")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6749,6 +6937,12 @@
 		(path "/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5/49324e66-c4c9-443d-a2aa-9b5728005ed0")
 		(sheetname "/ECG-PulseDetection/")
 		(sheetfile "ECG-PulseDetection.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6916,6 +7110,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/08ef18ae-3442-42da-b3f0-43f3ee1e7a8f")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7083,6 +7283,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/13c05dd6-07fc-41d5-8f94-33dce1f11838")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7250,6 +7456,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/a299c85c-1836-40bd-a17a-8feca20e8293")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7682,7 +7894,7 @@
 			(uuid "5dbd1c34-5df0-4f3c-bfed-0b00504b62cb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_TC33X_Vertical.step"
+		(model "${KIPRJMOD}/Models/TC33X-2-102G.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7690,7 +7902,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -7788,6 +8000,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/529ae8cb-fe5b-4d8a-9e4c-f239e9143446")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8005,6 +8223,20 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/1cd2ea83-7048-449d-9301-a55595e5be75")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "7")
+			)
+			(unit
+				(name "C")
+				(pins "8" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8394,6 +8626,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/3782ba10-f562-4fc7-a512-1aaaeac7e556")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8561,6 +8799,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/57f15f09-17a4-4d6d-8759-fae738631204")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8727,6 +8971,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/c5ae571c-1621-4b90-b58a-dcab8131b52c")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "8" "5" "6" "7")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9116,6 +9366,20 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/f321786c-f489-4776-b4ca-7857ef8d33fb")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "7")
+			)
+			(unit
+				(name "C")
+				(pins "8" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9505,6 +9769,12 @@
 		(path "/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5/71f3d6fa-8ce6-4512-acc1-ee85bfacce8a")
 		(sheetname "/ECG-PulseDetection/")
 		(sheetfile "ECG-PulseDetection.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9672,6 +9942,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/1f904f6c-45a1-44bb-beb9-dca8437604cb")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9922,6 +10198,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/4fc84892-3d27-47b6-9f9b-6c3f2c75600b")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10089,6 +10371,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/f7eee62b-343b-4bb1-984a-e128133f28fd")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10269,6 +10557,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/cdfc5532-b564-42fd-ba2b-640a23db2125")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10487,6 +10781,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/37a034e2-1c29-45b6-a763-204c9431d005")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10654,6 +10954,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/6475b80b-48b7-46d4-b9d3-22d5450b243f")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10821,6 +11127,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/49b66dda-2e5b-4851-a845-b8242c5d965c")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10988,6 +11300,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/5f373548-1c73-4362-b138-66fa9242a3ca")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11181,6 +11499,12 @@
 		(path "/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5/ebe2b32a-0c34-4d9a-8ae5-9f23666862c9")
 		(sheetname "/ECG-PulseDetection/")
 		(sheetfile "ECG-PulseDetection.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11572,6 +11896,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/46bd8a99-46fa-49ce-8297-8d386e2f278d")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11739,6 +12069,12 @@
 		(path "/fe31fbed-a3d6-4e29-8087-8265cc4e44fa/ff99824c-67e2-4a99-a8a8-b79d434ab3f6")
 		(sheetname "/EKG-Details/")
 		(sheetfile "EKG-Details.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11906,6 +12242,12 @@
 		(path "/fe64ce13-db8d-4cbc-a2e1-b13f0e1fcfb5/c2d478ab-3957-4230-9ed3-748f686b507f")
 		(sheetname "/ECG-PulseDetection/")
 		(sheetfile "ECG-PulseDetection.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
