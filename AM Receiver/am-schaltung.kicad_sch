@@ -4418,7 +4418,7 @@
 			)
 		)
 		(property "Value" "100n/50V X7R 10%"
-			(at 131.445 119.38 0)
+			(at 131.318 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7433,7 +7433,7 @@
 			)
 		)
 		(property "Value" "7-100p/200V"
-			(at 148.59 119.126 0)
+			(at 156.972 118.872 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

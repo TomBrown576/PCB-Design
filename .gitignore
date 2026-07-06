@@ -45,3 +45,70 @@ production/
 # Optional: generated BOM exports
 bom/
 *.xml
+
+.agents
+
+# AM Receiver project-local temporary files and generated outputs
+
+# Editor / tool history and lock files
+.history/
+**/.history/
+*.lck
+*.lock
+*.clk
+*.tmp
+*.temp
+*.log
+*.dmp
+*~
+~*
+.~lock.*#
+~$*
+
+# KiCad local state, backups, and autosaves
+*.kicad_prl
+*.kiprl
+*.bak
+*.bck
+*.kicad_prl-bak
+*.kicad_pro-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_sym-bak
+*.kicad_mod-bak
+*.pro-bak
+*.sch-bak
+*.pcb-bak
+*-bak
+*-bak*
+*_autosave-*
+_autosave-*
+#auto_saved_files#/
+AM Receiver-backups/
+*-backups/
+fp-info-cache
+
+# Local document backup copies
+*.before_*.docx
+*.before_*.pdf
+
+# Generated manufacturing / export files
+*.net
+*.dsn
+*.ses
+*.xml
+*.rpt
+*.gbr
+*.gbrjob
+*.drl
+*.pos
+gerbers/
+gerber/
+fab/
+fabrication/
+outputs/
+production/
+export/
+Export/
+bom/
+**/.agents/

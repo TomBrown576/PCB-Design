@@ -360,6 +360,17 @@
 		)
 		(uuid "26fa72c4-b4d6-4760-8954-b05670a56d71")
 	)
+	(text "Projekt\nAm Receiver with quadratur mixer"
+		(exclude_from_sim no)
+		(at 16.764 28.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "277b5e5d-c95e-4e18-9b30-613637035d1f")
+	)
 	(text "Info -->"
 		(exclude_from_sim no)
 		(at 188.722 25.146 0)
@@ -403,7 +414,7 @@
 	)
 	(text "Name\nT.Brown"
 		(exclude_from_sim no)
-		(at 63.246 21.336 0)
+		(at 59.182 21.336 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -432,6 +443,17 @@
 			(justify left)
 		)
 		(uuid "b5b703a3-3f52-4cfb-af75-841cd8a80909")
+	)
+	(text "Gruppe\nGruppe 12"
+		(exclude_from_sim no)
+		(at 75.184 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb46b4ee-0414-4085-a470-1595b3420170")
 	)
 	(text "Revision History\n"
 		(exclude_from_sim no)
