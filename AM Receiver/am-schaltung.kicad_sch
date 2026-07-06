@@ -4894,6 +4894,17 @@
 				)
 			)
 		)
+		(property "ProcurementNote" "Legacy/EOL risk for SA612AD/01,118; verify stock/lifecycle and approved substitute before build."
+			(at 120.65 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "db2d7d0c-dd6a-414a-92a4-5dfa6b824cb2")
 		)
@@ -6219,6 +6230,17 @@
 			)
 		)
 		(property "manf#" "SFZLA455KN2A-B0"
+			(at 193.04 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ProcurementNote" "Legacy/EOL risk for SFZ455A/SFZLA455KN2A-B0; verify stock/lifecycle or compatible 455 kHz ceramic IF filter before build."
 			(at 193.04 101.6 0)
 			(hide yes)
 			(show_name no)
