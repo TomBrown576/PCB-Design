@@ -292,7 +292,7 @@
 		(uuid "d659fb18-0872-4550-a2cd-20040ee11337")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_CUSTOM_RF_MIXER}/Models/BFC280907015.stp"
+	(model "${KIPRJMOD}/3D_Models/BFC280907015.stp"
 		(offset
 			(xyz 0 0 9)
 		)

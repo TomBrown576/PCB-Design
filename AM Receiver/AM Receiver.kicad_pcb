@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "AM Receiver")
-		(date "2026-05-05")
+		(date "2026-07-06")
 		(rev "V1")
 		(company "HAWK")
 		(comment 1 "PCB Design SS2026")
@@ -194,9 +194,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/7a448523-e7ae-4c2c-8402-dda3b85c48d1")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/da1b11d5-cf35-4789-98df-29c3e4e0be11/7a448523-e7ae-4c2c-8402-dda3b85c48d1")
+		(sheetname "/Audio_Out/")
+		(sheetfile "Audio_Out.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -344,9 +344,9 @@
 			)
 		)
 		(property ki_fp_filters "D*DO?35*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/50b4cf25-950a-4873-a5e6-bcd61a0e3a82")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/da1b11d5-cf35-4789-98df-29c3e4e0be11/50b4cf25-950a-4873-a5e6-bcd61a0e3a82")
+		(sheetname "/Audio_Out/")
+		(sheetfile "Audio_Out.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -636,9 +636,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/2fff7098-f92b-4df5-9640-5a1eac2693e1")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/2fff7098-f92b-4df5-9640-5a1eac2693e1")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -748,7 +748,7 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/092d1ff4-4c3c-4ebb-bb7e-c1c97aff4373")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -864,7 +864,7 @@
 				)
 			)
 		)
-		(property "manf#" "SA612AD"
+		(property "manf#" "SA612AD/01,118"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -877,21 +877,8 @@
 				)
 			)
 		)
-		(property "MPN" "SA612AD/01,118"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "892aa0c4-e7b4-4a44-bb83-76085fae4bf5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/09dad665-4901-4ed8-b612-6810047f208a")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -1288,7 +1275,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/db4f9b86-f5c1-4223-a8ac-b3d54691e5ab")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -1451,7 +1438,7 @@
 			)
 		)
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/d6363c08-7f26-468c-8121-16ede724b3ad")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -1745,9 +1732,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/a5c1b287-1282-4546-8fd1-91f7fea65b4c")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/a5c1b287-1282-4546-8fd1-91f7fea65b4c")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1823,7 +1810,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(C110-Pad2)")
+			(net "RF_MIXER_OUT")
 			(pintype "passive")
 			(uuid "1a61d917-4c08-4f7f-8a6f-a953fc019517")
 		)
@@ -1918,9 +1905,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/6c2f046e-b8c2-4920-90c4-9fc27a241f78")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/6c2f046e-b8c2-4920-90c4-9fc27a241f78")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2091,9 +2078,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/43026d22-9315-4120-b90d-37696766f4da")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/da1b11d5-cf35-4789-98df-29c3e4e0be11/43026d22-9315-4120-b90d-37696766f4da")
+		(sheetname "/Audio_Out/")
+		(sheetfile "Audio_Out.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2264,9 +2251,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/3436b57d-17d7-4938-8aff-c71b5c5f4b7b")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/3436b57d-17d7-4938-8aff-c71b5c5f4b7b")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2476,9 +2463,9 @@
 			)
 		)
 		(property ki_fp_filters "Potentiometer*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/7b4164c1-bd7a-443f-8fbb-d52a58c16a92")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/da1b11d5-cf35-4789-98df-29c3e4e0be11/7b4164c1-bd7a-443f-8fbb-d52a58c16a92")
+		(sheetname "/Audio_Out/")
+		(sheetfile "Audio_Out.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2597,7 +2584,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(C127-Pad1)")
+			(net "Audio_Out")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "c25587a0-74ec-449d-97fe-c7c966cf5624")
@@ -2625,7 +2612,7 @@
 			(uuid "bb2edbfa-6387-4f78-b1f5-cb4fbae660a4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM_RF_MIXER}/Models/3386P-1-503LF.STEP"
+		(model "${KIPRJMOD}/3D_Models/3386P-1-503LF.STEP"
 			(offset
 				(xyz 0 2.5 0)
 			)
@@ -2713,9 +2700,9 @@
 				)
 			)
 		)
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/08c04a49-6759-488d-8557-c69490f42867")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/da1b11d5-cf35-4789-98df-29c3e4e0be11/08c04a49-6759-488d-8557-c69490f42867")
+		(sheetname "/Audio_Out/")
+		(sheetfile "Audio_Out.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3093,7 +3080,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/f8b12926-cbc0-4901-844a-9ccf9a3717b9")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -3265,9 +3252,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/5fe893e6-229d-42d8-aab1-3e75c4b6be92")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/5fe893e6-229d-42d8-aab1-3e75c4b6be92")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3343,7 +3330,7 @@
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(Q100-D)")
+			(net "RF_AMP_OUT")
 			(pintype "passive")
 			(uuid "c25686bc-24d7-4f99-a653-7edcc0963135")
 		)
@@ -3418,7 +3405,7 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/08409564-0fe1-49cd-a7b4-22a6490dc552")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -3550,7 +3537,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/90b656df-fb8f-4cdb-84bf-2e758c7e2d4d")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -3723,7 +3710,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/91a2139c-5bd4-4e44-a328-539b61197d0e")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -3881,7 +3868,7 @@
 			)
 		)
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/f2b75788-fd4e-4b11-96a8-673ad5e33da9")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -4134,9 +4121,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/1be1ee95-4ccb-4c4e-8258-67440ffa867f")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/1be1ee95-4ccb-4c4e-8258-67440ffa867f")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4203,7 +4190,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(C110-Pad2)")
+			(net "RF_MIXER_OUT")
 			(pintype "passive")
 			(uuid "9b3e98f2-8b16-40ab-b589-5916c1358449")
 		)
@@ -4307,9 +4294,9 @@
 			)
 		)
 		(property ki_fp_filters "CP_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/9ea4d0f2-40c2-4e3b-ba02-277a74f0a990")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/da1b11d5-cf35-4789-98df-29c3e4e0be11/9ea4d0f2-40c2-4e3b-ba02-277a74f0a990")
+		(sheetname "/Audio_Out/")
+		(sheetfile "Audio_Out.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4508,9 +4495,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/4dc34b98-4f58-4728-9b7d-1628a79914ea")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/da1b11d5-cf35-4789-98df-29c3e4e0be11/4dc34b98-4f58-4728-9b7d-1628a79914ea")
+		(sheetname "/Audio_Out/")
+		(sheetfile "Audio_Out.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4672,7 +4659,7 @@
 		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/dfcde2a0-1a90-45e5-b145-b892b3e5f830")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -4914,7 +4901,7 @@
 			(uuid "6f54430a-74a9-4aa6-b7cb-defaed7d4a1a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM_RF_MIXER}/Models/TC33X-2-103E.STEP"
+		(model "${KIPRJMOD}/3D_Models/TC33X-2-103E.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4978,7 +4965,7 @@
 				)
 			)
 		)
-		(property "manf#" "SFZ455A"
+		(property "manf#" "SFZLA455KN2A-B0"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4992,7 +4979,7 @@
 			)
 		)
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/5e5daee0-b159-43e6-901e-4412146f3cb9")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -5231,7 +5218,7 @@
 			(uuid "e0d8d3ff-27de-4c46-b273-c7692d1d1f4d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM_RF_MIXER}/Models/SFZ455A.step"
+		(model "${KIPRJMOD}/3D_Models/SFZ455A.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5338,9 +5325,9 @@
 			)
 		)
 		(property ki_fp_filters "TO?92*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/63f219fb-006f-46c4-802b-4948064f10b5")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/da1b11d5-cf35-4789-98df-29c3e4e0be11/63f219fb-006f-46c4-802b-4948064f10b5")
+		(sheetname "/Audio_Out/")
+		(sheetfile "Audio_Out.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5596,9 +5583,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/9118f7af-30d3-4999-bd72-1362aef8434f")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/9118f7af-30d3-4999-bd72-1362aef8434f")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5755,9 +5742,9 @@
 				)
 			)
 		)
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/961acbcf-5efb-4623-9698-15753c386d29")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/961acbcf-5efb-4623-9698-15753c386d29")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers yes)
 		(fp_line
@@ -5997,7 +5984,7 @@
 			(uuid "a403635b-e1ca-41cb-ab2e-8f49c8eb902f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM_RF_MIXER}/Models/BFC280907015.stp"
+		(model "${KIPRJMOD}/3D_Models/BFC280907015.stp"
 			(offset
 				(xyz 0 0 9)
 			)
@@ -6067,7 +6054,7 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/f90614b7-96e9-426c-9572-658c786e87f3")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -6197,9 +6184,9 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/fbb478bd-c84a-4b13-aac3-ceb8fea420c3")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/27818f3a-9a2b-40cc-b37f-8a92eff51da5/fbb478bd-c84a-4b13-aac3-ceb8fea420c3")
+		(sheetname "/PWR/")
+		(sheetfile "PWR.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6593,9 +6580,9 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/6b10bc13-6da2-454d-924e-1a79e7118bcb")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/27818f3a-9a2b-40cc-b37f-8a92eff51da5/6b10bc13-6da2-454d-924e-1a79e7118bcb")
+		(sheetname "/PWR/")
+		(sheetfile "PWR.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6990,9 +6977,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/5ea1aa7c-8e96-4fc9-8989-ea9706be2e76")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/5ea1aa7c-8e96-4fc9-8989-ea9706be2e76")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7164,7 +7151,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/ab15b47f-a72b-4cb7-8b95-777c5d53ae38")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -7459,9 +7446,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/392e02d3-fa8d-4691-80ec-5c316820d5ea")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/392e02d3-fa8d-4691-80ec-5c316820d5ea")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7632,9 +7619,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/03e81b57-da7a-4df2-ac87-0cb9eb343a4d")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/27818f3a-9a2b-40cc-b37f-8a92eff51da5/03e81b57-da7a-4df2-ac87-0cb9eb343a4d")
+		(sheetname "/PWR/")
+		(sheetfile "PWR.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7790,7 +7777,7 @@
 				)
 			)
 		)
-		(property "manf#" "SA612AD"
+		(property "manf#" "SA612AD/01,118"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7803,22 +7790,9 @@
 				)
 			)
 		)
-		(property "MPN" "SA612AD/01,118"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "437675ae-6db3-48b2-b018-aba701278b0d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/8ab6c182-80a4-4eb9-a3eb-860fedf230eb")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/8ab6c182-80a4-4eb9-a3eb-860fedf230eb")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8087,7 +8061,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(IC101-OUTB)")
+			(net "RF_TANK_LOW")
 			(pinfunction "OUTB_5")
 			(pintype "output")
 			(uuid "f9688e07-7224-48a8-a67f-d5a27c78d9cc")
@@ -8192,9 +8166,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/42295fd0-4989-4514-a778-2f28f7849c88")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/42295fd0-4989-4514-a778-2f28f7849c88")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8316,9 +8290,9 @@
 			)
 		)
 		(property ki_fp_filters "BarrelJack*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/6714e819-8f13-4a5e-85cc-39d72326b0b7")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/27818f3a-9a2b-40cc-b37f-8a92eff51da5/6714e819-8f13-4a5e-85cc-39d72326b0b7")
+		(sheetname "/PWR/")
+		(sheetfile "PWR.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8629,7 +8603,7 @@
 			(uuid "7e2f4d1a-f33e-408a-aac8-5f2fab337586")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM_RF_MIXER}/Models/PJ-102AH--3DModel-STEP-1.STEP"
+		(model "${KIPRJMOD}/3D_Models/PJ-102AH--3DModel-STEP-1.STEP"
 			(offset
 				(xyz 0 -13.5 5.5)
 			)
@@ -8671,7 +8645,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -8720,7 +8694,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/b8d181d3-47eb-4570-af6b-b5375ce95944")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -8788,7 +8762,7 @@
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(Q100-D)")
+			(net "RF_AMP_OUT")
 			(pintype "passive")
 			(uuid "3ae87189-f634-44e3-aa50-ba3133548c6b")
 		)
@@ -8893,7 +8867,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/e9a2d186-0d68-45ee-9de8-7f263e97981b")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -9068,7 +9042,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/3efb05ad-8a06-4e73-9944-905a8ef788be")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -9192,7 +9166,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9241,7 +9215,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/c832f03a-1ffd-4fc3-b0ba-827332fade8e")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -9430,9 +9404,9 @@
 			)
 		)
 		(property ki_fp_filters "TO?92*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/a5545a03-3f1e-496a-8b66-57b15e4215a2")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/da1b11d5-cf35-4789-98df-29c3e4e0be11/a5545a03-3f1e-496a-8b66-57b15e4215a2")
+		(sheetname "/Audio_Out/")
+		(sheetfile "Audio_Out.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9705,9 +9679,9 @@
 			)
 		)
 		(property ki_fp_filters "TO?92*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/098fd991-7f14-45cb-b458-aa9174216e19")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/da1b11d5-cf35-4789-98df-29c3e4e0be11/098fd991-7f14-45cb-b458-aa9174216e19")
+		(sheetname "/Audio_Out/")
+		(sheetfile "Audio_Out.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9963,9 +9937,9 @@
 			)
 		)
 		(property ki_fp_filters "CP_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/00d67c57-eccf-4455-8367-368e7090037c")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/da1b11d5-cf35-4789-98df-29c3e4e0be11/00d67c57-eccf-4455-8367-368e7090037c")
+		(sheetname "/Audio_Out/")
+		(sheetfile "Audio_Out.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10425,9 +10399,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/e28f4f3d-71b4-48a7-bf19-b96ad399d81e")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/e28f4f3d-71b4-48a7-bf19-b96ad399d81e")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10577,9 +10551,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/f6db0962-b831-41aa-b6b6-764eb862eb5f")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/27818f3a-9a2b-40cc-b37f-8a92eff51da5/f6db0962-b831-41aa-b6b6-764eb862eb5f")
+		(sheetname "/PWR/")
+		(sheetfile "PWR.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10710,7 +10684,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/1985c058-2245-4e05-80bc-de0a22937fb7")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -10883,7 +10857,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/f9513f42-16c3-4367-8697-544087d63d65")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -11056,7 +11030,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/408b2ab6-13f7-4227-a698-8482670a33d3")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -11215,7 +11189,7 @@
 			)
 		)
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/b36f0a1b-df63-43ad-afa8-6a54fa3453af")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers yes)
@@ -11441,7 +11415,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(IC101-OUTB)")
+			(net "RF_TANK_LOW")
 			(pintype "passive")
 			(uuid "e07d3d55-cd9e-4331-b19d-325b11feeeed")
 		)
@@ -11451,12 +11425,12 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(IC101-OUTB)")
+			(net "RF_TANK_LOW")
 			(pintype "passive")
 			(uuid "73da41d3-d6e4-44b6-b0a2-ee31e1fc9bfc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM_RF_MIXER}/Models/BFC280907015.stp"
+		(model "${KIPRJMOD}/3D_Models/BFC280907015.stp"
 			(offset
 				(xyz 0 0 9)
 			)
@@ -11546,9 +11520,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/d4193b60-effd-425e-8e09-4ec823dd858c")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/27818f3a-9a2b-40cc-b37f-8a92eff51da5/d4193b60-effd-425e-8e09-4ec823dd858c")
+		(sheetname "/PWR/")
+		(sheetfile "PWR.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11720,7 +11694,7 @@
 		)
 		(property ki_fp_filters "CP_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/b79c7bb2-329a-47a8-9fe5-edca2d1745c9")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -11920,9 +11894,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/da220511-e43f-4bb5-976a-5fe8561bd3a9")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/27818f3a-9a2b-40cc-b37f-8a92eff51da5/da220511-e43f-4bb5-976a-5fe8561bd3a9")
+		(sheetname "/PWR/")
+		(sheetfile "PWR.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12052,9 +12026,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/bc7380a8-c4bc-456e-8b16-c0b15a0de3b3")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/bc7380a8-c4bc-456e-8b16-c0b15a0de3b3")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12205,7 +12179,7 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/5134ec9b-b356-40eb-b14f-db5ecd1c885f")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -12315,9 +12289,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/298aee74-aa21-4aa1-b4a8-71eb14380631")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/27818f3a-9a2b-40cc-b37f-8a92eff51da5/298aee74-aa21-4aa1-b4a8-71eb14380631")
+		(sheetname "/PWR/")
+		(sheetfile "PWR.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12447,9 +12421,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/b9cfb02f-e2b5-49ac-8270-ca4ee75b1f04")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/da1b11d5-cf35-4789-98df-29c3e4e0be11/b9cfb02f-e2b5-49ac-8270-ca4ee75b1f04")
+		(sheetname "/Audio_Out/")
+		(sheetfile "Audio_Out.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12970,9 +12944,9 @@
 			)
 		)
 		(property ki_fp_filters "D*DO?35*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/df201d45-b73d-4b1c-a427-ea50e8b92b1c")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/da1b11d5-cf35-4789-98df-29c3e4e0be11/df201d45-b73d-4b1c-a427-ea50e8b92b1c")
+		(sheetname "/Audio_Out/")
+		(sheetfile "Audio_Out.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13284,7 +13258,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/ea342d29-8e9b-4345-b115-07a00391e006")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -13361,7 +13335,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(Q100-D)")
+			(net "RF_AMP_OUT")
 			(pintype "passive")
 			(uuid "453349eb-6f44-47ae-bfe2-490656aa9042")
 		)
@@ -13456,9 +13430,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/dc12efed-2f4c-48ae-88b4-3d8cb1a4a8a2")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/27818f3a-9a2b-40cc-b37f-8a92eff51da5/dc12efed-2f4c-48ae-88b4-3d8cb1a4a8a2")
+		(sheetname "/PWR/")
+		(sheetfile "PWR.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13628,9 +13602,9 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/f902f7e3-3abc-487f-a34e-56550d103e8c")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/f902f7e3-3abc-487f-a34e-56550d103e8d")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14094,7 +14068,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/12b199bb-cb38-4ca7-ad93-98efd106dc89")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -14267,7 +14241,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/beeb0921-9b18-4d42-bc78-949f41828004")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -14440,7 +14414,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/71b8c82d-cd89-404a-aacf-a850405a216e")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -14613,7 +14587,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/6b1256a5-72bd-47ef-9a31-5a11263892cf")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -14681,7 +14655,7 @@
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(C127-Pad1)")
+			(net "Audio_Out")
 			(pintype "passive")
 			(uuid "df7faafa-be5b-4f8c-bf2f-6ed19ebd8532")
 		)
@@ -14764,9 +14738,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/c1ab1d95-b67d-481a-892c-ed628a98b533")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/c1ab1d95-b67d-481a-892c-ed628a98b533")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14811,7 +14785,7 @@
 			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(net "Net-(IC101-OUTB)")
+			(net "RF_TANK_LOW")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "df1d636e-5fca-48d3-92f6-5f57deabf4d3")
@@ -14876,7 +14850,7 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/566dde8a-8f96-447a-b8fa-98736e5b47d6")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -15008,7 +14982,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/055c4877-0f8e-4f69-b264-6e78b2f6a2ac")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -15085,7 +15059,7 @@
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(C110-Pad2)")
+			(net "RF_MIXER_OUT")
 			(pintype "passive")
 			(uuid "68323d7d-ab7e-4f2a-858d-bfaeb70d9c0d")
 		)
@@ -15181,7 +15155,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/060e6df8-db03-491b-9475-60448df2c3b4")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -15392,9 +15366,9 @@
 			)
 		)
 		(property ki_fp_filters "Potentiometer*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/1a4448b9-0cbb-4576-9990-d8dfa085e119")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/1a4448b9-0cbb-4576-9990-d8dfa085e119")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15541,7 +15515,7 @@
 			(uuid "52cf3ce2-4749-4bc9-ad3c-81dcfce9f112")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM_RF_MIXER}/Models/3386P-1-503LF.STEP"
+		(model "${KIPRJMOD}/3D_Models/3386P-1-503LF.STEP"
 			(offset
 				(xyz 0 2.5 0)
 			)
@@ -15610,9 +15584,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/583c859e-05cd-4322-b706-9e99ef4bc7df")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/583c859e-05cd-4322-b706-9e99ef4bc7df")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15743,7 +15717,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/5f2197b7-35c7-44b2-9fee-17d6f34af0d9")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -15915,9 +15889,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/86fd01df-b300-49e1-9570-93a2b59b124a")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/86fd01df-b300-49e1-9570-93a2b59b124a")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16089,7 +16063,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/bb7365fb-2dad-4750-93fa-48a3aca95ab2")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -16261,9 +16235,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/126eda5a-f0c3-4dcc-b42a-9e40b120872e")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/da1b11d5-cf35-4789-98df-29c3e4e0be11/126eda5a-f0c3-4dcc-b42a-9e40b120872e")
+		(sheetname "/Audio_Out/")
+		(sheetfile "Audio_Out.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16435,7 +16409,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/6aa76016-cff4-4637-a640-daadbf522ad9")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -16854,7 +16828,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/784093ef-b3fe-4eab-8de3-a14b98e45b40")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -16931,7 +16905,7 @@
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(Q100-D)")
+			(net "RF_AMP_OUT")
 			(pintype "passive")
 			(uuid "7eebbda9-66a2-4171-890a-b9e0114ba683")
 		)
@@ -17027,7 +17001,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/17986946-3e0c-460c-b05d-461105ca1609")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -17178,9 +17152,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/ebd32690-10a2-4a9a-9cf7-e377afd3dfb8")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/27818f3a-9a2b-40cc-b37f-8a92eff51da5/ebd32690-10a2-4a9a-9cf7-e377afd3dfb8")
+		(sheetname "/PWR/")
+		(sheetfile "PWR.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17295,7 +17269,7 @@
 				)
 			)
 		)
-		(property "manf#" "74HCT4046A"
+		(property "manf#" "74HCT4046AD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17308,22 +17282,9 @@
 				)
 			)
 		)
-		(property "MPN" "74HCT4046AD"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "136fbbe7-f853-4699-951a-60e33652ee01")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/8dee977c-59d3-45a7-b15f-f12c9384b40c")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/8dee977c-59d3-45a7-b15f-f12c9384b40c")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17780,7 +17741,7 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/4df9ae53-5f76-4224-aecf-9a80b57f9811")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -17826,7 +17787,7 @@
 			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(net "Net-(C127-Pad1)")
+			(net "Audio_Out")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "6329e2fc-d66c-41fe-b36c-0354666a97d5")
@@ -17862,7 +17823,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.box73.de/file_dl/bauelemente/TDA1072A.pdf"
+		(property "Datasheet" "https://www.nxp.com/part/TDA1072AT%2FV4%2C112"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17896,7 +17857,7 @@
 				)
 			)
 		)
-		(property "manf#" "TDA1072AT"
+		(property "manf#" "TDA1072AT/V4,112"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17909,12 +17870,12 @@
 				)
 			)
 		)
-		(property "MPN" "TDA1072AT/V4,112"
+		(property "ProcurementNote" "Exact legacy manf# TDA1072AT/V4,112; use SOIC-16 package only and verify stock/lifecycle before build."
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e9b3ed2-045f-4e71-90d7-d4b5d4a8641c")
+			(uuid "5a6348f5-21c1-4a72-92b7-cad9f09c8f85")
 			(effects
 				(font
 					(size 1 1)
@@ -17923,7 +17884,7 @@
 			)
 		)
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/f3d794cd-91cd-48f1-afc0-9ee3c8dbdb67")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -18365,7 +18326,7 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/51c97ccb-66d7-4bbc-bef7-50c2f22490fc")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -18496,9 +18457,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/b95a2e6b-aadb-4e09-8acb-bcac7c30d21b")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/da1b11d5-cf35-4789-98df-29c3e4e0be11/b95a2e6b-aadb-4e09-8acb-bcac7c30d21b")
+		(sheetname "/Audio_Out/")
+		(sheetfile "Audio_Out.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18649,7 +18610,7 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/09654b50-72e2-4de6-9238-c6cdd8333189")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -18780,9 +18741,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/664a15ea-7ca5-4d11-bfe8-6df257b2b272")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/664a15ea-7ca5-4d11-bfe8-6df257b2b272")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18944,7 +18905,7 @@
 			)
 		)
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/308a6e46-f273-449f-8099-2982152c2a92")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -19132,7 +19093,7 @@
 			(size 1.9 0.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(Q100-D)")
+			(net "RF_AMP_OUT")
 			(pinfunction "D_2")
 			(pintype "passive")
 			(uuid "8062fb9f-c92c-4b2e-8501-beabf1f24d9b")
@@ -19362,7 +19323,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/75e5bc27-a044-49ce-9838-2926cd4e41d9")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -19534,9 +19495,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/0c4bf55b-f052-4883-b5fb-1de33e619a3f")
-		(sheetname "/Am Schaltung/")
-		(sheetfile "am-schaltung.kicad_sch")
+		(path "/1f484dcf-aa0c-479a-9fd9-0960f1a4528c/0c4bf55b-f052-4883-b5fb-1de33e619a3f")
+		(sheetname "/Control_PLL_Tune/")
+		(sheetfile "Control_PLL_Tune.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19708,7 +19669,7 @@
 		)
 		(property ki_fp_filters "CP_*")
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/d89c5b07-41fb-4819-806b-fd0268e0becb")
-		(sheetname "/Am Schaltung/")
+		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
 		(units
 			(unit
@@ -20005,6 +19966,248 @@
 		(uuid "d6aab520-cda7-4ef6-9dc4-a4664f571e7a")
 	)
 	(gr_rect
+		(start 19.403853 156.164211)
+		(end 93.403853 191.164211)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "0b940740-b346-4b77-b38b-9906913e1b93")
+	)
+	(gr_line
+		(start 19.403853 161.164211)
+		(end 93.403853 161.164211)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "724b736c-924e-42f8-8542-c2133656b7e8")
+	)
+	(gr_line
+		(start 19.403853 166.164211)
+		(end 93.403853 166.164211)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5ab1be6e-6499-473f-9ae1-b290c0895385")
+	)
+	(gr_line
+		(start 19.403853 171.164211)
+		(end 93.403853 171.164211)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c81676a3-31d6-4127-91b0-0a671d541db8")
+	)
+	(gr_line
+		(start 19.403853 176.164211)
+		(end 93.403853 176.164211)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e2ba1f92-68fc-4c3f-9382-08b293dc1011")
+	)
+	(gr_line
+		(start 19.403853 181.164211)
+		(end 93.403853 181.164211)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "2558fa68-7676-4326-a337-54d2a5db6523")
+	)
+	(gr_line
+		(start 19.403853 186.164211)
+		(end 93.403853 186.164211)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "18d8f06f-da7c-466f-8319-4e09be1ae8d1")
+	)
+	(gr_line
+		(start 51.403853 156.164211)
+		(end 51.403853 191.164211)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "67bbde0f-34bf-4278-8e53-8b6642e445fd")
+	)
+	(gr_line
+		(start 94.725001 82)
+		(end 80.403853 82.664211)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "dfa8c35d-2855-46a7-98c3-fde1d722e899")
+	)
+	(gr_line
+		(start 95 65)
+		(end 103.653853 59.164211)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4c5512d6-b58c-48f9-a974-0522711088c5")
+	)
+	(gr_line
+		(start 95 82)
+		(end 88 82)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5ad956b2-811f-4d4f-8a99-ad0afbc78f23")
+	)
+	(gr_line
+		(start 95 105)
+		(end 103.903853 110.914211)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "58d84c64-4de9-4af4-8206-10e05709e252")
+	)
+	(gr_rect
+		(start 98.403853 158.664211)
+		(end 172.403853 188.664211)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "923cec85-3675-4059-be02-436e199d9542")
+	)
+	(gr_line
+		(start 98.403853 163.664211)
+		(end 172.403853 163.664211)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e7284384-40ad-41fa-8b7e-283dde28c344")
+	)
+	(gr_line
+		(start 98.403853 168.664211)
+		(end 172.403853 168.664211)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3b840e2a-1544-4d30-894a-86514485d3ab")
+	)
+	(gr_line
+		(start 98.403853 173.664211)
+		(end 172.403853 173.664211)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b309d175-fa00-4d19-8a5d-687ee61dc842")
+	)
+	(gr_line
+		(start 98.403853 178.664211)
+		(end 172.403853 178.664211)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5d60c6f5-e3f2-403e-9f0c-a2ce8581af07")
+	)
+	(gr_line
+		(start 98.403853 183.664211)
+		(end 172.403853 183.664211)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3b2a6986-45fd-44cb-8eab-d3a4232f0bd7")
+	)
+	(gr_line
+		(start 122.403853 158.664211)
+		(end 122.403853 188.664211)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "bd219a9c-a28c-4c35-b3a7-0ab109aaecd7")
+	)
+	(gr_line
+		(start 146.403853 158.664211)
+		(end 146.403853 188.664211)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9a9efec9-0eb9-4d2b-80c2-a267a24f1a31")
+	)
+	(gr_line
+		(start 191 96)
+		(end 223.903853 95.914211)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3528800d-c98c-4aa4-9c92-b68347b86f0b")
+	)
+	(gr_line
+		(start 200 84)
+		(end 221.138845 84.006776)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a30924aa-81e7-4c28-ba4f-215627a10a4f")
+	)
+	(gr_line
+		(start 203 65)
+		(end 220.153853 64.914211)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5d07d8ad-5ae5-4483-a93c-f40455ee02ea")
+	)
+	(gr_line
+		(start 203 105)
+		(end 202.903853 115.164211)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "2ed06d85-7e8c-4fbb-8f2b-18f6200dd7c8")
+	)
+	(gr_rect
 		(start 90 60)
 		(end 208 110)
 		(radius 4)
@@ -20185,7 +20388,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "T. Brown\nAM Receiver\n01.07.2025"
+	(gr_text "T. Brown\nAM Receiver\n06.07.2026"
 		(at 167.653853 103.664211 0)
 		(layer "F.SilkS")
 		(uuid "59c143b8-d889-46ec-b172-827a9bb9d85a")
@@ -20205,6 +20408,443 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Abmasse"
+		(at 20.903853 165.164211 0)
+		(layer "Dwgs.User")
+		(uuid "f4d8b43e-4ae1-4a19-85e6-7fd2e7b0d906")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Material"
+		(at 20.903853 170.164211 0)
+		(layer "Dwgs.User")
+		(uuid "b9b47d98-a046-4920-a100-e0c066aacf05")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Dicke"
+		(at 20.903853 175.164211 0)
+		(layer "Dwgs.User")
+		(uuid "b092caf1-7eaf-48ff-a92b-e2174a853fcb")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Kupferlagen"
+		(at 20.903853 180.164211 0)
+		(layer "Dwgs.User")
+		(uuid "d601bf5a-f8a6-48bd-a5bf-3bb08d861a1a")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Oberflaeche"
+		(at 20.903853 185.164211 0)
+		(layer "Dwgs.User")
+		(uuid "a36f75b8-22fc-4bf6-b82a-e33e6ab97f5b")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Bohrungen"
+		(at 20.903853 190.164211 0)
+		(layer "Dwgs.User")
+		(uuid "3bf5a592-ee69-4571-bf93-2378e250f06f")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "118 x 50 mm"
+		(at 52.903853 165.164211 0)
+		(layer "Dwgs.User")
+		(uuid "857f4eda-319c-4203-883b-eb2bad623a6b")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "FR4"
+		(at 52.903853 170.164211 0)
+		(layer "Dwgs.User")
+		(uuid "22c4436a-aa51-4148-94d4-e01c96240a38")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1.579 mm"
+		(at 52.903853 175.164211 0)
+		(layer "Dwgs.User")
+		(uuid "131dd705-28e7-472e-a9dd-8aac154c386f")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "2"
+		(at 52.903853 180.164211 0)
+		(layer "Dwgs.User")
+		(uuid "2c12c724-2f82-49ab-ae22-69b592c50f36")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "ENIG"
+		(at 52.903853 185.164211 0)
+		(layer "Dwgs.User")
+		(uuid "8d9eacb6-11ac-445e-ac3d-efffb7b77a2e")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "4x M3 / DIA 3.2"
+		(at 52.903853 190.164211 0)
+		(layer "Dwgs.User")
+		(uuid "2070f104-3b87-4965-a4c0-ac40049d0e41")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Lage"
+		(at 99.903853 167.664211 0)
+		(layer "Dwgs.User")
+		(uuid "aafffcbb-d8b4-443d-a9d5-359497da72d3")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "F.Cu"
+		(at 99.903853 172.664211 0)
+		(layer "Dwgs.User")
+		(uuid "f6f7298e-de97-4f3d-bb6d-17218e9a756d")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Kern"
+		(at 99.903853 177.664211 0)
+		(layer "Dwgs.User")
+		(uuid "c4cb19a9-998f-406a-8009-375e33169a8c")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B.Cu"
+		(at 99.903853 182.664211 0)
+		(layer "Dwgs.User")
+		(uuid "5e15df17-c605-4178-8392-cc1aeec69295")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Masken"
+		(at 99.903853 187.664211 0)
+		(layer "Dwgs.User")
+		(uuid "07785984-f8d1-4f98-810a-78765607402e")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Typ"
+		(at 123.903853 167.664211 0)
+		(layer "Dwgs.User")
+		(uuid "dc8aa197-37e5-4cc7-8063-3c97bbba6848")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Kupfer"
+		(at 123.903853 172.664211 0)
+		(layer "Dwgs.User")
+		(uuid "48c9c8b6-538d-4e8a-8518-40eec5db033f")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "FR4"
+		(at 123.903853 177.664211 0)
+		(layer "Dwgs.User")
+		(uuid "0ed86d9b-6f12-451a-a090-be38c1e7cff3")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Kupfer"
+		(at 123.903853 182.664211 0)
+		(layer "Dwgs.User")
+		(uuid "d5e0caa5-38ba-49cd-917f-918432d865b1")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Loetstopp"
+		(at 123.903853 187.664211 0)
+		(layer "Dwgs.User")
+		(uuid "a8bd2569-6150-4da9-b4e3-a639b4d4a209")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Dicke"
+		(at 147.903853 167.664211 0)
+		(layer "Dwgs.User")
+		(uuid "4d9d4a4c-3159-4255-92a7-6669da7d049e")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0.035 mm"
+		(at 147.903853 172.664211 0)
+		(layer "Dwgs.User")
+		(uuid "e3dcb63a-b077-44ea-8528-64e267ab76aa")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1.459 mm"
+		(at 147.903853 177.664211 0)
+		(layer "Dwgs.User")
+		(uuid "928013bc-e78b-4740-8aa2-f773580fdc7a")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0.035 mm"
+		(at 147.903853 182.664211 0)
+		(layer "Dwgs.User")
+		(uuid "e8aafee4-4aba-4b01-a99f-38d54d88e937")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0.025 mm"
+		(at 147.903853 187.664211 0)
+		(layer "Dwgs.User")
+		(uuid "5ddde7f5-fc33-4fad-bcff-2d2acb39d4f0")
+		(effects
+			(font
+				(size 0.82 0.82)
+				(thickness 0.11)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H100 M3 / DIA 3.2"
+		(at 96.653853 58.414211 0)
+		(layer "Dwgs.User")
+		(uuid "72b2566b-6a6a-4f13-90db-0487ed121db8")
+		(effects
+			(font
+				(size 0.95 0.95)
+				(thickness 0.13)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H103 M3 / DIA 3.2"
+		(at 97.403853 112.664211 0)
+		(layer "Dwgs.User")
+		(uuid "38c416eb-e889-458d-aacc-cb617ea02ebf")
+		(effects
+			(font
+				(size 0.95 0.95)
+				(thickness 0.13)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H101 M3 / DIA 3.2"
+		(at 193.653853 116.914211 0)
+		(layer "Dwgs.User")
+		(uuid "41fc9dce-10ff-49d1-b290-065b427376cb")
+		(effects
+			(font
+				(size 0.95 0.95)
+				(thickness 0.13)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H102 M3 / DIA 3.2"
+		(at 220.403853 65.414211 0)
+		(layer "Dwgs.User")
+		(uuid "b8cbec96-5284-4432-a3a9-560d02d01c1d")
+		(effects
+			(font
+				(size 0.95 0.95)
+				(thickness 0.13)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Platinen Eigenschaften"
+		(at 20.903853 160.164211 0)
+		(layer "Dwgs.User")
+		(uuid "46d3220c-43db-46e5-bc52-5f2faea02db6")
+		(effects
+			(font
+				(size 1.05 1.05)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Lagenaufbau"
+		(at 99.903853 162.664211 0)
+		(layer "Dwgs.User")
+		(uuid "ffaaafb1-8378-439b-939a-a0f5c732c4b1")
+		(effects
+			(font
+				(size 1.05 1.05)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "AE100 ANTENNA IN"
+		(at 73.653853 84.164211 0)
+		(layer "Dwgs.User")
+		(uuid "92bc0f08-4455-4522-9b88-7c4b5564771e")
+		(effects
+			(font
+				(size 1.1 1.1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LS100 SPEAKER OUT"
+		(at 221.903853 84.664211 0)
+		(layer "Dwgs.User")
+		(uuid "209543fc-a2c2-4dc2-ae5d-3d9b9cecb87f")
+		(effects
+			(font
+				(size 1.1 1.1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "J100 DC IN / VIN"
+		(at 224.153853 96.664211 0)
+		(layer "Dwgs.User")
+		(uuid "b31df413-f86b-41f3-bac1-e0a02bc63b03")
+		(effects
+			(font
+				(size 1.1 1.1)
+				(thickness 0.15)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -22905,7 +23545,7 @@
 		(end 131.312502 80.571106)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C110-Pad2)")
+		(net "RF_MIXER_OUT")
 		(uuid "1acf3577-372a-4bd1-be75-93a64a8b2397")
 	)
 	(segment
@@ -22913,7 +23553,7 @@
 		(end 132.162502 74.721106)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C110-Pad2)")
+		(net "RF_MIXER_OUT")
 		(uuid "3697470c-818b-4127-a8ce-99580592b7c2")
 	)
 	(segment
@@ -22921,7 +23561,7 @@
 		(end 128.670502 83.213106)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C110-Pad2)")
+		(net "RF_MIXER_OUT")
 		(uuid "3fa4f461-c211-4f95-9f34-40a68cbd942a")
 	)
 	(segment
@@ -22929,7 +23569,7 @@
 		(end 132.162502 74.721106)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C110-Pad2)")
+		(net "RF_MIXER_OUT")
 		(uuid "730aac49-a1c4-4616-ad1c-e904682b0f24")
 	)
 	(segment
@@ -22937,7 +23577,7 @@
 		(end 115.462502 90.858606)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C110-Pad2)")
+		(net "RF_MIXER_OUT")
 		(uuid "8572acb8-0a41-4a1c-8465-a57cbc48249d")
 	)
 	(segment
@@ -22945,7 +23585,7 @@
 		(end 115.462502 97.696106)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C110-Pad2)")
+		(net "RF_MIXER_OUT")
 		(uuid "a7a33f18-6b81-4921-b8a1-226ddbd3bbc3")
 	)
 	(segment
@@ -22953,7 +23593,7 @@
 		(end 131.312502 75.571106)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C110-Pad2)")
+		(net "RF_MIXER_OUT")
 		(uuid "e6c630a5-2b31-41dc-84a1-91e87609f033")
 	)
 	(via
@@ -22961,7 +23601,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "Net-(C110-Pad2)")
+		(net "RF_MIXER_OUT")
 		(uuid "0d5ba452-7703-4ede-8e10-31b039f2924f")
 	)
 	(via
@@ -22969,7 +23609,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "Net-(C110-Pad2)")
+		(net "RF_MIXER_OUT")
 		(uuid "0d60d04c-2282-4c3f-9b66-697bffedddb3")
 	)
 	(segment
@@ -22977,7 +23617,7 @@
 		(end 122.958002 83.213106)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "Net-(C110-Pad2)")
+		(net "RF_MIXER_OUT")
 		(uuid "62580f2d-e547-4416-adff-21c1b617d7d3")
 	)
 	(segment
@@ -22985,7 +23625,7 @@
 		(end 122.958002 83.363106)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "Net-(C110-Pad2)")
+		(net "RF_MIXER_OUT")
 		(uuid "e98f0eaf-8770-4a1d-a742-67b07595f73a")
 	)
 	(segment
@@ -23105,7 +23745,7 @@
 		(end 174.203601 75.221)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C127-Pad1)")
+		(net "Audio_Out")
 		(uuid "07c6d60f-297d-4fb2-90b5-47c4fe8673ae")
 	)
 	(segment
@@ -23113,7 +23753,7 @@
 		(end 174.203601 76.9482)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C127-Pad1)")
+		(net "Audio_Out")
 		(uuid "0e9683d0-86d0-416a-9f44-b208616d37ca")
 	)
 	(segment
@@ -23121,7 +23761,7 @@
 		(end 178.890002 70.534599)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C127-Pad1)")
+		(net "Audio_Out")
 		(uuid "50a6c87a-2137-4329-8d87-b51125d8b8db")
 	)
 	(segment
@@ -23129,7 +23769,7 @@
 		(end 173.332376 77.819425)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C127-Pad1)")
+		(net "Audio_Out")
 		(uuid "f14c016e-a321-4956-92dd-2beee2751200")
 	)
 	(segment
@@ -23225,7 +23865,7 @@
 		(end 111.020002 64.925106)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(Q100-D)")
+		(net "RF_AMP_OUT")
 		(uuid "0da6a031-2f24-4f13-89ac-f5ec49c34f4a")
 	)
 	(segment
@@ -23233,7 +23873,7 @@
 		(end 100.131154 94.073847)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(Q100-D)")
+		(net "RF_AMP_OUT")
 		(uuid "0ecf8e16-8032-4811-98fe-30cb5f90b9bd")
 	)
 	(segment
@@ -23241,7 +23881,7 @@
 		(end 107.516868 75.216443)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(Q100-D)")
+		(net "RF_AMP_OUT")
 		(uuid "2137a2a3-d9fb-45ba-86f2-a6e674e73b15")
 	)
 	(segment
@@ -23249,7 +23889,7 @@
 		(end 108.180468 72.006142)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(Q100-D)")
+		(net "RF_AMP_OUT")
 		(uuid "40654548-8d88-4aa3-b778-e36dec295022")
 	)
 	(segment
@@ -23257,7 +23897,7 @@
 		(end 107.573458 75.273033)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(Q100-D)")
+		(net "RF_AMP_OUT")
 		(uuid "42796628-d186-4db3-8ae0-58cea92d935a")
 	)
 	(segment
@@ -23265,7 +23905,7 @@
 		(end 106.930468 70.756142)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(Q100-D)")
+		(net "RF_AMP_OUT")
 		(uuid "9d1c820a-45d9-4871-981c-990861eed1f6")
 	)
 	(segment
@@ -23273,7 +23913,7 @@
 		(end 108.348458 85.856543)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(Q100-D)")
+		(net "RF_AMP_OUT")
 		(uuid "a0123acf-ede2-49c6-a9cf-a64381403118")
 	)
 	(segment
@@ -23281,7 +23921,7 @@
 		(end 108.180468 74.666023)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(Q100-D)")
+		(net "RF_AMP_OUT")
 		(uuid "a310898b-cdab-445a-abca-d0d3f19315f4")
 	)
 	(segment
@@ -23289,7 +23929,7 @@
 		(end 106.930468 69.01464)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(Q100-D)")
+		(net "RF_AMP_OUT")
 		(uuid "a4e3e113-61a8-4308-b1b1-b8dda4bca9d0")
 	)
 	(segment
@@ -23297,7 +23937,7 @@
 		(end 125.441502 64.925106)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(Q100-D)")
+		(net "RF_AMP_OUT")
 		(uuid "b2851a4b-f2ad-490c-afb5-70b945597855")
 	)
 	(segment
@@ -23305,7 +23945,7 @@
 		(end 127.187502 66.671106)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(Q100-D)")
+		(net "RF_AMP_OUT")
 		(uuid "da69acdf-739d-42c2-b099-985d32e7c9a2")
 	)
 	(segment
@@ -23313,7 +23953,7 @@
 		(end 107.573458 75.273033)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(Q100-D)")
+		(net "RF_AMP_OUT")
 		(uuid "db213ade-22e3-4904-915e-034725281781")
 	)
 	(segment
@@ -23321,7 +23961,7 @@
 		(end 108.348458 76.048033)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(Q100-D)")
+		(net "RF_AMP_OUT")
 		(uuid "e5dc1b78-4451-495b-9e46-62f12d191076")
 	)
 	(segment
@@ -24049,7 +24689,7 @@
 		(end 109.177226 97.971106)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(IC101-OUTB)")
+		(net "RF_TANK_LOW")
 		(uuid "2e093583-338b-4923-ae50-b703c149a8d5")
 	)
 	(segment
@@ -24057,7 +24697,7 @@
 		(end 109.177226 100.19833)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(IC101-OUTB)")
+		(net "RF_TANK_LOW")
 		(uuid "5ba2ebf7-a924-46f4-9827-6b6b6286835b")
 	)
 	(segment
@@ -24065,7 +24705,7 @@
 		(end 109.496002 86.261106)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(IC101-OUTB)")
+		(net "RF_TANK_LOW")
 		(uuid "6f318d34-3f6a-48c3-abd3-5ea9cc3e9019")
 	)
 	(segment
@@ -24073,7 +24713,7 @@
 		(end 109.496002 77.185106)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(IC101-OUTB)")
+		(net "RF_TANK_LOW")
 		(uuid "8f96ea78-3808-42a6-883a-06d3ae8cdb0b")
 	)
 	(segment
@@ -24081,7 +24721,7 @@
 		(end 107.902226 87.854882)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(IC101-OUTB)")
+		(net "RF_TANK_LOW")
 		(uuid "9a3a9e43-98c2-48c2-8f1b-9a9f00b8de25")
 	)
 	(segment
@@ -24089,7 +24729,7 @@
 		(end 108.831674 97.971106)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(IC101-OUTB)")
+		(net "RF_TANK_LOW")
 		(uuid "9dceadbb-e9dc-4fc5-b499-11f890109265")
 	)
 	(segment
@@ -24097,7 +24737,7 @@
 		(end 113.630002 73.051106)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(IC101-OUTB)")
+		(net "RF_TANK_LOW")
 		(uuid "b4ef37a6-bf51-44aa-a3e5-77f257fa7896")
 	)
 	(segment
@@ -24105,7 +24745,7 @@
 		(end 109.200002 100.221106)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(IC101-OUTB)")
+		(net "RF_TANK_LOW")
 		(uuid "db1453bb-1ef0-4b45-97e4-06863a319d1a")
 	)
 	(segment
@@ -24113,7 +24753,7 @@
 		(end 107.902226 97.041658)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(IC101-OUTB)")
+		(net "RF_TANK_LOW")
 		(uuid "e8847070-d2aa-4be5-8379-d44f08751dc0")
 	)
 	(segment

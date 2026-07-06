@@ -61,17 +61,6 @@
 				)
 			)
 		)
-		(property "MPN" "74HCT4046AD"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "74HCT4046AD_1_1"
 			(rectangle
 				(start 0 30.48)
@@ -765,17 +754,6 @@
 				)
 			)
 		)
-		(property "MPN" "SA612AD/01,118"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "NE612AD / SA612AD_1_1"
 			(rectangle
 				(start -5.08 6.35)
@@ -1325,7 +1303,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.box73.de/file_dl/bauelemente/TDA1072A.pdf"
+		(property "Datasheet" "https://www.nxp.com/part/TDA1072AT%2FV4%2C112"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1347,7 +1325,7 @@
 				)
 			)
 		)
-		(property "MPN" "TDA1072AT/V4,112"
+		(property "ProcurementNote" "Exact legacy manf# TDA1072AT/V4,112; use SOIC-16 package only and verify stock/lifecycle before build."
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

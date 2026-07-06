@@ -268,7 +268,7 @@
 		(uuid "495105ec-fea3-4a0b-a826-4ff6cf021139")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/SFZ455A.wrl"
+	(model "${KIPRJMOD}/3D_Models/SFZ455A.step"
 		(offset
 			(xyz 0 0 0)
 		)

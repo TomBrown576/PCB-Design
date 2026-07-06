@@ -672,12 +672,6 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
         }
       ],
       "filter_string": "",
@@ -738,7 +732,19 @@
     ],
     [
       "8b8c3568-3cfa-4b68-9c23-bd397ab1abe6",
-      "Am Schaltung"
+      "RF/Audio_Signal"
+    ],
+    [
+      "1f484dcf-aa0c-479a-9fd9-0960f1a4528c",
+      "Control_PLL_Tune"
+    ],
+    [
+      "da1b11d5-cf35-4789-98df-29c3e4e0be11",
+      "Audio_Out"
+    ],
+    [
+      "27818f3a-9a2b-40cc-b37f-8a92eff51da5",
+      "PWR"
     ]
   ],
   "text_variables": {},

@@ -1,4 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "AM_Radio") (type "KiCad") (uri "${KICAD_CUSTOM_RF_MIXER}/AM_Radio.pretty") (options "") (descr ""))
+	(lib (name "AM_Radio") (type "KiCad") (uri "${KIPRJMOD}/AM_Radio.pretty") (options "") (descr ""))
 )

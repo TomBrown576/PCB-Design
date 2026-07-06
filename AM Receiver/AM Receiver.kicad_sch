@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "AM Receiver")
-		(date "2026-04-21")
+		(date "2026-07-06")
 		(rev "V1")
 		(company "HAWK")
 		(comment 1 "PCB Design SS2026")
@@ -352,7 +352,7 @@
 	)
 	(text "Sheet 1 -->"
 		(exclude_from_sim no)
-		(at 189.738 35.306 0)
+		(at 190.5 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -362,13 +362,23 @@
 	)
 	(text "Info -->"
 		(exclude_from_sim no)
-		(at 187.706 24.892 0)
+		(at 188.722 25.146 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "3d7baa20-0dd5-41eb-aa65-07013fe41378")
+	)
+	(text "Sheet 4 -->"
+		(exclude_from_sim no)
+		(at 191.008 79.248 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b1101c2-f3b3-49b3-b8d8-345343423ae4")
 	)
 	(text "Rev.\n1.0\n"
 		(exclude_from_sim no)
@@ -381,6 +391,16 @@
 		)
 		(uuid "7457637b-ab5d-4f50-965b-7d004bd2756e")
 	)
+	(text "Sheet 3 -->"
+		(exclude_from_sim no)
+		(at 190.754 64.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "75ca9b98-4e28-43f8-812d-3f97aff7f3d7")
+	)
 	(text "Name\nT.Brown"
 		(exclude_from_sim no)
 		(at 63.246 21.336 0)
@@ -391,6 +411,16 @@
 			(justify left)
 		)
 		(uuid "794bd220-5e2c-4c01-81e5-3a49156e9910")
+	)
+	(text "Sheet 2 -->"
+		(exclude_from_sim no)
+		(at 190.754 50.292 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9e1319e-67ea-4345-83a0-f21e7e8fc17b")
 	)
 	(text "Changes, Modifications\nV1.0\nInitial Revision\nInput Voltage +/- 12V ... 15V"
 		(exclude_from_sim no)
@@ -1159,7 +1189,99 @@
 		)
 	)
 	(sheet
-		(at 200.66 31.75)
+		(at 201.295 46.355)
+		(size 79.375 6.985)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1f484dcf-aa0c-479a-9fd9-0960f1a4528c")
+		(property "Sheetname" "Control_PLL_Tune"
+			(at 201.295 45.6434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Control_PLL_Tune.kicad_sch"
+			(at 201.295 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AM Receiver"
+				(path "/fe1abb03-87b4-4c2c-a88f-7b58f4fb0195"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 76.2)
+		(size 79.375 6.985)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "27818f3a-9a2b-40cc-b37f-8a92eff51da5")
+		(property "Sheetname" "PWR"
+			(at 201.93 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWR.kicad_sch"
+			(at 201.93 83.7696 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AM Receiver"
+				(path "/fe1abb03-87b4-4c2c-a88f-7b58f4fb0195"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.295 33.02)
 		(size 78.74 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1174,8 +1296,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "8b8c3568-3cfa-4b68-9c23-bd397ab1abe6")
-		(property "Sheetname" "Am Schaltung"
-			(at 200.66 31.0384 0)
+		(property "Sheetname" "RF/Audio_Signal"
+			(at 201.295 32.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1186,7 +1308,7 @@
 			)
 		)
 		(property "Sheetfile" "am-schaltung.kicad_sch"
-			(at 200.66 38.6846 0)
+			(at 201.295 39.9546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1200,6 +1322,52 @@
 			(project "AM Receiver"
 				(path "/fe1abb03-87b4-4c2c-a88f-7b58f4fb0195"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.295 60.96)
+		(size 78.74 6.985)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "da1b11d5-cf35-4789-98df-29c3e4e0be11")
+		(property "Sheetname" "Audio_Out"
+			(at 201.295 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Audio_Out.kicad_sch"
+			(at 201.295 68.5296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AM Receiver"
+				(path "/fe1abb03-87b4-4c2c-a88f-7b58f4fb0195"
+					(page "4")
 				)
 			)
 		)

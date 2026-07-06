@@ -1,6 +1,6 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "Custom_RF_Mixer") (type "KiCad") (uri "${KICAD_CUSTOM_RF_MIXER}/Symbols/Custom_RF_Mixer.kicad_sym") (options "") (descr ""))
-	(lib (name "AM_Receiver") (type "KiCad") (uri "${KICAD_CUSTOM_RF_MIXER}/Symbols/AM_Receiver.kicad_sym") (options "") (descr ""))
-	(lib (name "Custom_Power") (type "KiCad") (uri "${KICAD_CUSTOM_RF_MIXER}/Symbols/CustomPower.kicad_sym") (options "") (descr ""))
+	(lib (name "Custom_RF_Mixer") (type "KiCad") (uri "${KIPRJMOD}/Symbols/Custom_RF_Mixer.kicad_sym") (options "") (descr ""))
+	(lib (name "AM_Receiver") (type "KiCad") (uri "${KIPRJMOD}/Symbols/AM_Receiver.kicad_sym") (options "") (descr ""))
+	(lib (name "Custom_Power") (type "KiCad") (uri "${KIPRJMOD}/Symbols/CustomPower.kicad_sym") (options "") (descr ""))
 )
