@@ -1555,7 +1555,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Design Notes - Versorgung\nEingang ueber J100: VIN, vorgesehen fuer 12V ... 15V gegen GND.\nIC106 (L78L05) erzeugt +5V fuer PLL/Digitalteil; IC105 (L78L08) erzeugt +8V fuer RF/ZF-Analogteil.\n78Lxx Regler sind fuer ca. 100 mA ausgelegt; Strombudget je Schiene darunter halten.\nDropout/Verlustleistung: 12V Minimum gibt genuegend Reserve fuer 5V/8V Linearregler.\nC125/C130/C133 = 100 nF dienen als lokale Ein-/Ausgangsabblockung der Regler.\nTP_VIN, TP_5V, TP_8V und TP_GND sind Bring-up Messpunkte.\nTrennung +5V digital und +8V analog reduziert digitale Stoerung im RF/ZF-Teil."
+	(text "Design Notes - Versorgung\nEingang ueber J100: VIN, vorgesehen fuer 12V ... 15V gegen GND.\nIC106 (L78L05) erzeugt +5V fuer PLL/Digitalteil; IC105 (L78L08) erzeugt +8V fuer RF/ZF-Analogteil.\n78Lxx Regler sind fuer ca. 100 mA ausgelegt; Strombudget je Schiene darunter halten.\nDropout/Verlustleistung: 12V Minimum gibt genügend Reserve fuer 5V/8V Linearregler.\nC125/C130/C133 = 100 nF dienen als lokale Ein-/Ausgangsabblockung der Regler.\nTP_VIN, TP_5V, TP_8V und TP_GND sind Bring-up Messpunkte.\nTrennung +5V digital und +8V analog reduziert digitale Störung im RF/ZF-Teil."
 		(exclude_from_sim no)
 		(at 35.56 34.29 0)
 		(effects
