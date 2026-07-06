@@ -877,6 +877,19 @@
 				)
 			)
 		)
+		(property "ProcurementNote" "Legacy/EOL risk for SA612AD/01,118; verify stock/lifecycle and approved substitute before build."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f6f47b7-cea2-4ab6-9f55-8e735b732ee7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/09dad665-4901-4ed8-b612-6810047f208a")
 		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
@@ -4978,6 +4991,19 @@
 				)
 			)
 		)
+		(property "ProcurementNote" "Legacy/EOL risk for SFZ455A/SFZLA455KN2A-B0; verify stock/lifecycle or compatible 455 kHz ceramic IF filter before build."
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79b221e3-dfe9-4939-b1a6-990af699fb84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b8c3568-3cfa-4b68-9c23-bd397ab1abe6/5e5daee0-b159-43e6-901e-4412146f3cb9")
 		(sheetname "/RF/Audio_Signal/")
 		(sheetfile "am-schaltung.kicad_sch")
@@ -7783,6 +7809,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "51ccbb9a-cff0-4196-a786-2fbfb9836f13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ProcurementNote" "Legacy/EOL risk for SA612AD/01,118; verify stock/lifecycle and approved substitute before build."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "586f92b3-80f8-4de7-a982-3f8fb65acb89")
 			(effects
 				(font
 					(size 1 1)

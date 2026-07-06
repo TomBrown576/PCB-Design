@@ -422,7 +422,7 @@
 		)
 		(uuid "a9e1319e-67ea-4345-83a0-f21e7e8fc17b")
 	)
-	(text "Changes, Modifications\nV1.0\nInitial Revision\nInput Voltage +/- 12V ... 15V"
+	(text "Changes, Modifications\nV1.0\nInitial Revision\nInput Voltage 12V ... 15V"
 		(exclude_from_sim no)
 		(at 88.9 23.114 0)
 		(effects
