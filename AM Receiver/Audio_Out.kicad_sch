@@ -1898,6 +1898,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Design Notes - Audio Out\nAudio_Out ist das demodulierte NF-Signal aus dem AM/ZF-Teil.\nP101 = 50k stellt Pegel/Verstärkung der Treiberstufe ein.\nC129 = 100 nF ist die Eingangskopplung; Grenzfrequenz mit Quell-/Poti-R: fc = 1/(2*pi*R*C).\nQ102/Q103/Q104 bilden eine diskrete Class-AB Ausgangsstufe.\nD100/D101 erzeugen die Bias-Spannung zur Reduktion der Übernahmeverzerrung.\nC132 = 470 uF koppelt den Lautsprecher aus: fc ca. 42 Hz bei 8 Ohm, ca. 11 Hz bei 32 Ohm.\nR115 = 100R begrenzt den Ausgangs-/Basisstrom und verbessert die Stabilitaet."
+		(exclude_from_sim no)
+		(at 35.56 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b5d3b5b-176f-44ad-9c7b-76f38a2b6d97")
+	)
 	(junction
 		(at 153.67 119.38)
 		(diameter 0)
@@ -3025,7 +3036,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V ...+15V"
+		(property "Value" "VIN"
 			(at 143.51 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
