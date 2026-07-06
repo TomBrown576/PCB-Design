@@ -2798,7 +2798,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Design Notes - RF / IF\nAM-Eingang: L100/C100/C101 bilden den abstimmbaren Eingangskreis.\nResonanz: f0 = 1/(2*pi*sqrt(L*C)); C100 7-100 pF ist der Abgleich.\nQ100 (MMBFJ310) arbeitet als hochohmiger RF-Puffer/Vorverstaerker.\nR102 = 1k setzt den Source-Strom und stabilisiert den Arbeitspunkt.\nIC100 (SA612) mischt das RF-Signal auf die Zwischenfrequenz.\nFL100 (SFZ455A) ist der 455 kHz ZF-Filter; TP_IF_FILTER_IN dient zur Messung.\nLegacy/EOL-Risiko: SA612AD, TDA1072AT und SFZ455A vor Aufbau auf Bestand/Lifecycle pruefen.\nC0G-Pflicht: Filter-/HF-Kondensatoren im pF-Bereich nur als C0G/NP0 bestuecken, keine X7R.\nC112 = 270 pF koppelt HF/ZF, 100 nF Kondensatoren blocken die +8V Schiene lokal."
+	(text "Design Notes - RF / IF\nAM-Eingang: L100 = 180 uH und C100 = 47 pF NP0 bilden den festen Eingangskreis.\nResonanz: f0 = 1/(2*pi*sqrt(L*C)); C113 = 7-100 pF ist der einstellbare HF-Abgleich im Tankzweig.\nC101 = 100 nF X7R ist Abblockung/Entkopplung und kein Resonanzkondensator.\nQ100 (MMBFJ310) arbeitet als hochohmiger RF-Puffer/Vorverstaerker.\nR102 = 1k setzt den Source-Strom und stabilisiert den Arbeitspunkt.\nIC100 (SA612) mischt das RF-Signal auf die Zwischenfrequenz.\nFL100 (SFZ455A) ist der 455 kHz ZF-Filter; TP_IF_FILTER_IN dient zur Messung.\nLegacy/EOL-Risiko: SA612AD, TDA1072AT und SFZ455A vor Aufbau auf Bestand/Lifecycle pruefen.\nC0G-Pflicht: Filter-/HF-Kondensatoren im pF-Bereich nur als C0G/NP0 bestuecken, keine X7R.\nC112 = 270 pF koppelt den Mixer/HF-Pfad, 100 nF Kondensatoren blocken die +8V Schiene lokal."
 		(exclude_from_sim no)
 		(at 35.56 34.29 0)
 		(effects

@@ -2342,7 +2342,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Design Notes - PLL / Tune\nIC104 (74HCT4046) arbeitet als PLL/VCO auf +5V; IC101 (SA612) als LO-Mischer auf +8V.\nVCO-Schwingkreis: C119 = 390 pF C0G plus C120 = 7-100 pF Trimmer.\nAbgleich ueber C120/P102; TP_VCO_CTRL, TP_VCO_OUT und TP_DIV_OUT sind Messpunkte fuer Lock/Tuning.\nLoop-/Steuernetzwerk: R110 = 3k9, R111/R112 = 15k und P102 = 50k.\nUeberlegung: groessere Zeitkonstante verbessert Lock-Ruhe, kleinere Zeitkonstante beschleunigt Nachfuehrung.\nLegacy/EOL-Risiko: SA612AD vor Aufbau auf Bestand/Lifecycle pruefen.\nC0G-Pflicht: VCO-/HF-Kondensatoren im pF-Bereich nur als C0G/NP0 bestuecken, keine X7R.\nRF_TANK_LOW/RF_AMP_OUT koppeln den abgestimmten RF-Bereich mit der PLL-Abstimmung."
+	(text "Design Notes - PLL / Tune\nIC104 (74HCT4046) arbeitet als PLL/VCO auf +5V; IC101 (SA612) als LO-Mischer auf +8V.\nVCO-Schwingkreis: C119 = 390 pF C0G plus C120 = 7-100 pF Trimmer.\nAbgleich über C120/P102; TP_VCO_CTRL, TP_VCO_OUT und TP_DIV_OUT sind Messpunkte für Lock/Tuning.\nLoop-/Steuernetzwerk: R110 = 3k9, R111/R112 = 15k und P102 = 50k.\nÜberlegung: groeßere Zeitkonstante verbessert Lock-Ruhe, kleinere Zeitkonstante beschleunigt Nachführung.\nLegacy/EOL-Risiko: SA612AD vor Aufbau auf Bestand/Lifecycle prüfen.\nC0G-Pflicht: VCO-/HF-Kondensatoren im pF-Bereich nur als C0G/NP0 bestücken, keine X7R.\nRF_TANK_LOW/RF_AMP_OUT koppeln den abgestimmten RF-Bereich mit der PLL-Abstimmung."
 		(exclude_from_sim no)
 		(at 35.56 34.29 0)
 		(effects
